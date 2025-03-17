@@ -6,3 +6,6 @@
 [2025-03-17 00:29:24.639683] Latest PGN found: ../data\seanr87_2babfaf6833262697254df0ba8001ee2.pgn
 [2025-03-17 00:29:28.972040] ✅ Game analysis saved to ../reports\analysis_seanr87_2babfaf6833262697254df0ba8001ee2.txt
 [2025-03-17 00:29:31.410808] ✅ Full workflow complete.
+[2025-03-17 17:00:52.990026] Starting MAIgnus_CAIrlsen full workflow...
+[2025-03-17 17:00:53.641747] Latest PGN found: ../data\seanr87_2babfaf6833262697254df0ba8001ee2.pgn
+[2025-03-17 17:00:55.387931] ❌ No feedback generated from analysis. Exiting workflow.

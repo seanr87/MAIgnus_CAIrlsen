@@ -6,11 +6,10 @@ passwords.txt
 __pycache__/
 *.pyc
 
-# Ignore data and reports (optional if you want to keep them local)
-data/
-logs/
-reports/
+
 
 # System/IDE files
 *.DS_Store
 .vscode/
+
+*.jar

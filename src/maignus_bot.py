@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 import os
 import datetime
 from game_checker import check_and_download_new_games

@@ -1,11 +1,15 @@
 import yagmail
 import os
 import datetime
+from dotenv import load_dotenv
+
+# === LOAD ENVIRONMENT VARIABLES ===
+load_dotenv()
 
 # === CONFIGURATION ===
-SENDER_EMAIL = "sean.r.oreilly87@gmail.com"  # ✅ Replace with your email
-APP_PASSWORD = "trnn jeko nyyo pbbb"     # ✅ Replace with your app password
-RECEIVER_EMAIL = "sean.r.oreilly87@gmail.com"  # ✅ Where the report goes (could be the same)
+SENDER_EMAIL = os.getenv("SENDER_EMAIL")
+APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
+RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
 
 REPORTS_DIR = "../reports"
 LOG_PATH = "../logs/email_sender.log"
@@ -37,7 +41,6 @@ def send_email(subject, body, attachment_path=None):
         log(f"❌ Failed to send email: {str(e)}")
 
 if __name__ == "__main__":
-    # Example usage
     report_file = os.path.join(REPORTS_DIR, "game_analysis.txt")
 
     if not os.path.exists(report_file):
@@ -48,6 +51,6 @@ if __name__ == "__main__":
         analysis_content = f.read()
 
     subject = "MAIgnus_CAIrlsen: Game Review Report"
-    body = "Hi Sean,\n\nHere's your latest game analysis from MAIgnus_CAIrlsen. See the attached report for details!\n\n---\n\n" + analysis_content
+    body = "Hi Sean,\n\nHere's your latest game analysis from MAIgnus_CAIrlsen.\n\n---\n\n" + analysis_content
 
     send_email(subject, body, report_file)

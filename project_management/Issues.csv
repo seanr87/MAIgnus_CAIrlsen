@@ -1,0 +1,66 @@
+Title,Body,Labels,Start Date,End Date
+1. Project Initialization,"**Tasks:**
+
+- [ ] Set up Python project structure
+- [ ] Create and activate virtual environment
+- [ ] Install required dependencies (requests, yagmail, etc.)","setup","2025-04-01","2025-04-02"
+
+2. Integrate Chess.com API,"**Tasks:**
+
+- [ ] Research Chess.com API documentation
+- [ ] Authenticate and connect to Chess.com API
+- [ ] Retrieve game history for the account","chess.com,api","2025-04-03","2025-04-04"
+
+3. Implement New Game Detection,"**Tasks:**
+
+- [ ] Store the latest retrieved game ID locally (JSON or DB)
+- [ ] Compare stored game IDs to new API results
+- [ ] Trigger analysis when a new game is found","chess.com,backend","2025-04-05","2025-04-06"
+
+4. Download and Parse PGN Files,"**Tasks:**
+
+- [ ] Download PGN data for new games
+- [ ] Parse PGN for metadata (opponent, result, etc.)
+- [ ] Validate PGN file structure","pgn,backend","2025-04-07","2025-04-08"
+
+5. Integrate LLM for Game Analysis,"**Tasks:**
+
+- [ ] Convert PGN into a prompt for LLM analysis
+- [ ] Query OpenAI GPT API (or another LLM)
+- [ ] Extract and structure advice from LLM response","LLM,analysis","2025-04-09","2025-04-11"
+
+6. Generate Game Review Summary,"**Tasks:**
+
+- [ ] Format the LLM output into a human-readable report
+- [ ] Include game metadata, critical moves, and LLM advice
+- [ ] Save the report locally as a text or HTML file","reporting","2025-04-12","2025-04-13"
+
+7. Implement Email Delivery,"**Tasks:**
+
+- [ ] Set up SMTP or yagmail for email sending
+- [ ] Compose and send the game review email
+- [ ] Handle email delivery failures (retry or log)","email,notifications","2025-04-14","2025-04-15"
+
+8. Automate the Script Execution,"**Tasks:**
+
+- [ ] Create a scheduler (cron job or Windows Task Scheduler)
+- [ ] Set up periodic checks (e.g., every 2 hours)
+- [ ] Log each script run and result","automation,scheduling","2025-04-16","2025-04-17"
+
+9. Add Error Handling and Logging,"**Tasks:**
+
+- [ ] Implement robust exception handling
+- [ ] Add logging for API calls, LLM responses, and emails
+- [ ] Monitor for failure points and add recovery strategies","logging,backend","2025-04-18","2025-04-19"
+
+10. Test End-to-End Workflow,"**Tasks:**
+
+- [ ] Test with multiple completed games on Chess.com
+- [ ] Validate LLM analysis relevance and accuracy
+- [ ] Confirm email delivery with accurate content","testing,qa","2025-04-20","2025-04-21"
+
+11. Documentation and Deployment,"**Tasks:**
+
+- [ ] Document installation and usage instructions
+- [ ] Write configuration guide (API keys, email setup, etc.)
+- [ ] Package and deploy for personal use","docs,final","2025-04-22","2025-04-23"

@@ -1,0 +1,29 @@
+[2025-03-16 23:47:47.446693] Starting game analysis...
+[2025-03-16 23:47:47.446693] Error during OpenAI API call: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+[2025-03-16 23:47:47.447676] No feedback generated.
+[2025-03-16 23:50:28.270519] Starting game analysis...
+[2025-03-16 23:50:28.271557] Error during OpenAI API call: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+[2025-03-16 23:50:28.274536] No feedback generated.
+[2025-03-16 23:52:17.758783] Starting game analysis...
+[2025-03-16 23:52:19.123954] Error during OpenAI API call: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-03-16 23:52:19.125245] No feedback generated.
+[2025-03-16 23:57:43.519910] Starting game analysis...
+[2025-03-16 23:57:44.286090] Error during OpenAI API call: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+[2025-03-16 23:57:44.286987] No feedback generated.
+[2025-03-16 23:58:54.029055] Starting game analysis...
+[2025-03-16 23:58:56.457303] Error during OpenAI API call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2025-03-16 23:58:56.457687] No feedback generated.
+[2025-03-17 00:00:04.406883] Starting game analysis...
+[2025-03-17 00:00:06.667780] Error during OpenAI API call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+[2025-03-17 00:00:06.669783] No feedback generated.
+[2025-03-17 00:05:53.391633] Starting game analysis...
+[2025-03-17 00:05:59.974730] ✅ Game analysis saved to ../reports\game_analysis.txt

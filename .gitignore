@@ -1,0 +1,16 @@
+# Ignore sensitive files
+src/.env
+passwords.txt
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore data and reports (optional if you want to keep them local)
+data/
+logs/
+reports/
+
+# System/IDE files
+*.DS_Store
+.vscode/

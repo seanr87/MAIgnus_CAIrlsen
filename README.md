@@ -22,6 +22,6 @@ An automated chess coaching bot that analyzes your Chess.com games and sends per
 4. `maignus_bot.py`  
    ➡️ Automates the full workflow: Check → Analyze → Email → Log  
 5. Task Scheduler  
-   ➡️ Runs the bot 4 times per day
+   ➡️ Runs the bot daily
 
 ---

@@ -25,3 +25,7 @@ An automated chess coaching bot that analyzes your Chess.com games and sends per
    ➡️ Runs the bot daily
 
 ---
+
+## Learn More
+Visit the [Wiki](https://github.com/seanr87/MAIgnus_CAIrlsen/wiki) for setup guides and documentation.
+[Click here](https://github.com/seanr87/MAIgnus_CAIrlsen/wiki/%F0%9F%95%92-Task-Scheduler-Setup) for instructions on setting up Task Scheduler.

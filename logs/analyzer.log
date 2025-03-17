@@ -27,3 +27,4 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 [2025-03-17 00:00:06.669783] No feedback generated.
 [2025-03-17 00:05:53.391633] Starting game analysis...
 [2025-03-17 00:05:59.974730] ✅ Game analysis saved to ../reports\game_analysis.txt
+[2025-03-17 17:00:55.386928] Error during OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-**********************************************************************************************************************************************************gAXX. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

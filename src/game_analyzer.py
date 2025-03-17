@@ -1,11 +1,13 @@
 import openai
 import os
 import datetime
+from dotenv import load_dotenv
+
+# === LOAD ENVIRONMENT VARIABLES ===
+load_dotenv()
 
 # === CONFIGURATION ===
-
-# OpenAI API Key
-openai.api_key = "***REMOVED***proj-172QvTsyzLufe8bFndOLpUu4vkupRgQdL9j3igRmDGmnjzcqDjvDilkr42Iq6Z5nSGOC3je2A_T3BlbkFJaFgeYaV-BR-t74jeVjLutRMdj0IBg5j3-C9nQCiF5FwbAoLYbWqduJMvLD6egzAKr43HrjXugA"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 REPORTS_DIR = "../reports"
 LOG_PATH = "../logs/analyzer.log"
@@ -18,6 +20,7 @@ def log(message):
     with open(LOG_PATH, "a", encoding="utf-8") as log_file:
         log_file.write(full_message + "\n")
 
+# === ANALYSIS FUNCTION ===
 def analyze_game(pgn_text):
     prompt = f"""
 You are an expert chess coach. Analyze the following chess game in PGN format.
@@ -32,8 +35,7 @@ Here is the PGN of my game:
 """
 
     try:
-        # ✅ Use Client instead of OpenAI in v1.x
-        client = openai.Client(api_key="***REMOVED***proj-172QvTsyzLufe8bFndOLpUu4vkupRgQdL9j3igRmDGmnjzcqDjvDilkr42Iq6Z5nSGOC3je2A_T3BlbkFJaFgeYaV-BR-t74jeVjLutRMdj0IBg5j3-C9nQCiF5FwbAoLYbWqduJMvLD6egzAKr43HrjXugA")
+        client = openai.Client(api_key=openai.api_key)
 
         response = client.chat.completions.create(
             model="gpt-3.5-turbo",
@@ -52,11 +54,9 @@ Here is the PGN of my game:
         log(f"Error during OpenAI API call: {str(e)}")
         return None
 
-
 # === MAIN EXECUTION ===
 if __name__ == "__main__":
-    # Path to your PGN file (update as needed)
-    pgn_file_path = "../data/seanr87_1d842475ad2adabb94be80d5c4b5e73b.pgn"
+    pgn_file_path = "../data/seanr87_latest.pgn"
 
     if not os.path.exists(pgn_file_path):
         log(f"PGN file not found: {pgn_file_path}")
@@ -82,3 +82,5 @@ if __name__ == "__main__":
         print(feedback)
     else:
         log("No feedback generated.")
+
+# adding comment to clean history.

@@ -1,6 +1,6 @@
 # MAIgnus_CAIrlsen ♟️
 
-An automated chess coaching bot that analyzes your Chess.com games and sends personalized feedback by email. Runs 4x daily with Task Scheduler.
+An automated chess coaching bot that analyzes your Chess.com games and sends personalized feedback by email. Runs daily with Task Scheduler.
 
 ---
 

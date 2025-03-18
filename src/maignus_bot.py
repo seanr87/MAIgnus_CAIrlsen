@@ -1,16 +1,18 @@
-from dotenv import load_dotenv
-load_dotenv()
-
 import os
 import datetime
+import subprocess
 from game_checker import check_and_download_new_games
 from game_analyzer import analyze_game
-from email_sender import send_email, log as email_log
+from dotenv import load_dotenv
+
+# === LOAD ENVIRONMENT VARIABLES ===
+load_dotenv()
 
 # === CONFIGURATION ===
 USERNAME = "seanr87"
 DATA_DIR = "../data"
 REPORTS_DIR = "../reports"
+IMAGES_DIR = "../images"
 LOG_PATH = "../logs/maignus_bot.log"
 
 # === LOGGING FUNCTION ===
@@ -23,7 +25,7 @@ def log(message):
 
 # === FULL WORKFLOW FUNCTION ===
 def run_full_workflow():
-    log("Starting MAIgnus_CAIrlsen full workflow...")
+    log("🚀 Starting MAIgnus_CAIrlsen full workflow...")
 
     # Step 1: Check and download new games
     check_and_download_new_games(USERNAME)
@@ -41,7 +43,7 @@ def run_full_workflow():
 
     latest_pgn = pgn_files[0]
     latest_pgn_path = os.path.join(DATA_DIR, latest_pgn)
-    log(f"Latest PGN found: {latest_pgn_path}")
+    log(f"✅ Latest PGN found: {latest_pgn_path}")
 
     # Step 3: Analyze the game
     with open(latest_pgn_path, "r", encoding="utf-8") as f:
@@ -63,13 +65,15 @@ def run_full_workflow():
 
     log(f"✅ Game analysis saved to {report_file_path}")
 
-    # Step 5: Send email with analysis
-    subject = f"MAIgnus_CAIrlsen: Game Review - {latest_pgn}"
-    body = "Hi Sean,\n\nHere's your latest game analysis. See attached report.\n\n---\n\n" + feedback
+    # Step 5: Run blunder_analyzer.py (generates board image)
+    log("🔎 Running blunder_analyzer.py...")
+    subprocess.run(["python", "blunder_analyzer.py"])
 
-    send_email(subject, body, report_file_path)
+    # Step 6: Run email_sender.py (sends report + image)
+    log("📧 Sending email with email_sender.py...")
+    subprocess.run(["python", "email_sender.py"])
 
-    log("✅ Full workflow complete.")
+    log("✅ Full workflow complete!")
 
 # === MAIN ===
 if __name__ == "__main__":

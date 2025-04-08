@@ -4,6 +4,7 @@ import chess
 import chess.pgn
 import chess.svg
 import cairosvg
+import re
 from dotenv import load_dotenv
 
 # === LOAD ENVIRONMENT VARIABLES ===
@@ -34,9 +35,7 @@ def extract_blunder_move(analysis_path):
     with open(analysis_path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # Find first "Move XX" mention (simplified pattern)
-    import re
-    match = re.search(r'Move (\d+)', content)
+    match = re.search(r"move (\d+)", content, re.IGNORECASE)
     
     if match:
         move_number = int(match.group(1))
@@ -56,19 +55,27 @@ def generate_board_image(game, move_number, output_file):
 
     svg_data = chess.svg.board(board=board)
     cairosvg.svg2png(bytestring=svg_data, write_to=output_file)
-
     log(f"Generated board image at move {move_number}: {output_file}")
 
 # === MAIN FUNCTION ===
 def main():
-    pgn_file = os.path.join(DATA_DIR, "seanr87_latest.pgn")
+    pgn_files = sorted(
+        [f for f in os.listdir(DATA_DIR) if f.endswith('.pgn')],
+        key=lambda x: os.path.getmtime(os.path.join(DATA_DIR, x)),
+        reverse=True
+    )
+    if not pgn_files:
+        log("No PGN files found.")
+        return
+
+    pgn_file = os.path.join(DATA_DIR, pgn_files[0])
     analysis_file = os.path.join(REPORTS_DIR, "game_analysis.txt")
     image_output_file = os.path.join(IMAGES_DIR, "blunder_position.png")
 
     if not os.path.exists(pgn_file):
         log("PGN file not found.")
         return
-    
+
     if not os.path.exists(analysis_file):
         log("Analysis file not found.")
         return

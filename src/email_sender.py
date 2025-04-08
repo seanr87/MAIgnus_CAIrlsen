@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 # === LOAD ENVIRONMENT VARIABLES ===
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
+USERNAME = os.getenv("CHESS_USERNAME")
 
 # === CONFIGURATION ===
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
@@ -66,65 +67,55 @@ if __name__ == "__main__":
         log(f"No analysis file found at {analysis_path}")
         exit()
 
-    if not os.path.exists(blunder_image_path):
-        log(f"No blunder image found at {blunder_image_path}")
-        exit()
+    # Load PGN text for footer
+    pgn_files = sorted(
+        [f for f in os.listdir(DATA_DIR) if f.endswith('.pgn')],
+        key=lambda x: os.path.getmtime(os.path.join(DATA_DIR, x)),
+        reverse=True
+    )
+    pgn_path = os.path.join(DATA_DIR, pgn_files[0]) if pgn_files else None
+    pgn_text = open(pgn_path, "r", encoding="utf-8").read() if pgn_path else "(No PGN found)"
 
     # === LOAD AND PARSE GAME ANALYSIS ===
     with open(analysis_path, "r", encoding="utf-8") as f:
         analysis_markdown = f.read()
 
     # Extract Game Summary
-    match = re.search(r"\*\*Game Summary\*\*\s+(.*?)\s+2\.", analysis_markdown, re.DOTALL)
-    game_summary = match.group(1).strip() if match else "No summary found."
+    summary_match = re.search(r"\*\*Game Summary\*\*\s+(.*?)\s+2\.", analysis_markdown, re.DOTALL)
+    game_summary = summary_match.group(1).strip() if summary_match else "(No summary found.)"
 
     # Extract Metadata block
-    metadata_match = re.search(r"\*\*Game Metadata\*\*\s+- Date:\s+(.*?)\s+- Opponent:\s+(.*?)\s+- Result:\s+(.*?)\s+- Moves:\s+(.*?)\s+- Time Control:\s+(.*?)\s+- Accuracy:\s+(.*?)\s+- Blunders:\s+(.*?)\s+- Mistakes:\s+(.*?)\s+- Inaccuracies:\s+(.*?)\s+- Opening:\s+(.*?)(\n|$)", analysis_markdown, re.DOTALL)
+    metadata_match = re.search(r"\*\*Game Metadata\*\*\s+- Date:\s+(.*?)\s+- Opponent:\s+(.*?)\s+- Result:\s+(.*?)\s+- Moves:\s+(.*?)\s+- Time Control:\s+(.*?)\s+- Accuracy:[^\n]*\s+- Blunders:[^\n]*\s+- Mistakes:[^\n]*\s+- Inaccuracies:[^\n]*\s+- Opening:\s+(.*?)(\n|$)", analysis_markdown, re.DOTALL)
+    metadata = metadata_match.groups() if metadata_match else ["N/A"] * 6
+    date, opponent, result, moves, time_control, opening = metadata[:6]
 
-    metadata = metadata_match.groups() if metadata_match else ["N/A"] * 10
+    # Fix opponent name if it's the user
+    if USERNAME.lower() in opponent.lower():
+        opponent = "Unknown (You played against someone else)"
+
+    # Extract Recommendations
+    rec_match = re.search(r"\*\*Recommendations\*\*\s+(.*?)\s+4\.", analysis_markdown, re.DOTALL)
+    recommendations = rec_match.group(1).strip() if rec_match else "(No recommendations found.)"
 
     clever_title = generate_clever_title(game_summary)
     subject = f"MAI: {clever_title}"
 
-    # Convert analysis to HTML
-    analysis_html = markdown.markdown(analysis_markdown)
-
     # === COMPOSE HTML BODY ===
     html_body = f"""
     <html>
-    <body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; background-color: #fafafa; padding: 20px;">
-        <div style="max-width: 600px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
-            <h2 style="color: #333;">Hi Sean,</h2>
-            <p>Here's your latest game review from <strong>MAIgnus_CAIrlsen</strong>.</p>
-
-            <h3 style="color: #0056b3;">🔑 Key Insight</h3>
-            <p><strong>Your most significant mistake was on move 7.</strong> Review the board position below and consider alternative strategies.</p>
-
-            <img src="cid:{os.path.basename(blunder_image_path)}" alt="Blunder Position" style="width: 100%; max-width: 400px; margin: 20px 0; display: block; border-radius: 5px;">
-
-            <h3 style="color: #0056b3;">📊 Game Overview</h3>
-            <table style="width: 100%; border-collapse: collapse;">
-                <tr><td>Date</td><td>{metadata[0]}</td></tr>
-                <tr><td>Opponent</td><td>{metadata[1]}</td></tr>
-                <tr><td>Result</td><td>{metadata[2]}</td></tr>
-                <tr><td>Moves</td><td>{metadata[3]}</td></tr>
-                <tr><td>Time Control</td><td>{metadata[4]}</td></tr>
-                <tr><td>Accuracy</td><td>{metadata[5]}</td></tr>
-                <tr><td>Blunders</td><td>{metadata[6]}</td></tr>
-                <tr><td>Mistakes</td><td>{metadata[7]}</td></tr>
-                <tr><td>Inaccuracies</td><td>{metadata[8]}</td></tr>
-                <tr><td>Opening</td><td>{metadata[9]}</td></tr>
-            </table>
-
-            <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
-            <h3 style="color: #0056b3;">📝 Full Analysis</h3>
-            <div style="background: #f9f9f9; padding: 15px; border-radius: 5px;">
-                {analysis_html}
-            </div>
-
-            <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
-            <p style="font-size: 0.85em; color: #999;">Generated by MAIgnus_CAIrlsen | Your AI Chess Coach</p>
+    <body style="font-family: 'Courier New', monospace; font-size: 16px; color: #EEE; background-color: #111; padding: 16px;">
+        <div style="max-width: 720px; margin: auto; background: #222; padding: 16px; border-radius: 8px; border: 1px solid #444;">
+            <div><strong>Date:</strong> {date}</div>
+            <div><strong>Opponent:</strong> {opponent}</div>
+            <div><strong>Color:</strong> {'White' if '1-0' in result else 'Black' if '0-1' in result else 'Unknown'}</div>
+            <div><strong>Time:</strong> {time_control}</div>
+            <div><strong>Opening:</strong> {opening}</div>
+            <hr style="margin: 16px 0; border-color: #555;">
+            <div><strong>Summary:</strong><br>{game_summary}</div>
+            <hr style="margin: 16px 0; border-color: #555;">
+            <div><strong>Recommendations:</strong><br>{recommendations}</div>
         </div>
+        <pre style="margin-top: 20px; font-size: 12px; color: #888; background-color: #111; white-space: pre-wrap;">{pgn_text}</pre>
     </body>
     </html>
     """
@@ -135,10 +126,7 @@ if __name__ == "__main__":
         yag.send(
             to=RECEIVER_EMAIL,
             subject=subject,
-            contents=[
-                yagmail.inline(blunder_image_path),
-                html_body
-            ]
+            contents=[html_body]
         )
         log(f"✅ Email sent with subject: {subject}")
     except Exception as e:

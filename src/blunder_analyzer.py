@@ -150,6 +150,8 @@ def main():
         f.write("\n\n## Stockfish Evaluation Summary\n")
         for key, value in stockfish_stats.items():
             f.write(f"- {key}: {value}\n")
+        f.write("\n## PGN\n")
+
 
     log("✅ Appended Stockfish evaluation to game_analysis.txt")
 

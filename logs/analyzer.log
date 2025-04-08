@@ -29,3 +29,17 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 [2025-03-17 00:05:59.974730] ✅ Game analysis saved to ../reports\game_analysis.txt
 [2025-03-17 17:00:55.386928] Error during OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-**********************************************************************************************************************************************************gAXX. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
 [2025-03-17 22:57:35.277102] Error during OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-**********************************************************************************************************************************************************gAXX. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+[2025-04-07 23:54:13.315355] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn...
+[2025-04-07 23:54:22.699295] ✅ Game analysis saved to ../reports\game_analysis.txt
+[2025-04-07 23:58:46.096854] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
+[2025-04-07 23:59:03.068716] ✅ Game analysis saved to game_analysis.txt
+[2025-04-08 00:02:18.409107] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
+[2025-04-08 00:02:59.752011] ✅ Game analysis saved to game_analysis.txt
+[2025-04-08 00:13:44.507073] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
+[2025-04-08 00:14:23.144281] ✅ Game analysis saved to game_analysis.txt
+[2025-04-08 00:37:26.380321] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-08 00:40:10.888370] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-08 00:42:11.115504] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-08 00:44:12.607997] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-08 00:49:15.630653] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-08 00:52:26.555668] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt

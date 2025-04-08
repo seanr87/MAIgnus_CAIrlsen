@@ -25,18 +25,12 @@ def main():
 
     log(f"✅ Latest PGN: {latest_pgn}")
 
-    # Step 1: Run game_analyzer.py if needed
-    if not os.path.exists(analysis_path):
-        log("🧠 Running game_analyzer.py...")
-        subprocess.run(["python", "game_analyzer.py"])
-    else:
-        log("✅ GPT analysis already exists.")
+    log("🧠 Re-running game_analyzer.py to regenerate GPT analysis...")
+    subprocess.run(["python", "gpt_game_analyzer.py"])
 
-    # Step 2: Run blunder_analyzer.py
     log("🔍 Running blunder_analyzer.py...")
     subprocess.run(["python", "blunder_analyzer.py"])
 
-    # Step 3: Send the email
     log("📧 Sending email via email_sender.py...")
     subprocess.run(["python", "email_sender.py"])
 

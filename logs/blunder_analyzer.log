@@ -58,3 +58,34 @@
 [2025-04-07 23:28:17.919672] Starting Stockfish evaluation...
 [2025-04-07 23:28:20.929630] Stockfish evaluation complete.
 [2025-04-07 23:28:20.929630] ✅ Appended Stockfish evaluation to game_analysis.txt
+[2025-04-07 23:39:14.380134] No blunder move found in analysis.
+[2025-04-07 23:39:14.380134] No move extracted. Skipping board generation.
+[2025-04-07 23:39:14.380134] Starting Stockfish evaluation...
+[2025-04-07 23:39:17.282785] Stockfish evaluation complete.
+[2025-04-07 23:39:17.282785] ✅ Appended Stockfish evaluation to game_analysis.txt
+[2025-04-07 23:48:57.196036] No blunder move found in analysis.
+[2025-04-07 23:48:57.196036] No move extracted. Skipping board generation.
+[2025-04-07 23:48:57.196036] Starting Stockfish evaluation...
+[2025-04-07 23:49:00.536698] Stockfish evaluation complete.
+[2025-04-07 23:49:00.537329] ✅ Appended Stockfish evaluation to game_analysis.txt
+[2025-04-07 23:49:53.728055] No blunder move found in analysis.
+[2025-04-07 23:49:53.728055] No move extracted. Skipping board generation.
+[2025-04-07 23:49:53.728055] Starting Stockfish evaluation...
+[2025-04-07 23:49:56.657732] Stockfish evaluation complete.
+[2025-04-07 23:49:56.657732] ✅ Appended Stockfish evaluation to game_analysis.txt
+[2025-04-07 23:54:23.112098] No blunder move found in analysis.
+[2025-04-07 23:54:23.112098] No move extracted. Skipping board generation.
+[2025-04-07 23:54:23.113127] Starting Stockfish evaluation...
+[2025-04-07 23:54:25.968550] Stockfish evaluation complete.
+[2025-04-07 23:54:25.970561] ✅ Appended Stockfish evaluation to game_analysis.txt
+[2025-04-08 00:14:26.777950] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:37:29.659767] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:40:14.196236] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:42:14.225878] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:44:15.771831] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:45:21.528434] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:46:23.829495] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:47:16.450783] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:49:18.846268] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:50:56.642134] ✅ Inserted Stockfish evaluation before ## PGN
+[2025-04-08 00:52:29.764397] ✅ Inserted Stockfish evaluation before ## PGN

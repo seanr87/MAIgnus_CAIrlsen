@@ -55,10 +55,9 @@ def run_full_workflow():
         log("❌ No feedback generated from analysis. Exiting workflow.")
         return
 
-    # Step 4: Save analysis report
+    # Step 4: Save analysis report (STATIC FILENAME)
     os.makedirs(REPORTS_DIR, exist_ok=True)
-    report_filename = f"analysis_{latest_pgn.replace('.pgn', '.txt')}"
-    report_file_path = os.path.join(REPORTS_DIR, report_filename)
+    report_file_path = os.path.join(REPORTS_DIR, "game_analysis.txt")
 
     with open(report_file_path, "w", encoding="utf-8") as f:
         f.write(feedback)

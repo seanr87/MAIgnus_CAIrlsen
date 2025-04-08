@@ -56,11 +56,9 @@ def infer_opening(game):
     board = game.board()
     moves = []
     for move in game.mainline_moves():
-        moves.append(board.san(move))  # ← this must come first
+        moves.append(board.san(move))
         board.push(move)
 
-
-    # Example of simple ECO-based detection (extendable)
     if moves[:3] == ["e4", "c5", "Nf3"]:
         return "Sicilian Defense"
     elif moves[:3] == ["d4", "d5", "c4"]:
@@ -69,6 +67,8 @@ def infer_opening(game):
         return "Open Game"
     elif moves[:2] == ["d4", "Nf6"]:
         return "Indian Game"
+    elif moves[:3] == ["e4", "c6", "Nc3"]:
+        return "Caro-Kann Defense"
     return "Unknown Opening"
 
 def extract_game_metadata(game):
@@ -156,9 +156,16 @@ def main():
     metadata_dict = extract_game_metadata(game)
     stockfish_stats = get_stockfish_summary(game)
 
-    sf_summary = "\n".join(f"- {k}: {v}" for k, v in stockfish_stats.items())
-    meta_summary = "\n".join(f"- {k}: {v}" for k, v in metadata_dict.items())
-    meta_summary += f"\n- Your Name & Rating: {player_info['you']}"
+    sf_summary = f"""
+- Average CPL: {stockfish_stats['Average CPL']}
+- Blunders: {stockfish_stats['Blunders']}
+- Mistakes: {stockfish_stats['Mistakes']}
+- Inaccuracies: {stockfish_stats['Inaccuracies']}
+"""
+    meta_summary = "
+".join([f"- {k}: {v}" for k, v in metadata_dict.items()])
+    meta_summary += f"
+- Your Name & Rating: {player_info['you']}"
     meta_summary += f"\n- Opponent: {player_info['opponent']}"
     meta_summary += f"\n- Color: {player_info['color']}"
 
@@ -169,9 +176,6 @@ def main():
     recommendations = call_gpt(f"Using this game and Stockfish evaluation, list 2 actionable improvement tips:\n{sf_summary}\n\nPGN:\n{pgn_text}",
                                system_msg="You are a professional chess coach giving specific feedback.")
 
-    call_to_action = call_gpt("Write a short, motivational call-to-action for a chess student after reading feedback.",
-                              system_msg="You are a motivational chess coach.")
-
     # === Assemble Report ===
     final_report = f"""
 ## Game Summary
@@ -180,15 +184,11 @@ def main():
 ## Game Metadata
 {meta_summary}
 
-
 ## Stockfish Evaluation Summary
 {sf_summary}
 
 ## Recommendations
 {recommendations}
-
-## Call to Action
-{call_to_action}
 
 ## PGN
 {pgn_text.strip()}

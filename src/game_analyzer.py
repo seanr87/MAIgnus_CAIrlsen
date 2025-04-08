@@ -23,27 +23,48 @@ def log(message):
 # === ANALYSIS FUNCTION ===
 def analyze_game(pgn_text):
     prompt = f"""
-You are an expert chess coach. Analyze the following chess game in PGN format.
+You are an expert chess coach and report generator. Analyze the following chess game in PGN format.
 
-1. Provide a brief summary of how the game went.
-2. Identify the key moments where I made mistakes or blunders.
-3. Explain what I should have done differently.
-4. Suggest what I should focus on improving for future games.
+Your output should be in Markdown. Follow this structure strictly:
 
-Here is the PGN of my game:
+1. **Game Summary**  
+   Provide a concise summary of how the game unfolded, focusing on major events and overall flow.
+
+2. **Game Metadata**  
+   Present these as a bullet list (each on a separate line):  
+   - Date:  
+   - Opponent:  
+   - Result:  
+   - Moves:  
+   - Time Control:  
+   - Accuracy:  
+   - Blunders:  
+   - Mistakes:  
+   - Inaccuracies:  
+   - Opening:  
+
+3. **Recommendations**  
+   List up to 2 actionable recommendations that the player should focus on to improve.
+
+4. **Call to Action**  
+   Write an encouraging sentence that motivates the player to review the game or apply the feedback in future games.
+
+### PGN:
 {pgn_text}
+
+Only return the Markdown following the format above. No introduction or closing.
 """
 
     try:
         client = openai.Client(api_key=openai.api_key)
 
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4",  # Upgraded to GPT-4 for more accurate parsing
             messages=[
-                {"role": "system", "content": "You are a professional chess coach."},
+                {"role": "system", "content": "You are a professional chess coach and detailed report writer."},
                 {"role": "user", "content": prompt}
             ],
-            max_tokens=1000,
+            max_tokens=1200,
             temperature=0.7
         )
 
@@ -56,16 +77,25 @@ Here is the PGN of my game:
 
 # === MAIN EXECUTION ===
 if __name__ == "__main__":
-    pgn_file_path = "../data/seanr87_latest.pgn"
+    # Get the latest PGN file (as in maignus_bot.py)
+    DATA_DIR = "../data"
+    pgn_files = sorted(
+        [f for f in os.listdir(DATA_DIR) if f.endswith('.pgn')],
+        key=lambda x: os.path.getmtime(os.path.join(DATA_DIR, x)),
+        reverse=True
+    )
 
-    if not os.path.exists(pgn_file_path):
-        log(f"PGN file not found: {pgn_file_path}")
+    if not pgn_files:
+        log("❌ No PGN files found for analysis.")
         exit()
+
+    latest_pgn_file = pgn_files[0]
+    pgn_file_path = os.path.join(DATA_DIR, latest_pgn_file)
 
     with open(pgn_file_path, "r", encoding="utf-8") as f:
         pgn_text = f.read()
 
-    log("Starting game analysis...")
+    log(f"Starting game analysis for {latest_pgn_file}...")
 
     feedback = analyze_game(pgn_text)
 
@@ -81,6 +111,4 @@ if __name__ == "__main__":
         print("\n=== GAME ANALYSIS ===\n")
         print(feedback)
     else:
-        log("No feedback generated.")
-
-# adding comment to clean history.
+        log("❌ No feedback generated.")

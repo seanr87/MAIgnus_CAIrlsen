@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 
 # === LOAD ENVIRONMENT VARIABLES ===
 load_dotenv()
-
-# === CONFIGURATION ===
 openai.api_key = os.getenv("OPENAI_API_KEY")
+USERNAME = os.getenv("CHESS_USERNAME")
 
 REPORTS_DIR = "../reports"
+DATA_DIR = "../data"
 LOG_PATH = "../logs/analyzer.log"
 
 # === LOGGING FUNCTION ===
@@ -23,53 +23,48 @@ def log(message):
 # === ANALYSIS FUNCTION ===
 def analyze_game(pgn_text):
     prompt = f"""
-You are an expert chess coach and report generator. Analyze the following chess game in PGN format.
+You are a professional chess coach and report writer. Analyze the PGN below and generate structured Markdown content.
 
-Your output should be in Markdown. Follow this structure strictly:
+Follow this format EXACTLY:
 
-1. **Game Summary**  
-   Provide a concise summary of how the game unfolded, focusing on major events and overall flow.
+## Game Summary
+One-paragraph summary of how the game unfolded.
 
-2. **Game Metadata**  
-   Present these as a bullet list (each on a separate line):  
-   - Date:  
-   - Opponent:  
-   - Result:  
-   - Moves:  
-   - Time Control:  
-   - Accuracy:  
-   - Blunders:  
-   - Mistakes:  
-   - Inaccuracies:  
-   - Opening:  
+## Game Metadata
+- Date: [PGN tag or guess]
+- Opponent: [Username of the other player, not {USERNAME}]
+- Result: [1-0, 0-1, or 1/2-1/2 with short descriptor]
+- Moves: [Number of moves]
+- Time Control: [Format]
+- Opening: [Opening name]
 
-3. **Recommendations**  
-   List up to 2 actionable recommendations that the player should focus on to improve.
+## Recommendations
+1. [First improvement idea]
+2. [Second improvement idea]
 
-4. **Call to Action**  
-   Write an encouraging sentence that motivates the player to review the game or apply the feedback in future games.
+## Call to Action
+One motivational sentence to encourage future learning.
 
 ### PGN:
 {pgn_text}
 
-Only return the Markdown following the format above. No introduction or closing.
+Return only Markdown. Do not add commentary outside the structure.
 """
 
     try:
         client = openai.Client(api_key=openai.api_key)
 
         response = client.chat.completions.create(
-            model="gpt-4",  # Upgraded to GPT-4 for more accurate parsing
+            model="gpt-4",
             messages=[
-                {"role": "system", "content": "You are a professional chess coach and detailed report writer."},
+                {"role": "system", "content": "You write strict, structured markdown chess coaching reports."},
                 {"role": "user", "content": prompt}
             ],
             max_tokens=1200,
             temperature=0.7
         )
 
-        analysis = response.choices[0].message.content
-        return analysis
+        return response.choices[0].message.content
 
     except Exception as e:
         log(f"Error during OpenAI API call: {str(e)}")
@@ -77,8 +72,6 @@ Only return the Markdown following the format above. No introduction or closing.
 
 # === MAIN EXECUTION ===
 if __name__ == "__main__":
-    # Get the latest PGN file (as in maignus_bot.py)
-    DATA_DIR = "../data"
     pgn_files = sorted(
         [f for f in os.listdir(DATA_DIR) if f.endswith('.pgn')],
         key=lambda x: os.path.getmtime(os.path.join(DATA_DIR, x)),
@@ -101,14 +94,11 @@ if __name__ == "__main__":
 
     if feedback:
         os.makedirs(REPORTS_DIR, exist_ok=True)
-
         output_file = os.path.join(REPORTS_DIR, "game_analysis.txt")
 
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(feedback)
 
         log(f"✅ Game analysis saved to {output_file}")
-        print("\n=== GAME ANALYSIS ===\n")
-        print(feedback)
     else:
         log("❌ No feedback generated.")

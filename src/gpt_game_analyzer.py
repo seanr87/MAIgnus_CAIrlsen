@@ -162,10 +162,8 @@ def main():
 - Mistakes: {stockfish_stats['Mistakes']}
 - Inaccuracies: {stockfish_stats['Inaccuracies']}
 """
-    meta_summary = "
-".join([f"- {k}: {v}" for k, v in metadata_dict.items()])
-    meta_summary += f"
-- Your Name & Rating: {player_info['you']}"
+    meta_summary = "\n".join([f"- {k}: {v}" for k, v in metadata_dict.items()])
+    meta_summary += f"\n- Your Name & Rating: {player_info['you']}"
     meta_summary += f"\n- Opponent: {player_info['opponent']}"
     meta_summary += f"\n- Color: {player_info['color']}"
 

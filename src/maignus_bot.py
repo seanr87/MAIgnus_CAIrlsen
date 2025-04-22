@@ -39,7 +39,7 @@ def main():
         os.remove(os.path.join(REPORTS_DIR, "game_analysis.txt"))
         log("🧹 Cleared old game_analysis.txt")
     log("🧠 Running game_analyzer.py...")
-    process.run(["python", "gpt_game_analyzer.py"])
+    subprocess.run(["python", "gpt_game_analyzer.py"])
 
 
     # Step 4: Run blunder_analyzer.py (Stockfish + diagram)

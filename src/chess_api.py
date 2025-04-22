@@ -1,4 +1,6 @@
 import requests
+import os
+import hashlib
 
 # Chess.com API base URL
 BASE_URL = "https://api.chess.com/pub/player"
@@ -7,6 +9,7 @@ BASE_URL = "https://api.chess.com/pub/player"
 HEADERS = {
     "User-Agent": "MAIgnus_CAIrlsenBot/1.0 (https://github.com/seanr87)"
 }
+
 
 def get_player_profile(username):
     url = f"{BASE_URL}/{username}"
@@ -18,6 +21,7 @@ def get_player_profile(username):
         print(f"Error getting profile: {response.status_code}")
         return None
 
+
 def get_archives(username):
     url = f"{BASE_URL}/{username}/games/archives"
     response = requests.get(url, headers=HEADERS)
@@ -27,6 +31,7 @@ def get_archives(username):
     else:
         print(f"Error getting archives: {response.status_code}")
         return None
+
 
 def get_games_from_latest_archive(username):
     archives = get_archives(username)
@@ -43,6 +48,30 @@ def get_games_from_latest_archive(username):
     else:
         print(f"Error fetching games: {response.status_code}")
         return []
+
+
+def fetch_and_save_pgns(username="seanr87"):
+    games = get_games_from_latest_archive(username)
+    if not games:
+        print("No games found.")
+        return
+
+    os.makedirs("../data", exist_ok=True)
+
+    for game in games:
+        pgn = game.get('pgn')
+        if not pgn:
+            continue
+        pgn_hash = hashlib.md5(pgn.encode('utf-8')).hexdigest()
+        filename = f"{username}_{pgn_hash}.pgn"
+        file_path = os.path.join("../data", filename)
+        if not os.path.exists(file_path):
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(pgn)
+            print(f"✅ Saved: {file_path}")
+        else:
+            print(f"Already exists: {file_path}")
+
 
 if __name__ == "__main__":
     username = "seanr87"  # Your confirmed Chess.com username
@@ -66,3 +95,4 @@ if __name__ == "__main__":
             print("-" * 40)
     else:
         print("No games found.")
+

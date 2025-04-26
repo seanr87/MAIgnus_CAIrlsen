@@ -1,0 +1,11 @@
+Title,Body,Status,Milestone,Workstream,Labels,Priority,End Date
+Centralize Stockfish evaluation into one module,Create a reusable Stockfish evaluation function shared by gpt_game_analyzer.py and blunder_analyzer.py.,Backlog,MAI beta testing,Refactor,"code-quality, engine",High,2025-05-09
+Centralize PGN fetching logic,Create a PGN utility module to standardize fetching and loading latest games.,Backlog,MAI beta testing,Refactor,"code-quality, API",Medium,2025-05-25
+Abstract subprocess script calls,"Create a helper function to call subprocess.run([""python"", script]) to avoid repetition.",Backlog,MAI beta testing,Refactor,"code-quality, architecture",Medium,2025-05-25
+Centralize OpenAI GPT call and error handling,Create a gpt_utils.py with a reusable call_gpt() function that handles errors.,Backlog,MAI beta testing,Refactor,"code-quality, API",Medium,2025-05-25
+Move username into environment variable everywhere,Replace hardcoded 'seanr87' values with environment variable across all scripts.,Backlog,MAI beta testing,Environment Cleanup,"code-quality, environment",High,2025-05-09
+Unify logging framework,"Route all logs, including failures, through a common logging utility.",Backlog,MAI beta testing,Environment Cleanup,"logging, code-quality",High,2025-05-09
+Safely close Stockfish engine on exception,Ensure Stockfish engine is closed properly even if analysis fails mid-execution.,Backlog,MAI beta testing,Email/Output Formatting,"email, formatting",High,2025-05-09
+Adjust HTML email body compression,Stop removing all newlines blindly; ensure safe email HTML formatting.,Backlog,MAI beta testing,Refactor,"engine, reliability",Medium,2025-05-25
+Delete or refactor main.py,Remove or repurpose main.py since it only prints an initialization message.,Backlog,MAI beta testing,Cleanup,cleanup,Low,2025-06-24
+Consolidate test.py and maignus_bot.py,Merge test.py functionality into maignus_bot.py with a --test mode or option.,Backlog,MAI beta testing,Cleanup,cleanup,Low,2025-06-24

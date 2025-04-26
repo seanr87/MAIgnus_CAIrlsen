@@ -1,6 +1,7 @@
 # Ignore sensitive files
 src/.env
 passwords.txt
+secrets.yaml
 
 # Ignore Python cache
 __pycache__/

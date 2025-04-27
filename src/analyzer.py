@@ -24,47 +24,82 @@ openai.api_key = OPENAI_API_KEY
 def analyze_with_stockfish(game):
     """
     Analyze a chess game with Stockfish engine.
+    Tracks errors for both players separately.
     """
     try:
         engine = chess.engine.SimpleEngine.popen_uci(STOCKFISH_PATH)
         board = game.board()
-        total_cp_loss = 0
-        move_count = 0
-        blunders = mistakes = inaccuracies = 0
+        
+        # Initialize stats for both players
+        white_stats = {"total_cp_loss": 0, "move_count": 0, "blunders": 0, "mistakes": 0, "inaccuracies": 0}
+        black_stats = {"total_cp_loss": 0, "move_count": 0, "blunders": 0, "mistakes": 0, "inaccuracies": 0}
         last_eval = None
 
         for move in game.mainline_moves():
+            # Get current board evaluation
             info = engine.analyse(board, chess.engine.Limit(depth=15))
             current_eval = info["score"].white().score(mate_score=10000)
+            
+            # Track whose move it was
+            current_player = "white" if board.turn == chess.WHITE else "black"
+            stats = white_stats if current_player == "white" else black_stats
+            
+            # Push the move and increment counter
             board.push(move)
-            move_count += 1
+            stats["move_count"] += 1
 
+            # Compare evaluation before and after the move
             if last_eval is not None and current_eval is not None:
+                # Calculate centipawn loss
                 cp_loss = abs(last_eval - current_eval)
-                total_cp_loss += cp_loss
+                stats["total_cp_loss"] += cp_loss
+                
+                # Classify the error
                 if cp_loss > 300:
-                    blunders += 1
+                    stats["blunders"] += 1
                 elif cp_loss > 100:
-                    mistakes += 1
+                    stats["mistakes"] += 1
                 elif cp_loss > 50:
-                    inaccuracies += 1
+                    stats["inaccuracies"] += 1
+            
+            # Update eval for next iteration
             last_eval = current_eval
 
         engine.quit()
-        avg_cpl = round(total_cp_loss / move_count) if move_count else 0
+        
+        # Calculate average centipawn loss for both players
+        white_avg_cpl = round(white_stats["total_cp_loss"] / white_stats["move_count"]) if white_stats["move_count"] else 0
+        black_avg_cpl = round(black_stats["total_cp_loss"] / black_stats["move_count"]) if black_stats["move_count"] else 0
+        
         return {
-            "Average CPL": avg_cpl,
-            "Blunders": blunders,
-            "Mistakes": mistakes,
-            "Inaccuracies": inaccuracies
+            "white": {
+                "Average CPL": white_avg_cpl,
+                "Blunders": white_stats["blunders"],
+                "Mistakes": white_stats["mistakes"],
+                "Inaccuracies": white_stats["inaccuracies"]
+            },
+            "black": {
+                "Average CPL": black_avg_cpl,
+                "Blunders": black_stats["blunders"],
+                "Mistakes": black_stats["mistakes"],
+                "Inaccuracies": black_stats["inaccuracies"]
+            }
         }
     except Exception as e:
         log(f"Stockfish error: {e}", ANALYZER_LOG)
         return {
-            "Average CPL": "N/A",
-            "Blunders": "N/A",
-            "Mistakes": "N/A",
-            "Inaccuracies": "N/A"
+            "white": {
+                "Average CPL": "N/A",
+                "Blunders": "N/A",
+                "Mistakes": "N/A",
+                "Inaccuracies": "N/A"
+            },
+            "black": {
+                "Average CPL": "N/A",
+                "Blunders": "N/A",
+                "Mistakes": "N/A",
+                "Inaccuracies": "N/A"
+            }
         }
 
 def call_gpt(prompt, system_msg="You are a professional chess coach."):
@@ -102,7 +137,18 @@ def generate_game_analysis():
     stockfish_stats = analyze_with_stockfish(game)
 
     # Format the stockfish statistics for the report
-    sf_summary = "\n".join([f"- {k}: {v}" for k, v in stockfish_stats.items()])
+    # Get player's color and set the appropriate stats
+    player_color = player_info['color'].lower()
+    player_stats = stockfish_stats.get(player_color.lower(), {})
+    opponent_color = "black" if player_color == "white" else "white"
+    opponent_stats = stockfish_stats.get(opponent_color, {})
+
+    # Format stats for the report
+    sf_player_summary = "\n".join([f"- {k}: {v}" for k, v in player_stats.items()])
+    sf_opponent_summary = "\n".join([f"- {k}: {v}" for k, v in opponent_stats.items()])
+    
+    # Combine into a full stats summary
+    sf_summary = f"Your stats ({player_color}):\n{sf_player_summary}\n\nOpponent stats ({opponent_color}):\n{sf_opponent_summary}"
     
     # Format the metadata for the report
     meta_summary = "\n".join([f"- {k}: {v}" for k, v in metadata_dict.items()])
@@ -130,7 +176,11 @@ def generate_game_analysis():
 {meta_summary}
 
 ## Stockfish Evaluation Summary
-{sf_summary}
+Your stats ({player_color}):
+{sf_player_summary}
+
+Opponent stats ({opponent_color}):
+{sf_opponent_summary}
 
 ## Recommendations
 {recommendations}

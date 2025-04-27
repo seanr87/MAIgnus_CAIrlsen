@@ -1,0 +1,9 @@
+# Install these additional packages:
+pip install matplotlib
+
+# Make sure you already have these packages (they're used in your existing code):
+# - yagmail
+# - markdown
+# - python-chess
+# - python-dotenv
+# - openai

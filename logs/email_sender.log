@@ -63,3 +63,16 @@
 [2025-04-27 12:01:33.113554] ✅ Email sent with subject: MAI: Danish Gambit: Swift Strikes, Stunning Victory
 [2025-04-27 12:11:55.910149] ✅ Email sent with subject: MAI: Danish Gambit Dance: Triumph Amidst Turbulence
 [2025-04-27 12:15:52.344798] ✅ Email sent with subject: MAI: Daring Gambits Decimate Black's Defenses
+[2025-04-27 12:26:43.598159] Chart generation error: 'Axes' object has no attribute 'set_theta_offset'
+[2025-04-27 12:26:43.603308] ❌ GPT error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+[2025-04-27 12:26:43.604482] ❌ Failed to send email: [Errno 2] No such file or directory: 'C:\\Users\\seanr/.yagmail'
+[2025-04-27 12:29:34.821742] Chart generation error: 'Axes' object has no attribute 'set_theta_offset'
+[2025-04-27 12:29:40.734528] ✅ Email sent with subject: MAI: Danish Gambit Delivers Daring Checkmate Drama!
+[2025-04-27 12:32:22.964189] Chart generation error: 'Axes' object has no attribute 'set_theta_offset'
+[2025-04-27 12:32:28.045865] ✅ Email sent with subject: MAI: Daring Gambit Leads to Resignation!
+[2025-04-27 12:33:49.356393] Chart generation error: 'Axes' object has no attribute 'set_theta_offset'
+[2025-04-27 12:33:52.821499] ✅ Email sent with subject: MAI: Daring Gambit Decimates in Danish Duel
+[2025-04-27 12:39:01.769569] ✅ Email sent with subject: MAI: Daring Danish Gambit Decimates Defiant Defense
+[2025-04-27 13:02:13.415740] ✅ Email sent with subject: MAI: Danish Gambit: Chaotic Dance of Blunders!
+[2025-04-27 13:21:31.697945] ✅ Email sent with subject: MAI: Daring Danish Gambit Drives Decisive Victory
+[2025-04-27 13:31:41.420023] ✅ Email sent with subject: MAI: Daring Gambits Seal Danish Triumph!

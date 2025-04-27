@@ -54,3 +54,17 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 [2025-04-27 12:01:27.892401] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
 [2025-04-27 12:11:52.804641] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
 [2025-04-27 12:15:49.283071] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:26:43.535972] Stockfish error: [WinError 2] The system cannot find the file specified
+[2025-04-27 12:26:43.537105] OpenAI error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+[2025-04-27 12:26:43.537730] OpenAI error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+[2025-04-27 12:26:43.538539] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:28:21.892295] Stockfish error: [WinError 2] The system cannot find the file specified
+[2025-04-27 12:29:34.796106] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:32:22.933549] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:33:49.327288] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:38:58.991600] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:51:41.541960] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:59:14.739379] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 13:02:08.745887] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 13:21:26.355046] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 13:31:38.732730] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt

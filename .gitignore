@@ -2,6 +2,7 @@
 src/.env
 passwords.txt
 secrets.yaml
+.env
 
 # Ignore Python cache
 __pycache__/

@@ -1,13 +1,45 @@
+create_project:
+  custom_fields:
+  - name: start date
+    type: text
+  - name: end date
+    type: text
+  - name: workstream
+    options:
+    - Core
+    - LLM
+    - GitHub
+    - Logging
+    type: single_select
+  - name: mvp
+    options:
+    - 'Yes'
+    - 'No'
+    type: single_select
+  - name: dependencies
+    type: text
+  milestone_title: Prototype
+  project_description: Project board for automation and task tracking
+  project_title: MAIgnus Tasks
+  release_description: Initial prototype milestone
+  release_name: Version 1
+  release_tag: v1
+  repo: seanr87/MAIgnus_CAIrlsen
 import_issues:
   issue_csv_path: C:/Users/seanr/MAIgnus_CAIrlsen/20250425_code_review_tasks.csv
-
 pruner:
-  repo: seanr87/MAIgnus_CAIrlsen
-  project_number: 7
-  done_column_name: Done
-  workstream_field_name: Workstream
-  status_field_name: Status
-  archive_label: archive
-  not_planned_label: not planned
-  done_threshold_days: 14
-  max_done_per_workstream: 3
+  custom_fields:
+    done_status_value: Done
+    status_field_id: Status
+    workstream_field_id: Workstream
+  done_age_days: 14
+  done_overflow_limit: 3
+  dry_run: false
+  project_id: PVT_kwHOCRKm2M4A0cGL
+  repository: seanr87/MAIgnus_CAIrlsen
+  selected_views:
+  - id: PVTV_lAHOCRKm2M4A0cGLzgF_7c8
+    layout: TABLE_LAYOUT
+    name: Backlog
+    number: 3
+  wiki_page_name: PRUNER_LOG.md

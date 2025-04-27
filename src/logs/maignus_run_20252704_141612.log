@@ -1,0 +1,17 @@
+===== MAIgnus_CAIrlsen Started at Sun 04/27/2025 14:16:12.20  ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 69, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 36, in main
+    log("\U0001f680 Starting MAIgnus_CAIrlsen full workflow...", MAIN_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 17, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f680' in position 29: character maps to <undefined>
+===== MAIgnus_CAIrlsen Completed at Sun 04/27/2025 14:16:13.75 ===== 

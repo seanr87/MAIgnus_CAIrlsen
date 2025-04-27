@@ -5,17 +5,40 @@ import os
 import datetime
 import chess.pgn
 import io
+import sys
 
 from config import DATA_DIR, CHESS_USERNAME
 
 def log(message, log_file):
     """
     Write timestamped log message to specified log file and print to console.
+    Handles Unicode characters safely for Windows console.
     """
     timestamp = datetime.datetime.now()
     full_message = f"[{timestamp}] {message}"
-    print(full_message)
     
+    # Write to console safely, handling Unicode errors
+    try:
+        print(full_message)
+    except UnicodeEncodeError:
+        # Replace emojis with text descriptions for console output
+        safe_message = full_message
+        emoji_replacements = {
+            "\U0001f680": "[ROCKET]",  # 🚀
+            "\U0001f4e5": "[INBOX]",   # 📥
+            "\U0001f9e0": "[BRAIN]",   # 🧠
+            "\U0001f4e7": "[EMAIL]",   # 📧
+            "\U0001f6a8": "[ALERT]",   # 🚨
+            "\u2714": "[CHECK]",       # ✔
+            "\u274c": "[CROSS]"        # ❌
+        }
+        
+        for emoji, replacement in emoji_replacements.items():
+            safe_message = safe_message.replace(emoji, replacement)
+            
+        print(safe_message)
+    
+    # Always write the full message with emojis to the log file
     with open(log_file, "a", encoding="utf-8") as f:
         f.write(full_message + "\n")
 

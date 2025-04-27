@@ -862,3 +862,147 @@
 [2025-04-27 13:31:19.012763] 🧠 Generating game analysis...
 [2025-04-27 13:31:38.733252] 📧 Sending analysis email...
 [2025-04-27 13:31:41.481046] ✅ Full workflow completed successfully!
+[2025-04-27 13:36:25.026244] 🚀 Starting MAIgnus_CAIrlsen full workflow...
+[2025-04-27 13:36:25.026770] 📥 Checking for new games on Chess.com...
+[2025-04-27 13:36:25.604083] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_27b0de6d091d65aad72c095eae9cf4f6.pgn
+[2025-04-27 13:36:25.604631] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_14857f1fa52981565def0379ead49123.pgn
+[2025-04-27 13:36:25.605031] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ddf6a29f5f1efc304ca48eb323082864.pgn
+[2025-04-27 13:36:25.605452] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ba5706dd203ddc284403ca1d73e8abf.pgn
+[2025-04-27 13:36:25.605809] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_43e2c612d823cf8bab6a034e849b8283.pgn
+[2025-04-27 13:36:25.606151] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_36344ee60692e36afcc1b565bd70b25a.pgn
+[2025-04-27 13:36:25.606435] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5ef879944bbf5d14bc3c32c7415d15c4.pgn
+[2025-04-27 13:36:25.606737] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_16f04509aac39f6447eab4a64a91ba63.pgn
+[2025-04-27 13:36:25.607098] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d8667c56660d190b3af28b39621d2831.pgn
+[2025-04-27 13:36:25.607440] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_725c9c85c76f7e30c666e7db84a6896a.pgn
+[2025-04-27 13:36:25.607774] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_189ba3226e9a94f4985b276c66e9c912.pgn
+[2025-04-27 13:36:25.608111] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_538e83bdbf7e268c4bd3e2617c38f723.pgn
+[2025-04-27 13:36:25.608439] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b1aa9cb7ad6608dfc42faa8cb697ade0.pgn
+[2025-04-27 13:36:25.608767] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_633524050baa996d766b9c63f1030b77.pgn
+[2025-04-27 13:36:25.609143] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e61f5fc5db1ef48107aa525b59d0ee29.pgn
+[2025-04-27 13:36:25.609602] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_993ef1d17dc55a869a38e15f3a16ef55.pgn
+[2025-04-27 13:36:25.609971] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b20a413c73877f616248c75a07f82cd7.pgn
+[2025-04-27 13:36:25.610312] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_fa814317906e0ea0a38b0a7100564243.pgn
+[2025-04-27 13:36:25.610650] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e0093a5b8ed77d92b18662d80c922b66.pgn
+[2025-04-27 13:36:25.610976] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_cd1eb9c617c2dd31f6075dd142a8e85b.pgn
+[2025-04-27 13:36:25.611304] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_6c4c167e03b911db1f0ce208a49467cb.pgn
+[2025-04-27 13:36:25.611666] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b974e20ad60b84582dbcb62dd90167af.pgn
+[2025-04-27 13:36:25.611999] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2bf431baa57976324c45507fb621e896.pgn
+[2025-04-27 13:36:25.612352] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bbc826187f4f3b5696a89dabbfc5b2f7.pgn
+[2025-04-27 13:36:25.612939] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_74ddfe92feeb367e8a4f1c55af2ebb08.pgn
+[2025-04-27 13:36:25.613546] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_63580cc87f8afe067808c4344e9ae8e1.pgn
+[2025-04-27 13:36:25.613954] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c2a27d04e1a896e75b5bfc39b0bb5167.pgn
+[2025-04-27 13:36:25.614473] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_332d7d689717a69b9a9b1eb22da8578e.pgn
+[2025-04-27 13:36:25.614826] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bb87ae5557fc0bbd2f65e11448489b6c.pgn
+[2025-04-27 13:36:25.615171] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_60813cc43966d139249404c7fcfd3f7a.pgn
+[2025-04-27 13:36:25.615522] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d47c097104651d2da0676ef21f26bbc7.pgn
+[2025-04-27 13:36:25.615867] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d0597d34d1089eca2c78ba753bf04367.pgn
+[2025-04-27 13:36:25.616204] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_0d906a6ba6be8288c94d062854fd2fa3.pgn
+[2025-04-27 13:36:25.616562] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_4689feea7df2d2c193c8dbe1b6dc5784.pgn
+[2025-04-27 13:36:25.616930] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5fdc6885fdd3d0c332e4d654ac707a5c.pgn
+[2025-04-27 13:36:25.617421] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3f435f07164cf15bb206dd62e30ee31b.pgn
+[2025-04-27 13:36:25.617884] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_03abaed7f50d752e3eea36c7781ea3c5.pgn
+[2025-04-27 13:36:25.618374] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_a851e5972370af345f6c5b3231fa650b.pgn
+[2025-04-27 13:36:25.618920] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3b54364987681ebfc5fcbca51914e699.pgn
+[2025-04-27 13:36:25.619420] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c28c7faae63c3ee55e38acac00d41fa6.pgn
+[2025-04-27 13:36:25.619875] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ce59ad072b3f4d551469ff75ade0bc85.pgn
+[2025-04-27 13:36:25.620297] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e30cb37e972bbd878a39425ce5143f43.pgn
+[2025-04-27 13:36:25.620619] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ac92c5380fb2b8353f0599225bd1bc1.pgn
+[2025-04-27 13:36:25.620980] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_52c6e5610d48b84959d543feb2431a57.pgn
+[2025-04-27 13:36:25.621300] No new games found to analyze. Workflow terminated.
+[2025-04-27 13:38:20.360316] 🚀 Starting MAIgnus_CAIrlsen full workflow...
+[2025-04-27 13:38:20.360849] 📥 Checking for new games on Chess.com...
+[2025-04-27 13:38:20.919157] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_27b0de6d091d65aad72c095eae9cf4f6.pgn
+[2025-04-27 13:38:20.919706] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_14857f1fa52981565def0379ead49123.pgn
+[2025-04-27 13:38:20.920104] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ddf6a29f5f1efc304ca48eb323082864.pgn
+[2025-04-27 13:38:20.920455] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ba5706dd203ddc284403ca1d73e8abf.pgn
+[2025-04-27 13:38:20.920814] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_43e2c612d823cf8bab6a034e849b8283.pgn
+[2025-04-27 13:38:20.921217] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_36344ee60692e36afcc1b565bd70b25a.pgn
+[2025-04-27 13:38:20.921634] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5ef879944bbf5d14bc3c32c7415d15c4.pgn
+[2025-04-27 13:38:20.922032] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_16f04509aac39f6447eab4a64a91ba63.pgn
+[2025-04-27 13:38:20.922389] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d8667c56660d190b3af28b39621d2831.pgn
+[2025-04-27 13:38:20.922731] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_725c9c85c76f7e30c666e7db84a6896a.pgn
+[2025-04-27 13:38:20.923064] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_189ba3226e9a94f4985b276c66e9c912.pgn
+[2025-04-27 13:38:20.923446] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_538e83bdbf7e268c4bd3e2617c38f723.pgn
+[2025-04-27 13:38:20.923775] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b1aa9cb7ad6608dfc42faa8cb697ade0.pgn
+[2025-04-27 13:38:20.924187] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_633524050baa996d766b9c63f1030b77.pgn
+[2025-04-27 13:38:20.924629] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e61f5fc5db1ef48107aa525b59d0ee29.pgn
+[2025-04-27 13:38:20.924982] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_993ef1d17dc55a869a38e15f3a16ef55.pgn
+[2025-04-27 13:38:20.925337] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b20a413c73877f616248c75a07f82cd7.pgn
+[2025-04-27 13:38:20.925685] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_fa814317906e0ea0a38b0a7100564243.pgn
+[2025-04-27 13:38:20.926043] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e0093a5b8ed77d92b18662d80c922b66.pgn
+[2025-04-27 13:38:20.926378] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_cd1eb9c617c2dd31f6075dd142a8e85b.pgn
+[2025-04-27 13:38:20.926725] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_6c4c167e03b911db1f0ce208a49467cb.pgn
+[2025-04-27 13:38:20.927060] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b974e20ad60b84582dbcb62dd90167af.pgn
+[2025-04-27 13:38:20.927430] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2bf431baa57976324c45507fb621e896.pgn
+[2025-04-27 13:38:20.927794] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bbc826187f4f3b5696a89dabbfc5b2f7.pgn
+[2025-04-27 13:38:20.928131] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_74ddfe92feeb367e8a4f1c55af2ebb08.pgn
+[2025-04-27 13:38:20.928468] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_63580cc87f8afe067808c4344e9ae8e1.pgn
+[2025-04-27 13:38:20.928830] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c2a27d04e1a896e75b5bfc39b0bb5167.pgn
+[2025-04-27 13:38:20.929238] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_332d7d689717a69b9a9b1eb22da8578e.pgn
+[2025-04-27 13:38:20.929661] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bb87ae5557fc0bbd2f65e11448489b6c.pgn
+[2025-04-27 13:38:20.930058] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_60813cc43966d139249404c7fcfd3f7a.pgn
+[2025-04-27 13:38:20.930460] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d47c097104651d2da0676ef21f26bbc7.pgn
+[2025-04-27 13:38:20.930816] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d0597d34d1089eca2c78ba753bf04367.pgn
+[2025-04-27 13:38:20.931222] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_0d906a6ba6be8288c94d062854fd2fa3.pgn
+[2025-04-27 13:38:20.931654] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_4689feea7df2d2c193c8dbe1b6dc5784.pgn
+[2025-04-27 13:38:20.932014] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5fdc6885fdd3d0c332e4d654ac707a5c.pgn
+[2025-04-27 13:38:20.932421] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3f435f07164cf15bb206dd62e30ee31b.pgn
+[2025-04-27 13:38:20.932802] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_03abaed7f50d752e3eea36c7781ea3c5.pgn
+[2025-04-27 13:38:20.933213] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_a851e5972370af345f6c5b3231fa650b.pgn
+[2025-04-27 13:38:20.933627] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3b54364987681ebfc5fcbca51914e699.pgn
+[2025-04-27 13:38:20.934039] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c28c7faae63c3ee55e38acac00d41fa6.pgn
+[2025-04-27 13:38:20.934527] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ce59ad072b3f4d551469ff75ade0bc85.pgn
+[2025-04-27 13:38:20.934954] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e30cb37e972bbd878a39425ce5143f43.pgn
+[2025-04-27 13:38:20.935275] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ac92c5380fb2b8353f0599225bd1bc1.pgn
+[2025-04-27 13:38:20.935583] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_52c6e5610d48b84959d543feb2431a57.pgn
+[2025-04-27 13:38:20.935927] No new games found to analyze. Workflow terminated.
+[2025-04-27 13:38:41.280847] 🚀 Starting MAIgnus_CAIrlsen full workflow...
+[2025-04-27 13:38:41.281310] 📥 Checking for new games on Chess.com...
+[2025-04-27 13:38:41.792319] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_27b0de6d091d65aad72c095eae9cf4f6.pgn
+[2025-04-27 13:38:41.792855] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_14857f1fa52981565def0379ead49123.pgn
+[2025-04-27 13:38:41.793328] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ddf6a29f5f1efc304ca48eb323082864.pgn
+[2025-04-27 13:38:41.793658] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ba5706dd203ddc284403ca1d73e8abf.pgn
+[2025-04-27 13:38:41.794032] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_43e2c612d823cf8bab6a034e849b8283.pgn
+[2025-04-27 13:38:41.794384] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_36344ee60692e36afcc1b565bd70b25a.pgn
+[2025-04-27 13:38:41.794671] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5ef879944bbf5d14bc3c32c7415d15c4.pgn
+[2025-04-27 13:38:41.794959] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_16f04509aac39f6447eab4a64a91ba63.pgn
+[2025-04-27 13:38:41.795331] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d8667c56660d190b3af28b39621d2831.pgn
+[2025-04-27 13:38:41.795671] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_725c9c85c76f7e30c666e7db84a6896a.pgn
+[2025-04-27 13:38:41.795999] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_189ba3226e9a94f4985b276c66e9c912.pgn
+[2025-04-27 13:38:41.796348] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_538e83bdbf7e268c4bd3e2617c38f723.pgn
+[2025-04-27 13:38:41.796671] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b1aa9cb7ad6608dfc42faa8cb697ade0.pgn
+[2025-04-27 13:38:41.797039] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_633524050baa996d766b9c63f1030b77.pgn
+[2025-04-27 13:38:41.797488] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e61f5fc5db1ef48107aa525b59d0ee29.pgn
+[2025-04-27 13:38:41.798025] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_993ef1d17dc55a869a38e15f3a16ef55.pgn
+[2025-04-27 13:38:41.798416] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b20a413c73877f616248c75a07f82cd7.pgn
+[2025-04-27 13:38:41.798778] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_fa814317906e0ea0a38b0a7100564243.pgn
+[2025-04-27 13:38:41.799127] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e0093a5b8ed77d92b18662d80c922b66.pgn
+[2025-04-27 13:38:41.799597] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_cd1eb9c617c2dd31f6075dd142a8e85b.pgn
+[2025-04-27 13:38:41.800021] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_6c4c167e03b911db1f0ce208a49467cb.pgn
+[2025-04-27 13:38:41.800467] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b974e20ad60b84582dbcb62dd90167af.pgn
+[2025-04-27 13:38:41.800866] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2bf431baa57976324c45507fb621e896.pgn
+[2025-04-27 13:38:41.801219] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bbc826187f4f3b5696a89dabbfc5b2f7.pgn
+[2025-04-27 13:38:41.801552] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_74ddfe92feeb367e8a4f1c55af2ebb08.pgn
+[2025-04-27 13:38:41.802088] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_63580cc87f8afe067808c4344e9ae8e1.pgn
+[2025-04-27 13:38:41.802469] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c2a27d04e1a896e75b5bfc39b0bb5167.pgn
+[2025-04-27 13:38:41.804449] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_332d7d689717a69b9a9b1eb22da8578e.pgn
+[2025-04-27 13:38:41.804891] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bb87ae5557fc0bbd2f65e11448489b6c.pgn
+[2025-04-27 13:38:41.805279] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_60813cc43966d139249404c7fcfd3f7a.pgn
+[2025-04-27 13:38:41.805611] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d47c097104651d2da0676ef21f26bbc7.pgn
+[2025-04-27 13:38:41.805933] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d0597d34d1089eca2c78ba753bf04367.pgn
+[2025-04-27 13:38:41.806253] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_0d906a6ba6be8288c94d062854fd2fa3.pgn
+[2025-04-27 13:38:41.806603] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_4689feea7df2d2c193c8dbe1b6dc5784.pgn
+[2025-04-27 13:38:41.806928] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5fdc6885fdd3d0c332e4d654ac707a5c.pgn
+[2025-04-27 13:38:41.807247] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3f435f07164cf15bb206dd62e30ee31b.pgn
+[2025-04-27 13:38:41.807570] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_03abaed7f50d752e3eea36c7781ea3c5.pgn
+[2025-04-27 13:38:41.807897] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_a851e5972370af345f6c5b3231fa650b.pgn
+[2025-04-27 13:38:41.808220] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3b54364987681ebfc5fcbca51914e699.pgn
+[2025-04-27 13:38:41.808539] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c28c7faae63c3ee55e38acac00d41fa6.pgn
+[2025-04-27 13:38:41.808856] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ce59ad072b3f4d551469ff75ade0bc85.pgn
+[2025-04-27 13:38:41.809231] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e30cb37e972bbd878a39425ce5143f43.pgn
+[2025-04-27 13:38:41.809663] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ac92c5380fb2b8353f0599225bd1bc1.pgn
+[2025-04-27 13:38:41.810108] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_52c6e5610d48b84959d543feb2431a57.pgn
+[2025-04-27 13:38:41.810458] No new games found, but --force flag provided. Proceeding with analysis of latest game.
+[2025-04-27 13:38:41.810706] 🧠 Generating game analysis...
+[2025-04-27 13:39:06.147838] 📧 Sending analysis email...
+[2025-04-27 13:39:09.166911] ✅ Full workflow completed successfully!

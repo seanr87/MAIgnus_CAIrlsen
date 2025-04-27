@@ -1,2 +1,13 @@
 import_issues:
   issue_csv_path: C:/Users/seanr/MAIgnus_CAIrlsen/20250425_code_review_tasks.csv
+
+pruner:
+  repo: seanr87/MAIgnus_CAIrlsen
+  project_number: 7
+  done_column_name: Done
+  workstream_field_name: Workstream
+  status_field_name: Status
+  archive_label: archive
+  not_planned_label: not planned
+  done_threshold_days: 14
+  max_done_per_workstream: 3

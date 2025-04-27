@@ -1,0 +1,85 @@
+Title,Body,Status,Milestone,Workstream,Labels,Priority,End Date
+Create new module: initial_evaluation.py,"This issue tracks the task: **Create new module: initial_evaluation.py**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Set up SQLite database: games.db,"- Define `games` table schema
+- Implement `initialize_database()`
+- Implement `insert_game_record()`",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Implement function to fetch last 12 months of Chess.com archives,"This issue tracks the task: **Implement function to fetch last 12 months of Chess.com archives**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Fetch and cache monthly archives,"- Fetch all games
+- Save PGNs locally
+- Handle rate limits/errors",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Filter out irrelevant games,"- Unrated games (optional)
+- Games missing PGNs or important metadata",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Implement Lite Stockfish evaluation at depth 8,"This issue tracks the task: **Implement Lite Stockfish evaluation at depth 8**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Analyze every move in each game,"- Track Blunders
+- Track Mistakes
+- Track Inaccuracies
+- Track Average CPL",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Extract key metadata,"- Opening information
+- Time control metadata
+- Result metadata
+- Move count
+- Date/opponent data",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Insert analyzed game into database,"This issue tracks the task: **Insert analyzed game into database**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Assemble key metrics across games,"This issue tracks the task: **Assemble key metrics across games**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Create LLM prompts for play style,"- Describe opening tendencies
+- Describe tactical vs positional lean
+- Detect strengths/weaknesses",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Generate holistic Initial Evaluation Summary with GPT,"This issue tracks the task: **Generate holistic Initial Evaluation Summary with GPT**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Log runtime and performance,"This issue tracks the task: **Log runtime and performance**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Monitor error rates,"- Stockfish failures
+- PGN errors
+- API failures",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Add progress tracking,"- Visual progress bar
+- % complete indicators",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Create initial_report.md,"- Overall Skill Assessment
+- Play Style Overview
+- Strengths and Weaknesses
+- Time Control Performance
+- Opening Preferences",Todo,Lite Assessment,Email/Output Formatting,,Medium,2025-05-18
+Save report to /reports/initial_assessment/,"This issue tracks the task: **Save report to /reports/initial_assessment/**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Email/Output Formatting,,Medium,2025-05-18
+Modify maignus_bot.py for database check,"- If no database, trigger Lite Assessment
+- If database exists, proceed normally",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Ensure database updates daily after initial load,"This issue tracks the task: **Ensure database updates daily after initial load**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Test on small batch (10–20 games),"This issue tracks the task: **Test on small batch (10–20 games)**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Test full 12-month load,"This issue tracks the task: **Test full 12-month load**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Test error handling,- Handle network dropout and retries,Todo,Lite Assessment,Development,,Medium,2025-05-18
+Measure runtime on average hardware,"This issue tracks the task: **Measure runtime on average hardware**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Validate LLM summaries for coherence,"This issue tracks the task: **Validate LLM summaries for coherence**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Add milestone notes to README.md,"This issue tracks the task: **Add milestone notes to README.md**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Document initial_evaluation.py usage,"This issue tracks the task: **Document initial_evaluation.py usage**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Document database schema and update practices,"This issue tracks the task: **Document database schema and update practices**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18
+Create future planning notes for Full Assessment version,"This issue tracks the task: **Create future planning notes for Full Assessment version**.
+
+Additional details will be added during implementation.",Todo,Lite Assessment,Development,,Medium,2025-05-18

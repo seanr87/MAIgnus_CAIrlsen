@@ -1,0 +1,76 @@
+===== MAIgnus_CAIrlsen Started at Sun 04/27/2025 17:30:51.68  ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+[2025-04-27 17:30:53.614082] [ROCKET] Starting MAIgnus_CAIrlsen full workflow...
+[2025-04-27 17:30:53.618437] [INBOX] Checking for new games on Chess.com...
+[2025-04-27 17:30:54.049256] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_27b0de6d091d65aad72c095eae9cf4f6.pgn
+[2025-04-27 17:30:54.049644] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_14857f1fa52981565def0379ead49123.pgn
+[2025-04-27 17:30:54.050372] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ddf6a29f5f1efc304ca48eb323082864.pgn
+[2025-04-27 17:30:54.050644] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ba5706dd203ddc284403ca1d73e8abf.pgn
+[2025-04-27 17:30:54.051159] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_43e2c612d823cf8bab6a034e849b8283.pgn
+[2025-04-27 17:30:54.051407] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_36344ee60692e36afcc1b565bd70b25a.pgn
+[2025-04-27 17:30:54.051928] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5ef879944bbf5d14bc3c32c7415d15c4.pgn
+[2025-04-27 17:30:54.052160] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_16f04509aac39f6447eab4a64a91ba63.pgn
+[2025-04-27 17:30:54.052446] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d8667c56660d190b3af28b39621d2831.pgn
+[2025-04-27 17:30:54.052732] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_725c9c85c76f7e30c666e7db84a6896a.pgn
+[2025-04-27 17:30:54.053015] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_189ba3226e9a94f4985b276c66e9c912.pgn
+[2025-04-27 17:30:54.053407] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_538e83bdbf7e268c4bd3e2617c38f723.pgn
+[2025-04-27 17:30:54.053733] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b1aa9cb7ad6608dfc42faa8cb697ade0.pgn
+[2025-04-27 17:30:54.053974] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_633524050baa996d766b9c63f1030b77.pgn
+[2025-04-27 17:30:54.054256] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e61f5fc5db1ef48107aa525b59d0ee29.pgn
+[2025-04-27 17:30:54.054542] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_993ef1d17dc55a869a38e15f3a16ef55.pgn
+[2025-04-27 17:30:54.054835] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b20a413c73877f616248c75a07f82cd7.pgn
+[2025-04-27 17:30:54.055118] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_fa814317906e0ea0a38b0a7100564243.pgn
+[2025-04-27 17:30:54.055400] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e0093a5b8ed77d92b18662d80c922b66.pgn
+[2025-04-27 17:30:54.055680] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_cd1eb9c617c2dd31f6075dd142a8e85b.pgn
+[2025-04-27 17:30:54.055963] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_6c4c167e03b911db1f0ce208a49467cb.pgn
+[2025-04-27 17:30:54.056244] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_b974e20ad60b84582dbcb62dd90167af.pgn
+[2025-04-27 17:30:54.056527] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2bf431baa57976324c45507fb621e896.pgn
+[2025-04-27 17:30:54.056808] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bbc826187f4f3b5696a89dabbfc5b2f7.pgn
+[2025-04-27 17:30:54.057110] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_74ddfe92feeb367e8a4f1c55af2ebb08.pgn
+[2025-04-27 17:30:54.057389] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_63580cc87f8afe067808c4344e9ae8e1.pgn
+[2025-04-27 17:30:54.057670] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c2a27d04e1a896e75b5bfc39b0bb5167.pgn
+[2025-04-27 17:30:54.057975] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_332d7d689717a69b9a9b1eb22da8578e.pgn
+[2025-04-27 17:30:54.058263] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_bb87ae5557fc0bbd2f65e11448489b6c.pgn
+[2025-04-27 17:30:54.058544] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_60813cc43966d139249404c7fcfd3f7a.pgn
+[2025-04-27 17:30:54.058826] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d47c097104651d2da0676ef21f26bbc7.pgn
+[2025-04-27 17:30:54.059149] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_d0597d34d1089eca2c78ba753bf04367.pgn
+[2025-04-27 17:30:54.059428] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_0d906a6ba6be8288c94d062854fd2fa3.pgn
+[2025-04-27 17:30:54.059711] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_4689feea7df2d2c193c8dbe1b6dc5784.pgn
+[2025-04-27 17:30:54.060102] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_5fdc6885fdd3d0c332e4d654ac707a5c.pgn
+[2025-04-27 17:30:54.060389] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3f435f07164cf15bb206dd62e30ee31b.pgn
+[2025-04-27 17:30:54.060676] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_03abaed7f50d752e3eea36c7781ea3c5.pgn
+[2025-04-27 17:30:54.060972] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_a851e5972370af345f6c5b3231fa650b.pgn
+[2025-04-27 17:30:54.061253] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_3b54364987681ebfc5fcbca51914e699.pgn
+[2025-04-27 17:30:54.061535] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_c28c7faae63c3ee55e38acac00d41fa6.pgn
+[2025-04-27 17:30:54.061816] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_ce59ad072b3f4d551469ff75ade0bc85.pgn
+[2025-04-27 17:30:54.062101] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_e30cb37e972bbd878a39425ce5143f43.pgn
+[2025-04-27 17:30:54.062388] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_2ac92c5380fb2b8353f0599225bd1bc1.pgn
+[2025-04-27 17:30:54.062917] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_52c6e5610d48b84959d543feb2431a57.pgn
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 22, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 69, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 40, in main
+    new_games = fetch_and_save_pgns()
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\chess_api.py", line 85, in fetch_and_save_pgns
+    log(f"\u2705 Saved: {file_path}", MAIN_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 39, in log
+    print(safe_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+===== MAIgnus_CAIrlsen Completed at Sun 04/27/2025 17:30:54.20 ===== 

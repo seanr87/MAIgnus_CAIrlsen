@@ -1,0 +1,51 @@
+# Project Charter: Lite Assessment Milestone
+## Purpose
+Establish a fast, reliable, and informative initial evaluation of a new MAIgnus_CAIrlsen user by analyzing their past 1 year of games with light Stockfish evaluation and early LLM insights.
+
+## Goals
+Build an initial game database from the user's last 12 months of Chess.com games.
+
+Complete a Lite Assessment in a reasonable time (~1-2 hours maximum).
+
+Generate a holistic snapshot of the player's:
+- Overall skill level
+- Play style
+- Strengths and weaknesses
+- Time control performance
+
+Set the foundation for future Daily Game Reviews and Longitudinal Analysis.
+
+## Scope
+Fetch and cache 1 year of Chess.com games.
+
+Run Stockfish analysis at depth 8 to minimize evaluation time.
+
+Analyze all moves (no move sampling yet).
+
+Summarize:
+- Blunder/Mistake/Inaccuracy rates
+- Opening tendencies
+- Time control success rates
+- General play style (via LLM)
+
+Store results in a local SQLite database.
+
+Generate a Lite Assessment Report for user onboarding.
+
+## Key Design Choices
+Speed prioritized over extreme depth for initial setup.
+
+Database-first architecture to allow incremental future updates.
+
+Modular Initial Evaluation (initial_evaluation.py) separate from daily analysis.
+
+Allow future enhancement: deeper re-analysis, finer playstyle classification.
+
+## Success Criteria
+Lite Assessment completes successfully on typical hardware in < 2 hours.
+
+Generates coherent skill summary from historical data.
+
+Database is populated and ready for daily incremental use.
+
+Framework ready for deeper assessments in later milestones.

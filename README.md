@@ -2,6 +2,10 @@
 
 An automated chess analysis tool that fetches your games from Chess.com, analyzes them with Stockfish and GPT, and emails you personalized analysis reports.
 
+## Ultimate Vision
+
+[Chess.com API] → [Game Fetcher] → [Database] ← [Game Analyzer] → [Pattern Recognizer] → [Dashboard/Report Generator]
+
 ## Overview
 
 MAIgnus_CAIrlsen is a modular chess analysis pipeline that:

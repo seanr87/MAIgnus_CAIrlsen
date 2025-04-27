@@ -50,3 +50,7 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 [2025-04-23 17:01:24.992923] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
 [2025-04-24 17:01:42.493989] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
 [2025-04-25 17:01:23.724389] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
+[2025-04-27 12:01:08.443387] Stockfish error: [WinError 2] The system cannot find the file specified
+[2025-04-27 12:01:27.892401] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:11:52.804641] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-04-27 12:15:49.283071] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt

@@ -1,36 +1,51 @@
-import yagmail
+"""
+Email generation and sending module for chess analysis reports.
+"""
 import os
-import datetime
+import re
+import yagmail
 import openai
 import markdown
-import re
-from dotenv import load_dotenv
+from config import (
+    OPENAI_API_KEY, 
+    SENDER_EMAIL, 
+    EMAIL_APP_PASSWORD, 
+    RECEIVER_EMAIL,
+    REPORTS_DIR, 
+    EMAIL_LOG, 
+    FAILURES_LOG
+)
+from utils import log, get_latest_pgn_path
 
-# === LOAD ENVIRONMENT VARIABLES ===
-load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
-USERNAME = os.getenv("CHESS_USERNAME")
+openai.api_key = OPENAI_API_KEY
 
-SENDER_EMAIL = os.getenv("SENDER_EMAIL")
-APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
-RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
+def extract_section(content, heading):
+    """
+    Extract a section from the analysis report by heading.
+    """
+    match = re.search(rf"## {heading}\s+(.*?)(?=\s+##|\Z)", content, re.DOTALL)
+    return match.group(1).strip() if match else f"(No {heading} found.)"
 
-REPORTS_DIR = "../reports"
-DATA_DIR = "../data"
-LOG_PATH = "../logs/email_sender.log"
-
-def log(message):
-    timestamp = datetime.datetime.now()
-    full_message = f"[{timestamp}] {message}"
-    print(full_message)
-    with open(LOG_PATH, "a", encoding="utf-8") as log_file:
-        log_file.write(full_message + "\n")
+def parse_metadata(metadata_block):
+    """
+    Parse metadata fields from lines like "- Field: Value"
+    """
+    meta = {}
+    for line in metadata_block.splitlines():
+        match = re.match(r"-\s*(.*?):\s*(.*)", line)
+        if match:
+            key, value = match.groups()
+            meta[key.strip()] = value.strip()
+    return meta
 
 def generate_clever_title(summary_text):
+    """
+    Use GPT to generate a clever email subject line.
+    """
     prompt = f"""
 You are a witty chess coach and subject line writer.
 
-Here’s a summary of a game:
+Here's a summary of a game:
 
 \"\"\"{summary_text}\"\"\"
 
@@ -38,7 +53,7 @@ Generate a clever 5-word title that would grab attention in an email subject lin
 Avoid generic words like "game" or "match"—make it vivid and specific.
 """
     try:
-        client = openai.Client(api_key=openai.api_key)
+        client = openai.Client(api_key=OPENAI_API_KEY)
         response = client.chat.completions.create(
             model="gpt-4",
             messages=[
@@ -50,35 +65,30 @@ Avoid generic words like "game" or "match"—make it vivid and specific.
         )
         return response.choices[0].message.content.strip('" \n')
     except Exception as e:
-        log(f"❌ GPT error: {str(e)}")
-        return "Epic Takedown in Five Moves"
+        log(f"❌ GPT error: {str(e)}", EMAIL_LOG)
+        return "Epic Chess Analysis Awaits You"
 
-if __name__ == "__main__":
+def send_analysis_email():
+    """
+    Format and send the chess analysis email.
+    """
     analysis_path = os.path.join(REPORTS_DIR, "game_analysis.txt")
     if not os.path.exists(analysis_path):
-        log(f"No analysis file found at {analysis_path}")
-        exit()
+        log(f"No analysis file found at {analysis_path}", EMAIL_LOG)
+        return False
 
     with open(analysis_path, "r", encoding="utf-8") as f:
         analysis_markdown = f.read()
 
-    # === Extract sections ===
-    def extract_section(heading):
-        match = re.search(rf"## {heading}\s+(.*?)\s+##", analysis_markdown, re.DOTALL)
-        return match.group(1).strip() if match else f"(No {heading} found.)"
-
-    game_summary = extract_section("Game Summary")
-    metadata_block = extract_section("Game Metadata")
-    recommendations = extract_section("Recommendations")
-
-    # Parse metadata fields from lines like "- Field: Value"
-    meta = {}
-    for line in metadata_block.splitlines():
-        match = re.match(r"-\s*(.*?):\s*(.*)", line)
-        if match:
-            key, value = match.groups()
-            meta[key.strip()] = value.strip()
-
+    # Extract sections from analysis
+    game_summary = extract_section(analysis_markdown, "Game Summary")
+    metadata_block = extract_section(analysis_markdown, "Game Metadata")
+    recommendations = extract_section(analysis_markdown, "Recommendations")
+    
+    # Parse metadata 
+    meta = parse_metadata(metadata_block)
+    
+    # Get values with defaults
     date = meta.get("Date", "N/A")
     opponent = meta.get("Opponent", "N/A")
     color = meta.get("Color", "N/A")
@@ -86,7 +96,7 @@ if __name__ == "__main__":
     time_control = meta.get("Time Control", "N/A")
     opening = meta.get("Opening", "N/A")
 
-    # === Validate metadata before sending ===
+    # Validate required fields
     required_fields = {
         "Date": date,
         "Opponent": opponent,
@@ -98,31 +108,19 @@ if __name__ == "__main__":
     missing = [k for k, v in required_fields.items() if v == "N/A" or "No " in v]
 
     if missing:
-        pgn_files = sorted(
-            [f for f in os.listdir(DATA_DIR) if f.endswith('.pgn')],
-            key=lambda x: os.path.getmtime(os.path.join(DATA_DIR, x)),
-            reverse=True
-        )
-        latest_pgn = pgn_files[0] if pgn_files else "(Unknown PGN)"
-
+        latest_pgn = os.path.basename(get_latest_pgn_path() or "(Unknown PGN)")
+        
         error_msg = (
             f"❌ Aborting send — missing metadata: {', '.join(missing)} "
             f"(from PGN: {latest_pgn})"
         )
-        log(error_msg)
+        log(error_msg, EMAIL_LOG)
 
         # Log to a dedicated failures log
-        failure_path = "../logs/send_failures.log"
-        with open(failure_path, "a", encoding="utf-8") as fail_log:
-            timestamp = datetime.datetime.now()
-            fail_log.write(f"[{timestamp}] {error_msg}\n")
+        with open(FAILURES_LOG, "a", encoding="utf-8") as fail_log:
+            fail_log.write(f"{error_msg}\n")
 
-        exit()
-
-
-
-    if USERNAME.lower() in opponent.lower():
-        opponent = "Unknown (You played against someone else)"
+        return False
 
     # Extract PGN
     pgn_match = re.search(r"## PGN\s+(.*)", analysis_markdown, re.DOTALL)
@@ -132,10 +130,13 @@ if __name__ == "__main__":
     summary_html = markdown.markdown(game_summary)
     recommendations_html = markdown.markdown(recommendations)
 
+    # Generate email subject
     clever_title = generate_clever_title(game_summary)
     subject = f"MAI: {clever_title}"
 
-    # === Compose HTML ===
+    # Compose HTML email body
+# Find the html_body section in email_sender.py and replace it with this:
+
     html_body = f"""
     <html>
     <head>
@@ -144,13 +145,13 @@ if __name__ == "__main__":
         font-family: 'Courier New', monospace;
         font-size: 16px;
         color: #00FFFF;
-        background: radial-gradient(circle at top, #000010, #0a001a);
+        background-color: #000033;
         padding: 24px;
     }}
     .container {{
         max-width: 720px;
         margin: auto;
-        background: #111122;
+        background-color: #111133;
         padding: 24px;
         border-radius: 12px;
         box-shadow: 0 0 20px #0ff;
@@ -169,7 +170,7 @@ if __name__ == "__main__":
     pre {{
         font-size: 12px;
         color: #ccc;
-        background: #000000;
+        background-color: #000000;
         padding: 12px;
         border-radius: 6px;
         overflow-x: auto;
@@ -203,8 +204,10 @@ if __name__ == "__main__":
     html_body = html_body.replace("\n", "")
 
     try:
-        yag = yagmail.SMTP(SENDER_EMAIL, APP_PASSWORD)
+        yag = yagmail.SMTP(SENDER_EMAIL, EMAIL_APP_PASSWORD)
         yag.send(to=RECEIVER_EMAIL, subject=subject, contents=[html_body])
-        log(f"✅ Email sent with subject: {subject}")
+        log(f"✅ Email sent with subject: {subject}", EMAIL_LOG)
+        return True
     except Exception as e:
-        log(f"❌ Failed to send email: {str(e)}")
+        log(f"❌ Failed to send email: {str(e)}", EMAIL_LOG)
+        return False

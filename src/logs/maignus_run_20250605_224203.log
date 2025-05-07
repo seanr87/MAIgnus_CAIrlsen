@@ -1,0 +1,41 @@
+===== MAIgnus_CAIrlsen Started at Tue 05/06/2025 22:42:03.48 with parameters: [] ===== 
+[2025-05-06 22:42:05.961746] [ROCKET] Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-06 22:42:05.963155] [INBOX] Checking for new games on Chess.com...
+[2025-05-06 22:42:06.236488] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-06 22:42:06.237314] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-06 22:42:06.480994] Found 27 games in latest archive
+[2025-05-06 22:42:06.481359] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-06 22:42:06.481671] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-06 22:42:06.481956] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-06 22:42:06.482538] No seen games file found at C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json, starting fresh
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 22, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\\maignus_bot.py", line 79, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\\maignus_bot.py", line 40, in main
+    new_games = fetch_and_save_pgns()
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\chess_api.py", line 116, in fetch_and_save_pgns
+    log(f"\u2705 Saved new game: {file_path}", MAIN_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 39, in log
+    print(safe_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+Running MAIgnus_CAIrlsen chess analysis bot... 
+'""' is not recognized as an internal or external command,
+operable program or batch file.
+===== MAIgnus_CAIrlsen Completed at Tue 05/06/2025 22:42:06.65 ===== 

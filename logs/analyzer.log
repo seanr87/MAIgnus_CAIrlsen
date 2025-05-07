@@ -1,71 +1,30 @@
-[2025-03-16 23:47:47.446693] Starting game analysis...
-[2025-03-16 23:47:47.446693] Error during OpenAI API call: 
-
-You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
-
-You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
-
-Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
-
-A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
-
-[2025-03-16 23:47:47.447676] No feedback generated.
-[2025-03-16 23:50:28.270519] Starting game analysis...
-[2025-03-16 23:50:28.271557] Error during OpenAI API call: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
-[2025-03-16 23:50:28.274536] No feedback generated.
-[2025-03-16 23:52:17.758783] Starting game analysis...
-[2025-03-16 23:52:19.123954] Error during OpenAI API call: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
-[2025-03-16 23:52:19.125245] No feedback generated.
-[2025-03-16 23:57:43.519910] Starting game analysis...
-[2025-03-16 23:57:44.286090] Error during OpenAI API call: Error code: 404 - {'error': {'message': 'The model `gpt-4-turbo` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
-[2025-03-16 23:57:44.286987] No feedback generated.
-[2025-03-16 23:58:54.029055] Starting game analysis...
-[2025-03-16 23:58:56.457303] Error during OpenAI API call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[2025-03-16 23:58:56.457687] No feedback generated.
-[2025-03-17 00:00:04.406883] Starting game analysis...
-[2025-03-17 00:00:06.667780] Error during OpenAI API call: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
-[2025-03-17 00:00:06.669783] No feedback generated.
-[2025-03-17 00:05:53.391633] Starting game analysis...
-[2025-03-17 00:05:59.974730] ✅ Game analysis saved to ../reports\game_analysis.txt
-[2025-03-17 17:00:55.386928] Error during OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-**********************************************************************************************************************************************************gAXX. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
-[2025-03-17 22:57:35.277102] Error during OpenAI API call: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-**********************************************************************************************************************************************************gAXX. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
-[2025-04-07 23:54:13.315355] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn...
-[2025-04-07 23:54:22.699295] ✅ Game analysis saved to ../reports\game_analysis.txt
-[2025-04-07 23:58:46.096854] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
-[2025-04-07 23:59:03.068716] ✅ Game analysis saved to game_analysis.txt
-[2025-04-08 00:02:18.409107] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
-[2025-04-08 00:02:59.752011] ✅ Game analysis saved to game_analysis.txt
-[2025-04-08 00:13:44.507073] Starting game analysis for seanr87_bfaed28c366fa7921afa0d43b437cb66.pgn
-[2025-04-08 00:14:23.144281] ✅ Game analysis saved to game_analysis.txt
-[2025-04-08 00:37:26.380321] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 00:40:10.888370] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 00:42:11.115504] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 00:44:12.607997] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 00:49:15.630653] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 00:52:26.555668] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 08:28:02.627538] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-08 08:33:41.353189] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-22 18:07:16.095834] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-22 18:21:13.830184] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-23 17:01:24.992923] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-24 17:01:42.493989] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-25 17:01:23.724389] ✅ Enhanced GPT + Stockfish game analysis saved to game_analysis.txt
-[2025-04-27 12:01:08.443387] Stockfish error: [WinError 2] The system cannot find the file specified
-[2025-04-27 12:01:27.892401] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:11:52.804641] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:15:49.283071] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:26:43.535972] Stockfish error: [WinError 2] The system cannot find the file specified
-[2025-04-27 12:26:43.537105] OpenAI error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
-[2025-04-27 12:26:43.537730] OpenAI error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
-[2025-04-27 12:26:43.538539] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:28:21.892295] Stockfish error: [WinError 2] The system cannot find the file specified
-[2025-04-27 12:29:34.796106] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:32:22.933549] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:33:49.327288] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:38:58.991600] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:51:41.541960] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 12:59:14.739379] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 13:02:08.745887] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 13:21:26.355046] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 13:31:38.732730] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
-[2025-04-27 13:39:06.147185] ✅ Complete analysis (Stockfish + GPT) saved to game_analysis.txt
+[2025-05-06 22:43:13.267334] Starting comprehensive analysis...
+[2025-05-06 22:43:13.267869] Starting Stockfish analysis...
+[2025-05-06 22:43:17.608399] Stockfish analysis complete. Found 1 critical moments.
+[2025-05-06 22:43:17.609143] Requesting game narrative summary from GPT...
+[2025-05-06 22:43:27.670974] Game summary generation complete.
+[2025-05-06 22:43:27.671562] Requesting highlights and lowlights from GPT...
+[2025-05-06 22:43:36.762967] Highlights and lowlights generation complete.
+[2025-05-06 22:43:36.763606] Requesting coaching point from GPT...
+[2025-05-06 22:43:40.874204] Coaching point generation complete.
+[2025-05-06 22:43:40.874816] Analyzing critical moment: Move 28, black's Nd4 (CP loss: 12)
+[2025-05-06 22:43:47.779608] Critical moment analysis complete for move 28.
+[2025-05-06 22:43:47.781436] ✅ Complete modular analysis saved to game_analysis.txt
+[2025-05-06 22:43:47.782174] ✅ Critical moments data saved to critical_moments.json
+[2025-05-06 23:00:04.285442] Starting comprehensive analysis...
+[2025-05-06 23:00:04.286075] Starting Stockfish analysis...
+[2025-05-06 23:00:07.492002] Stockfish analysis complete. Found 3 critical moments.
+[2025-05-06 23:00:07.492981] Requesting game narrative summary from GPT...
+[2025-05-06 23:00:20.894838] Game summary generation complete.
+[2025-05-06 23:00:20.895304] Requesting highlights and lowlights from GPT...
+[2025-05-06 23:00:32.880070] Highlights and lowlights generation complete.
+[2025-05-06 23:00:32.880599] Requesting coaching point from GPT...
+[2025-05-06 23:00:40.722991] Coaching point generation complete.
+[2025-05-06 23:00:40.723520] Analyzing critical moment: Move 60, black's Kg7 (CP loss: 62)
+[2025-05-06 23:00:50.070186] Critical moment analysis complete for move 60.
+[2025-05-06 23:00:50.070762] Analyzing critical moment: Move 62, black's Kg8 (CP loss: 43)
+[2025-05-06 23:00:57.970210] Critical moment analysis complete for move 62.
+[2025-05-06 23:00:57.971243] Analyzing critical moment: Move 52, black's Kg7 (CP loss: 29)
+[2025-05-06 23:01:08.247945] Critical moment analysis complete for move 52.
+[2025-05-06 23:01:08.249694] ✅ Complete modular analysis saved to game_analysis.txt
+[2025-05-06 23:01:08.250028] ✅ Critical moments data saved to critical_moments.json

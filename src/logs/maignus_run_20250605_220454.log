@@ -1,0 +1,75 @@
+===== MAIgnus_CAIrlsen Started at Tue 05/06/2025 22:04:54.26 with parameters: [--force] ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+[2025-05-06 22:04:56.318389] [ROCKET] Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-06 22:04:56.318831] [INBOX] Checking for new games on Chess.com...
+[2025-05-06 22:04:56.746218] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-06 22:04:56.746534] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-06 22:04:56.746801] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-06 22:04:56.747076] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-06 22:04:56.747343] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-06 22:04:56.747615] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-06 22:04:56.747890] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-06 22:04:56.748157] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-06 22:04:56.748420] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-06 22:04:56.748685] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-06 22:04:56.749074] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-06 22:04:56.749397] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-06 22:04:56.749700] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-06 22:04:56.750033] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-06 22:04:56.750362] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-06 22:04:56.750638] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-06 22:04:56.750880] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-06 22:04:56.751111] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-06 22:04:56.751332] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-06 22:04:56.751553] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-06 22:04:56.751791] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-06 22:04:56.752023] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-06 22:04:56.752265] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-06 22:04:56.752492] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-06 22:04:56.752713] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-06 22:04:56.752949] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-06 22:04:56.753598] No new games found, but --force flag provided. Proceeding with analysis of latest game.
+[2025-05-06 22:04:56.762882] [BRAIN] Generating modular game analysis...
+[2025-05-06 22:04:56.763233] Starting comprehensive analysis...
+[2025-05-06 22:04:56.763488] Starting Stockfish analysis...
+[2025-05-06 22:05:04.584210] Stockfish analysis complete. Found 3 critical moments.
+[2025-05-06 22:05:04.584803] Requesting game narrative summary from GPT...
+[2025-05-06 22:05:13.869909] Game summary generation complete.
+[2025-05-06 22:05:13.870324] Requesting highlights and lowlights from GPT...
+[2025-05-06 22:05:24.928194] Highlights and lowlights generation complete.
+[2025-05-06 22:05:24.928748] Requesting coaching point from GPT...
+[2025-05-06 22:05:31.017848] Coaching point generation complete.
+[2025-05-06 22:05:31.018348] Analyzing critical moment: Move 89, white's h6 (CP loss: 68)
+[2025-05-06 22:05:39.680561] Critical moment analysis complete for move 89.
+[2025-05-06 22:05:39.681076] Analyzing critical moment: Move 46, black's fxe6 (CP loss: 38)
+[2025-05-06 22:05:47.380444] Critical moment analysis complete for move 46.
+[2025-05-06 22:05:47.380909] Analyzing critical moment: Move 63, white's Rf3+ (CP loss: 36)
+[2025-05-06 22:05:56.190092] Critical moment analysis complete for move 63.
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 22, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\\maignus_bot.py", line 79, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\\maignus_bot.py", line 61, in main
+    analysis_success = generate_game_analysis(game, pgn_text, player_info, metadata_dict)
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\modular_analyzer.py", line 418, in generate_game_analysis
+    log("\u2705 Complete modular analysis saved to game_analysis.txt", ANALYZER_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 39, in log
+    print(safe_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+===== MAIgnus_CAIrlsen Completed at Tue 05/06/2025 22:05:56.33 ===== 

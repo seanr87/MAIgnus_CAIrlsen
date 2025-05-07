@@ -1,0 +1,35 @@
+===== MAIgnus_CAIrlsen Started at Fri 05/02/2025 17:30:52.39  ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+[2025-05-02 17:30:55.274880] [ROCKET] Starting MAIgnus_CAIrlsen full workflow...
+[2025-05-02 17:30:55.276475] [INBOX] Checking for new games on Chess.com...
+[2025-05-02 17:30:55.864090] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_7357bab97bd87f9bf885e251ee240909.pgn
+[2025-05-02 17:30:55.864385] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_364feb0118d70902eea2153f3d794c93.pgn
+[2025-05-02 17:30:55.864609] Already exists: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_85e366d4e7091f520f6d5e610ea66393.pgn
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 22, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 69, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 40, in main
+    new_games = fetch_and_save_pgns()
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\chess_api.py", line 85, in fetch_and_save_pgns
+    log(f"\u2705 Saved: {file_path}", MAIN_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 39, in log
+    print(safe_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+===== MAIgnus_CAIrlsen Completed at Fri 05/02/2025 17:30:56.03 ===== 

@@ -33,8 +33,10 @@ FAILURES_LOG = os.path.join(LOGS_DIR, "send_failures.log")
 # Analysis configuration
 STOCKFISH_PATH = os.getenv("STOCKFISH_PATH", "stockfish")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+GPT_MODEL = os.getenv("GPT_MODEL", "gpt-4")
 
 # Email configuration
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
 RECEIVER_EMAIL = os.getenv("RECEIVER_EMAIL")
+

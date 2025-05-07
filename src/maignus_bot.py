@@ -3,7 +3,7 @@ Main execution script for MAIgnus_CAIrlsen chess analysis bot.
 
 This script orchestrates the full workflow:
 1. Fetch new PGN files from Chess.com
-2. Analyze the latest game using both Stockfish and GPT
+2. Analyze the latest game using modular GPT analysis
 3. Send an email with the analysis
 
 Usage:
@@ -13,14 +13,14 @@ Usage:
 import os
 import sys
 from config import MAIN_LOG
-from utils import log
+from utils import log, get_latest_pgn_path, load_pgn_game, extract_player_info, extract_game_metadata
 from chess_api import fetch_and_save_pgns
-from analyzer import generate_game_analysis
+from modular_analyzer import generate_game_analysis
 from email_sender import send_analysis_email
 
 def main():
     """
-    Execute the full MAIgnus_CAIrlsen workflow.
+    Execute the full MAIgnus_CAIrlsen workflow with modular GPT analysis.
     
     The function performs the following steps:
     1. Fetch new games from Chess.com API
@@ -33,7 +33,7 @@ def main():
     # Check for command line arguments
     force_analysis = "--force" in sys.argv
     
-    log("🚀 Starting MAIgnus_CAIrlsen full workflow...", MAIN_LOG)
+    log("🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...", MAIN_LOG)
 
     # Step 1: Fetch new games from Chess.com
     log("📥 Checking for new games on Chess.com...", MAIN_LOG)
@@ -46,15 +46,25 @@ def main():
     if not new_games and force_analysis:
         log("No new games found, but --force flag provided. Proceeding with analysis of latest game.", MAIN_LOG)
     
-    # Step 2: Generate game analysis (Stockfish + GPT)
-    log("🧠 Generating game analysis...", MAIN_LOG)
-    analysis_success = generate_game_analysis()
+    # Step 2: Load the latest game
+    pgn_path = get_latest_pgn_path()
+    if not pgn_path:
+        log("No PGN files found.", MAIN_LOG)
+        return False
+        
+    game, pgn_text = load_pgn_game(pgn_path)
+    player_info = extract_player_info(game)
+    metadata_dict = extract_game_metadata(game)
+    
+    # Step 3: Generate modular game analysis
+    log("🧠 Generating modular game analysis...", MAIN_LOG)
+    analysis_success = generate_game_analysis(game, pgn_text, player_info, metadata_dict)
     
     if not analysis_success:
         log("❌ Failed to generate game analysis.", MAIN_LOG)
         return False
     
-    # Step 3: Send email with analysis
+    # Step 4: Send email with analysis
     log("📧 Sending analysis email...", MAIN_LOG)
     email_success = send_analysis_email()
     

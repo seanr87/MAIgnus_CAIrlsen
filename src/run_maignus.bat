@@ -16,15 +16,15 @@ set logfile=logs\maignus_run_%timestamp%.log
 set FORCE_PARAM=
 if "%1"=="--force" set FORCE_PARAM=--force
 
-:: Log start time
-echo ===== MAIgnus_CAIrlsen Started at %date% %time% %FORCE_PARAM% ===== > "%logfile%"
+:: Log start time and parameters
+echo ===== MAIgnus_CAIrlsen Started at %date% %time% with parameters: [%FORCE_PARAM%] ===== > "%logfile%"
 
 :: Path to Python - using your specific Python path
-set PYTHON_PATH=C:\Users\seanr\AppData\Local\Programs\Python\Python313\python.exe
+python "%~dp0\maignus_bot.py" %FORCE_PARAM% >> "%logfile%" 2>&1
 
 :: Run the script and log output
 echo Running MAIgnus_CAIrlsen chess analysis bot... >> "%logfile%"
-"%PYTHON_PATH%" maignus_bot.py %FORCE_PARAM% >> "%logfile%" 2>&1
+python maignus_bot.py %FORCE_PARAM% >> "%logfile%" 2>&1
 
 :: Log completion
 echo ===== MAIgnus_CAIrlsen Completed at %date% %time% ===== >> "%logfile%"

@@ -1,0 +1,9 @@
+===== MAIgnus_CAIrlsen Started at Tue 05/06/2025  9:00:52.69  ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 19, in <module>
+    from email_sender import send_analysis_email
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\email_sender.py", line 12, in <module>
+    from yagmail.inline import InlineImage
+ModuleNotFoundError: No module named 'yagmail.inline'
+===== MAIgnus_CAIrlsen Completed at Tue 05/06/2025  9:00:54.99 ===== 

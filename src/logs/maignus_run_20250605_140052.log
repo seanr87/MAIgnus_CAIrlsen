@@ -1,0 +1,53 @@
+===== MAIgnus_CAIrlsen Started at Tue 05/06/2025 14:00:52.59  ===== 
+Running MAIgnus_CAIrlsen chess analysis bot... 
+[2025-05-06 14:00:54.589410] [ROCKET] Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-06 14:00:54.590607] [INBOX] Checking for new games on Chess.com...
+[2025-05-06 14:00:55.007200] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-06 14:00:55.007479] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-06 14:00:55.007799] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-06 14:00:55.008140] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-06 14:00:55.008570] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-06 14:00:55.008971] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-06 14:00:55.009357] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-06 14:00:55.009728] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-06 14:00:55.010121] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-06 14:00:55.010493] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-06 14:00:55.010909] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-06 14:00:55.011220] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-06 14:00:55.011575] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-06 14:00:55.011871] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-06 14:00:55.012150] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-06 14:00:55.012456] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-06 14:00:55.012781] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-06 14:00:55.013077] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-06 14:00:55.013352] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-06 14:00:55.013651] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-06 14:00:55.013973] Already analyzed: https://www.chess.com/game/live/138149022456
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 22, in log
+    print(full_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 79, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\maignus_bot.py", line 40, in main
+    new_games = fetch_and_save_pgns()
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\chess_api.py", line 100, in fetch_and_save_pgns
+    log(f"\u2705 Saved new game: {file_path}", MAIN_LOG)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\seanr\MAIgnus_CAIrlsen\src\utils.py", line 39, in log
+    print(safe_message)
+    ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\seanr\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 29: character maps to <undefined>
+===== MAIgnus_CAIrlsen Completed at Tue 05/06/2025 14:00:55.15 ===== 

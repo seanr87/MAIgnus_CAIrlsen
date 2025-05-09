@@ -1,31 +1,3 @@
 {
-  "critical_moments": [
-    {
-      "move_num": 60,
-      "player": "black",
-      "move": "Kg7",
-      "cp_loss": 62,
-      "fen": "8/5p2/6k1/1RP2p2/8/7P/KP2N1P1/7R b - - 0 30",
-      "analysis": "The problematic move in this critical moment was made by seanr87 with the move Kg7. While this move seems to be a defensive move, trying to protect the king, it allows White to push forward with their pawn to c6 on the next move, which threatens to promote to a queen. This significantly worsens Black's position as it puts them in a more precarious defensive posture and increases their vulnerability. The evaluation of the position increased from 917 to 979, signifying a significant advantage for White.\n\nA better alternative move for Black would have been ...Kf6, which could help in protecting the f5 pawn and prevent the immediate threat of pawn advancement. It could also enable the black king to be more active and central in the endgame, which is a key principle in such positions.\n\nThe key principle to recognize in similar positions is the importance of pawn structure and king activity in the endgame. When the number of pieces is reduced, the king becomes a powerful piece and should be used actively. Moreover, pawn structure and potential pawn promotion become critical factors that can determine the outcome of the game. In this instance, allowing White's pawn to advance unchallenged was detrimental to Black's position. Therefore, it's crucial to consider pawn advancement threats and king safety when planning moves in the endgame.",
-      "is_player_move": true
-    },
-    {
-      "move_num": 62,
-      "player": "black",
-      "move": "Kg8",
-      "cp_loss": 43,
-      "fen": "8/5pk1/2P5/1R3p2/8/7P/KP2N1P1/7R b - - 0 31",
-      "analysis": "In this critical moment, seanr87's move Kg8 is problematic because it disregards the imminent danger of white's passed pawn on c6. By moving the King to g8, seanr87 is moving away from the action and allows white to continue pushing the pawn, which is only two steps away from promotion.\n\nA better alternative move would have been Kf8. This move would keep the King closer to the center and in a better position to deal with the threatening c-pawn. Furthermore, Kf8 would also ensure the King is not too far from the f-pawn, which might become a target in the near future.\n\nThe key principle to remember in similar positions is the importance of king activity in the endgame. The king is a powerful piece in the endgame and should be used actively. This includes preventing enemy pawns from promoting and supporting your own pawns. Further, avoiding unnecessary pawn weaknesses and keeping the king safe from checks and threats is also pivotal. In this position, the king should be more centrally placed to achieve these goals.",
-      "is_player_move": true
-    },
-    {
-      "move_num": 52,
-      "player": "black",
-      "move": "Kg7",
-      "cp_loss": 29,
-      "fen": "8/R4p1k/8/1p3p2/8/7P/KPP1N1P1/7R b - - 0 26",
-      "analysis": "At move 52, seanr87's move of Kg7 was problematic due to a couple of reasons. Firstly, this move failed to address the imminent threat of the white rook on a7 which is all set to capture the pawn on f7, thereby increasing White's material advantage. Secondly, this move left the pawn on b5 undefended, which could potentially be picked up by White's rook on the next move. \n\nA better alternative move for Black would have been Kg6, which would have defended the f7 pawn and also potentially set up a counter-threat against White's rook on a7. Additionally, Black could have advanced the pawn on b5 to b4, providing it some protection and also creating some space for potential counter-play.\n\nIn similar positions, a key principle to recognize is the importance of pawn structure and the need to protect vulnerable pawns. When behind in material, it is essential to avoid losing more material and try to create opportunities for counter-play. Furthermore, keeping the king actively involved in the endgame can be a significant advantage. Always be aware of all potential threats and opportunities on the board before deciding on your move.",
-      "is_player_move": true
-    }
-  ]
+  "critical_moments": []
 }

@@ -242,3 +242,1965 @@
 [2025-05-06 23:00:04.284993] 🧠 Generating modular game analysis...
 [2025-05-06 23:01:08.250335] 📧 Sending analysis email...
 [2025-05-06 23:01:13.620449] ✅ Full workflow completed successfully!
+[2025-05-06 23:30:04.765722] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-06 23:30:04.766265] 📥 Checking for new games on Chess.com...
+[2025-05-06 23:30:05.051354] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-06 23:30:05.052228] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-06 23:30:05.324644] Found 29 games in latest archive
+[2025-05-06 23:30:05.325101] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-06 23:30:05.325494] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-06 23:30:05.325796] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-06 23:30:05.338907] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-06 23:30:05.339272] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-06 23:30:05.339605] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-06 23:30:05.339923] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-06 23:30:05.340229] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-06 23:30:05.340521] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-06 23:30:05.340814] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-06 23:30:05.341111] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-06 23:30:05.341400] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-06 23:30:05.341689] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-06 23:30:05.342004] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-06 23:30:05.342297] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-06 23:30:05.342589] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-06 23:30:05.342881] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-06 23:30:05.343175] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-06 23:30:05.343463] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-06 23:30:05.343754] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-06 23:30:05.344044] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-06 23:30:05.344337] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-06 23:30:05.344635] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-06 23:30:05.344928] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-06 23:30:05.345256] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-06 23:30:05.345622] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-06 23:30:05.346579] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-06 23:30:05.346875] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-06 23:30:05.347191] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-06 23:30:05.347504] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-06 23:30:05.347885] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-06 23:30:05.348214] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-06 23:30:05.348529] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-06 23:30:05.349374] No new games found to analyze. Workflow terminated.
+[2025-05-07 00:00:04.460901] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 00:00:04.461391] 📥 Checking for new games on Chess.com...
+[2025-05-07 00:00:04.811529] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 00:00:04.812489] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 00:00:05.187153] Found 29 games in latest archive
+[2025-05-07 00:00:05.187658] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 00:00:05.187931] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 00:00:05.188188] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 00:00:05.188882] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 00:00:05.189119] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 00:00:05.189364] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 00:00:05.189938] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 00:00:05.192944] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 00:00:05.193266] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 00:00:05.193533] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 00:00:05.193814] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 00:00:05.194163] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 00:00:05.194702] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 00:00:05.195132] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 00:00:05.195427] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 00:00:05.195806] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 00:00:05.196113] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 00:00:05.196426] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 00:00:05.196750] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 00:00:05.197074] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 00:00:05.197382] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 00:00:05.197667] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 00:00:05.197961] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 00:00:05.198241] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 00:00:05.198534] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 00:00:05.198839] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 00:00:05.199119] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 00:00:05.199445] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 00:00:05.199746] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 00:00:05.200004] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 00:00:05.200307] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 00:00:05.200590] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 00:00:05.200851] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 00:00:05.201661] No new games found to analyze. Workflow terminated.
+[2025-05-07 00:30:04.383317] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 00:30:04.385462] 📥 Checking for new games on Chess.com...
+[2025-05-07 00:30:04.684273] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 00:30:04.685093] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 00:30:04.924270] Found 29 games in latest archive
+[2025-05-07 00:30:04.924804] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 00:30:04.925202] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 00:30:04.925504] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 00:30:04.938236] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 00:30:04.938609] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 00:30:04.938946] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 00:30:04.939265] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 00:30:04.939558] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 00:30:04.939854] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 00:30:04.940152] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 00:30:04.940446] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 00:30:04.940736] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 00:30:04.941028] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 00:30:04.941362] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 00:30:04.941656] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 00:30:04.942099] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 00:30:04.942403] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 00:30:04.942697] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 00:30:04.942989] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 00:30:04.943301] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 00:30:04.943599] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 00:30:04.943892] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 00:30:04.944183] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 00:30:04.944480] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 00:30:04.944797] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 00:30:04.945143] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 00:30:04.945729] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 00:30:04.946039] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 00:30:04.946358] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 00:30:04.946673] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 00:30:04.946986] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 00:30:04.947331] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 00:30:04.947650] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 00:30:04.948461] No new games found to analyze. Workflow terminated.
+[2025-05-07 09:06:46.219545] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 09:06:46.224212] 📥 Checking for new games on Chess.com...
+[2025-05-07 09:06:46.785627] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 09:06:46.829334] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 09:06:47.256788] Found 29 games in latest archive
+[2025-05-07 09:06:47.257308] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 09:06:47.257826] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 09:06:47.258159] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 09:06:47.271932] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 09:06:47.272374] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 09:06:47.272739] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 09:06:47.273107] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 09:06:47.273400] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 09:06:47.273652] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 09:06:47.273898] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 09:06:47.274145] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 09:06:47.274411] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 09:06:47.274648] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 09:06:47.274891] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 09:06:47.275137] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 09:06:47.275377] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 09:06:47.275620] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 09:06:47.275861] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 09:06:47.276140] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 09:06:47.276599] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 09:06:47.276922] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 09:06:47.277248] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 09:06:47.277507] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 09:06:47.277750] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 09:06:47.277991] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 09:06:47.279050] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 09:06:47.279388] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 09:06:47.279697] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 09:06:47.280026] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 09:06:47.280277] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 09:06:47.280534] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 09:06:47.280834] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 09:06:47.281132] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 09:06:47.282201] No new games found to analyze. Workflow terminated.
+[2025-05-07 09:30:06.272891] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 09:30:06.275554] 📥 Checking for new games on Chess.com...
+[2025-05-07 09:30:06.727040] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 09:30:06.769240] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 09:30:07.022766] Found 29 games in latest archive
+[2025-05-07 09:30:07.023237] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 09:30:07.023481] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 09:30:07.023745] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 09:30:07.102703] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 09:30:07.103341] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 09:30:07.103617] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 09:30:07.103940] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 09:30:07.104163] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 09:30:07.104405] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 09:30:07.104619] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 09:30:07.104825] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 09:30:07.105033] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 09:30:07.105238] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 09:30:07.105447] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 09:30:07.105651] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 09:30:07.105855] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 09:30:07.106061] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 09:30:07.106268] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 09:30:07.106473] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 09:30:07.106685] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 09:30:07.106935] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 09:30:07.107143] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 09:30:07.107348] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 09:30:07.107552] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 09:30:07.107777] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 09:30:07.108074] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 09:30:07.108311] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 09:30:07.108566] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 09:30:07.108810] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 09:30:07.109059] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 09:30:07.109307] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 09:30:07.109537] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 09:30:07.109776] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 09:30:07.110503] No new games found to analyze. Workflow terminated.
+[2025-05-07 10:00:04.486197] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 10:00:04.488205] 📥 Checking for new games on Chess.com...
+[2025-05-07 10:00:04.718059] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 10:00:04.719009] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 10:00:04.887521] Found 29 games in latest archive
+[2025-05-07 10:00:04.887968] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 10:00:04.888240] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 10:00:04.888489] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 10:00:04.904451] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 10:00:04.904864] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 10:00:04.905146] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 10:00:04.905398] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 10:00:04.905604] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 10:00:04.905809] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 10:00:04.906043] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 10:00:04.906249] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 10:00:04.906454] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 10:00:04.906657] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 10:00:04.906885] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 10:00:04.907090] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 10:00:04.907291] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 10:00:04.907490] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 10:00:04.907693] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 10:00:04.907895] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 10:00:04.908096] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 10:00:04.908298] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 10:00:04.908498] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 10:00:04.908699] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 10:00:04.908901] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 10:00:04.909106] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 10:00:04.909381] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 10:00:04.909614] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 10:00:04.909851] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 10:00:04.910099] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 10:00:04.910356] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 10:00:04.910597] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 10:00:04.910827] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 10:00:04.911055] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 10:00:04.911657] No new games found to analyze. Workflow terminated.
+[2025-05-07 10:30:04.593699] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 10:30:04.595475] 📥 Checking for new games on Chess.com...
+[2025-05-07 10:30:04.913235] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 10:30:04.914455] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 10:30:05.296829] Found 29 games in latest archive
+[2025-05-07 10:30:05.297282] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 10:30:05.297575] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 10:30:05.297885] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 10:30:05.315238] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 10:30:05.315597] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 10:30:05.315858] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 10:30:05.316093] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 10:30:05.316317] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 10:30:05.316541] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 10:30:05.316787] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 10:30:05.317029] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 10:30:05.317255] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 10:30:05.317477] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 10:30:05.317700] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 10:30:05.317922] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 10:30:05.318139] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 10:30:05.318353] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 10:30:05.318585] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 10:30:05.318900] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 10:30:05.319214] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 10:30:05.319480] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 10:30:05.319718] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 10:30:05.319961] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 10:30:05.320183] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 10:30:05.320400] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 10:30:05.320653] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 10:30:05.320915] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 10:30:05.321154] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 10:30:05.321489] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 10:30:05.321729] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 10:30:05.321969] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 10:30:05.322259] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 10:30:05.322532] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 10:30:05.323320] No new games found to analyze. Workflow terminated.
+[2025-05-07 11:00:04.429699] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 11:00:04.431104] 📥 Checking for new games on Chess.com...
+[2025-05-07 11:00:04.744391] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 11:00:04.745215] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 11:00:05.022158] Found 29 games in latest archive
+[2025-05-07 11:00:05.022647] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 11:00:05.023007] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 11:00:05.023315] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 11:00:05.038292] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 11:00:05.038808] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 11:00:05.039188] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 11:00:05.039577] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 11:00:05.039941] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 11:00:05.040505] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 11:00:05.041031] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 11:00:05.041435] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 11:00:05.041889] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 11:00:05.042274] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 11:00:05.042683] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 11:00:05.043082] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 11:00:05.043498] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 11:00:05.043935] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 11:00:05.044341] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 11:00:05.044737] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 11:00:05.045144] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 11:00:05.045453] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 11:00:05.045755] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 11:00:05.046053] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 11:00:05.046341] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 11:00:05.046636] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 11:00:05.047000] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 11:00:05.047247] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 11:00:05.047488] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 11:00:05.047722] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 11:00:05.047973] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 11:00:05.048222] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 11:00:05.048467] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 11:00:05.048730] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 11:00:05.049381] No new games found to analyze. Workflow terminated.
+[2025-05-07 19:15:04.050078] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 19:15:04.053245] 📥 Checking for new games on Chess.com...
+[2025-05-07 19:15:04.810090] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 19:15:04.811296] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 19:15:05.416737] Found 30 games in latest archive
+[2025-05-07 19:15:05.417552] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 19:15:05.418041] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 19:15:05.418399] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 19:15:05.433906] Loaded 29 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 19:15:05.434304] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 19:15:05.434652] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 19:15:05.434963] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 19:15:05.435313] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 19:15:05.435600] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 19:15:05.435835] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 19:15:05.436083] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 19:15:05.436340] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 19:15:05.436592] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 19:15:05.436839] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 19:15:05.437125] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 19:15:05.437535] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 19:15:05.437817] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 19:15:05.438177] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 19:15:05.438511] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 19:15:05.438797] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 19:15:05.439075] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 19:15:05.439346] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 19:15:05.439786] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 19:15:05.440098] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 19:15:05.440364] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 19:15:05.440673] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 19:15:05.441031] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 19:15:05.441317] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 19:15:05.441624] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 19:15:05.441902] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 19:15:05.442190] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 19:15:05.442457] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 19:15:05.442713] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 19:15:05.443692] ✅ Saved new game: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_138205269378.pgn
+[2025-05-07 19:15:05.459382] 🧠 Generating modular game analysis...
+[2025-05-07 19:15:35.519814] 📧 Sending analysis email...
+                                                                        [2025-05-07 20:00:10.879267] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 20:00:10.881828] 📥 Checking for new games on Chess.com...
+[2025-05-07 20:00:11.241240] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 20:00:11.242636] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 20:00:11.633861] Found 31 games in latest archive
+[2025-05-07 20:00:11.634790] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 20:00:11.635358] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 20:00:11.635746] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 20:00:11.659955] Loaded 30 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 20:00:11.660503] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 20:00:11.660834] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 20:00:11.661155] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 20:00:11.661423] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 20:00:11.661648] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 20:00:11.661904] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 20:00:11.662142] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 20:00:11.662401] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 20:00:11.662633] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 20:00:11.662855] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 20:00:11.663169] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 20:00:11.663395] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 20:00:11.663631] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 20:00:11.663856] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 20:00:11.664084] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 20:00:11.664310] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 20:00:11.664537] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 20:00:11.664757] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 20:00:11.665035] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 20:00:11.665263] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 20:00:11.665480] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 20:00:11.665715] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 20:00:11.665953] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 20:00:11.666178] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 20:00:11.666398] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 20:00:11.666618] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 20:00:11.666835] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 20:00:11.667139] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 20:00:11.667423] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 20:00:11.667695] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 20:00:11.669299] ✅ Saved new game: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_138219169220.pgn
+[2025-05-07 20:00:11.696371] 🧠 Generating modular game analysis...
+[2025-05-07 20:00:43.455030] 📧 Sending analysis email...
+[2025-05-07 20:00:49.321780] ✅ Full workflow completed successfully!
+[2025-05-07 20:30:08.144588] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 20:30:08.147368] 📥 Checking for new games on Chess.com...
+[2025-05-07 20:30:08.440635] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 20:30:08.442486] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 20:30:08.673592] Found 31 games in latest archive
+[2025-05-07 20:30:08.675344] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 20:30:08.676005] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 20:30:08.677005] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 20:30:08.712617] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 20:30:08.713377] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 20:30:08.713761] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 20:30:08.714116] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 20:30:08.714387] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 20:30:08.714621] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 20:30:08.714835] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 20:30:08.715134] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 20:30:08.715387] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 20:30:08.715670] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 20:30:08.715919] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 20:30:08.716197] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 20:30:08.716832] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 20:30:08.717158] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 20:30:08.717476] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 20:30:08.717748] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 20:30:08.717987] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 20:30:08.718208] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 20:30:08.718491] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 20:30:08.718751] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 20:30:08.719062] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 20:30:08.719323] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 20:30:08.720920] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 20:30:08.722136] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 20:30:08.722695] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 20:30:08.723100] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 20:30:08.723431] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 20:30:08.723748] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 20:30:08.724099] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 20:30:08.724401] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 20:30:08.724707] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 20:30:08.724985] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 20:30:08.726075] No new games found to analyze. Workflow terminated.
+[2025-05-07 21:00:12.675596] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 21:00:12.681181] 📥 Checking for new games on Chess.com...
+[2025-05-07 21:00:13.002104] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 21:00:13.003852] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 21:00:13.317768] Found 31 games in latest archive
+[2025-05-07 21:00:13.318353] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 21:00:13.318690] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 21:00:13.319028] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 21:00:13.346052] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 21:00:13.347199] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 21:00:13.347678] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 21:00:13.348011] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 21:00:13.348358] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 21:00:13.348619] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 21:00:13.349095] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 21:00:13.349405] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 21:00:13.349675] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 21:00:13.349921] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 21:00:13.350286] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 21:00:13.350577] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 21:00:13.350877] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 21:00:13.351116] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 21:00:13.351464] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 21:00:13.351874] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 21:00:13.352206] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 21:00:13.352489] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 21:00:13.352742] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 21:00:13.352969] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 21:00:13.353189] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 21:00:13.353487] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 21:00:13.353795] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 21:00:13.354044] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 21:00:13.354280] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 21:00:13.354507] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 21:00:13.354779] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 21:00:13.355045] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 21:00:13.355377] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 21:00:13.355629] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 21:00:13.355911] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 21:00:13.356169] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 21:00:13.357065] No new games found to analyze. Workflow terminated.
+[2025-05-07 21:30:07.136933] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 21:30:07.140069] 📥 Checking for new games on Chess.com...
+[2025-05-07 21:30:07.419586] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 21:30:07.421745] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 21:30:07.657330] Found 31 games in latest archive
+[2025-05-07 21:30:07.659021] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 21:30:07.659516] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 21:30:07.660005] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 21:30:07.697672] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 21:30:07.698820] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 21:30:07.699362] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 21:30:07.700071] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 21:30:07.700451] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 21:30:07.700866] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 21:30:07.701207] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 21:30:07.701534] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 21:30:07.701821] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 21:30:07.702069] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 21:30:07.702336] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 21:30:07.702654] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 21:30:07.702890] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 21:30:07.703179] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 21:30:07.703444] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 21:30:07.703683] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 21:30:07.703943] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 21:30:07.704210] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 21:30:07.704458] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 21:30:07.704736] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 21:30:07.705281] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 21:30:07.705602] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 21:30:07.705972] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 21:30:07.706369] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 21:30:07.706694] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 21:30:07.707087] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 21:30:07.707657] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 21:30:07.708172] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 21:30:07.708613] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 21:30:07.709295] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 21:30:07.709799] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 21:30:07.710174] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 21:30:07.711749] No new games found to analyze. Workflow terminated.
+[2025-05-07 22:00:14.019254] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 22:00:14.021028] 📥 Checking for new games on Chess.com...
+[2025-05-07 22:00:14.337672] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 22:00:14.341066] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 22:00:14.715613] Found 31 games in latest archive
+[2025-05-07 22:00:14.716512] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 22:00:14.716928] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 22:00:14.717310] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 22:00:14.760169] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 22:00:14.760927] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 22:00:14.761281] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 22:00:14.761608] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 22:00:14.761923] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 22:00:14.762198] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 22:00:14.764643] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 22:00:14.765768] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 22:00:14.766545] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 22:00:14.767007] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 22:00:14.767356] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 22:00:14.767732] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 22:00:14.768284] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 22:00:14.768730] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 22:00:14.769079] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 22:00:14.769459] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 22:00:14.769781] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 22:00:14.770072] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 22:00:14.770410] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 22:00:14.770734] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 22:00:14.771095] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 22:00:14.771399] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 22:00:14.771756] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 22:00:14.772466] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 22:00:14.772924] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 22:00:14.781554] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 22:00:14.784092] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 22:00:14.785215] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 22:00:14.786119] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 22:00:14.786990] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 22:00:14.787696] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 22:00:14.788220] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 22:00:14.789547] No new games found to analyze. Workflow terminated.
+[2025-05-07 22:30:06.036037] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 22:30:06.037758] 📥 Checking for new games on Chess.com...
+[2025-05-07 22:30:22.534344] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 22:30:22.536667] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 22:30:24.191359] Found 31 games in latest archive
+[2025-05-07 22:30:24.192789] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 22:30:24.193429] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 22:30:24.201316] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 22:30:24.364749] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 22:30:24.367585] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 22:30:24.370199] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 22:30:24.371715] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 22:30:24.372355] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 22:30:24.372733] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 22:30:24.373051] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 22:30:24.373336] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 22:30:24.374019] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 22:30:24.374309] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 22:30:24.374582] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 22:30:24.374854] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 22:30:24.375163] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 22:30:24.375430] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 22:30:24.375708] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 22:30:24.375990] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 22:30:24.376266] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 22:30:24.376539] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 22:30:24.376807] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 22:30:24.377064] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 22:30:24.377322] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 22:30:24.377580] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 22:30:24.377894] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 22:30:24.378177] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 22:30:24.378450] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 22:30:24.378768] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 22:30:24.379056] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 22:30:24.379348] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 22:30:24.379644] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 22:30:24.379917] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 22:30:24.380228] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 22:30:24.380528] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 22:30:24.382326] No new games found to analyze. Workflow terminated.
+[2025-05-07 23:00:05.159954] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 23:00:05.161617] 📥 Checking for new games on Chess.com...
+[2025-05-07 23:00:05.436375] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 23:00:05.461688] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 23:00:05.707299] Found 31 games in latest archive
+[2025-05-07 23:00:05.707767] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 23:00:05.708081] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 23:00:05.708347] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 23:00:05.784322] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 23:00:05.789706] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 23:00:05.794959] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 23:00:05.795528] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 23:00:05.796031] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 23:00:05.796371] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 23:00:05.796716] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 23:00:05.797079] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 23:00:05.797393] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 23:00:05.797742] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 23:00:05.798144] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 23:00:05.803732] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 23:00:05.809148] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 23:00:05.809588] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 23:00:05.809948] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 23:00:05.810221] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 23:00:05.810501] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 23:00:05.810732] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 23:00:05.810949] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 23:00:05.811214] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 23:00:05.811462] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 23:00:05.811714] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 23:00:05.818184] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 23:00:05.818782] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 23:00:05.819226] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 23:00:05.819561] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 23:00:05.819830] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 23:00:05.820104] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 23:00:05.820438] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 23:00:05.825891] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 23:00:05.835158] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 23:00:05.836682] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 23:00:05.837500] No new games found to analyze. Workflow terminated.
+[2025-05-07 23:30:04.764381] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-07 23:30:04.875635] 📥 Checking for new games on Chess.com...
+[2025-05-07 23:30:08.341208] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 23:30:08.341941] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-07 23:30:08.779659] Found 31 games in latest archive
+[2025-05-07 23:30:08.780107] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-07 23:30:08.780354] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-07 23:30:08.780581] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-07 23:30:08.797514] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-07 23:30:08.797938] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-07 23:30:08.798228] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-07 23:30:08.798453] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-07 23:30:08.798721] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-07 23:30:08.798955] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-07 23:30:08.799171] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-07 23:30:08.799382] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-07 23:30:08.799590] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-07 23:30:08.799808] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-07 23:30:08.800012] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-07 23:30:08.800217] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-07 23:30:08.800448] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-07 23:30:08.800682] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-07 23:30:08.801056] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-07 23:30:08.801314] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-07 23:30:08.801567] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-07 23:30:08.801808] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-07 23:30:08.802021] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-07 23:30:08.802234] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-07 23:30:08.802440] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-07 23:30:08.802646] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-07 23:30:08.802918] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-07 23:30:08.803157] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-07 23:30:08.803398] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-07 23:30:08.803621] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-07 23:30:08.803855] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-07 23:30:08.804107] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-07 23:30:08.804364] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-07 23:30:08.804597] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-07 23:30:08.804829] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-07 23:30:08.805057] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-07 23:30:08.806319] No new games found to analyze. Workflow terminated.
+[2025-05-08 00:00:04.166434] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 00:00:04.166898] 📥 Checking for new games on Chess.com...
+[2025-05-08 00:00:04.766881] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 00:00:04.767465] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 00:00:04.996794] Found 31 games in latest archive
+[2025-05-08 00:00:04.997253] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 00:00:04.997517] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 00:00:04.997739] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 00:00:05.011914] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 00:00:05.012270] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 00:00:05.012491] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 00:00:05.012710] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 00:00:05.012921] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 00:00:05.013129] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 00:00:05.013334] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 00:00:05.013540] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 00:00:05.013772] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 00:00:05.013981] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 00:00:05.014187] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 00:00:05.014393] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 00:00:05.014602] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 00:00:05.014806] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 00:00:05.015010] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 00:00:05.015215] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 00:00:05.015444] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 00:00:05.015662] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 00:00:05.015866] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 00:00:05.016071] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 00:00:05.016280] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 00:00:05.016487] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 00:00:05.016776] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 00:00:05.017015] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 00:00:05.017242] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 00:00:05.017464] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 00:00:05.017687] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 00:00:05.017910] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 00:00:05.018157] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 00:00:05.018413] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 00:00:05.018653] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 00:00:05.018873] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 00:00:05.019467] No new games found to analyze. Workflow terminated.
+[2025-05-08 00:30:04.136732] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 00:30:04.137235] 📥 Checking for new games on Chess.com...
+[2025-05-08 00:30:04.432168] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 00:30:04.432875] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 00:30:04.652294] Found 31 games in latest archive
+[2025-05-08 00:30:04.652792] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 00:30:04.653096] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 00:30:04.653371] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 00:30:04.669433] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 00:30:04.669780] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 00:30:04.670008] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 00:30:04.670236] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 00:30:04.670451] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 00:30:04.670689] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 00:30:04.670907] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 00:30:04.671117] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 00:30:04.671331] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 00:30:04.671540] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 00:30:04.671775] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 00:30:04.671985] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 00:30:04.672205] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 00:30:04.672415] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 00:30:04.672657] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 00:30:04.672936] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 00:30:04.673236] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 00:30:04.673496] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 00:30:04.673742] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 00:30:04.674006] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 00:30:04.674212] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 00:30:04.674416] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 00:30:04.674909] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 00:30:04.675160] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 00:30:04.675461] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 00:30:04.675728] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 00:30:04.676324] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 00:30:04.677096] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 00:30:04.677347] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 00:30:04.677584] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 00:30:04.677803] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 00:30:04.678021] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 00:30:04.678607] No new games found to analyze. Workflow terminated.
+[2025-05-08 01:00:04.140679] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 01:00:04.141198] 📥 Checking for new games on Chess.com...
+[2025-05-08 01:00:04.393637] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 01:00:04.394471] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 01:00:04.711880] Found 31 games in latest archive
+[2025-05-08 01:00:04.712297] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 01:00:04.712543] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 01:00:04.712800] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 01:00:04.728001] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 01:00:04.728583] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 01:00:04.728943] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 01:00:04.729203] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 01:00:04.729441] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 01:00:04.729659] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 01:00:04.729874] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 01:00:04.730092] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 01:00:04.730300] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 01:00:04.730508] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 01:00:04.730714] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 01:00:04.730919] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 01:00:04.731156] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 01:00:04.731363] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 01:00:04.731569] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 01:00:04.731774] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 01:00:04.731979] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 01:00:04.732190] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 01:00:04.732395] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 01:00:04.732601] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 01:00:04.732813] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 01:00:04.733049] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 01:00:04.733340] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 01:00:04.733564] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 01:00:04.733785] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 01:00:04.734003] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 01:00:04.734222] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 01:00:04.734437] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 01:00:04.734650] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 01:00:04.734863] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 01:00:04.735077] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 01:00:04.735289] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 01:00:04.735869] No new games found to analyze. Workflow terminated.
+[2025-05-08 01:30:04.023594] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 01:30:04.024172] 📥 Checking for new games on Chess.com...
+[2025-05-08 01:30:04.267651] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 01:30:04.268359] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 01:30:04.489336] Found 31 games in latest archive
+[2025-05-08 01:30:04.489777] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 01:30:04.490023] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 01:30:04.490259] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 01:30:04.505133] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 01:30:04.505507] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 01:30:04.505733] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 01:30:04.505960] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 01:30:04.506184] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 01:30:04.506397] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 01:30:04.506613] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 01:30:04.506826] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 01:30:04.507063] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 01:30:04.507281] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 01:30:04.507495] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 01:30:04.507711] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 01:30:04.507991] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 01:30:04.508307] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 01:30:04.508589] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 01:30:04.508835] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 01:30:04.509040] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 01:30:04.509242] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 01:30:04.509445] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 01:30:04.509645] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 01:30:04.509845] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 01:30:04.510045] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 01:30:04.510302] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 01:30:04.510518] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 01:30:04.510760] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 01:30:04.510983] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 01:30:04.511228] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 01:30:04.511461] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 01:30:04.511676] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 01:30:04.511892] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 01:30:04.512105] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 01:30:04.512318] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 01:30:04.512870] No new games found to analyze. Workflow terminated.
+[2025-05-08 02:00:04.045838] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 02:00:04.046364] 📥 Checking for new games on Chess.com...
+[2025-05-08 02:00:04.313677] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 02:00:04.314305] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 02:00:04.589132] Found 31 games in latest archive
+[2025-05-08 02:00:04.589680] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 02:00:04.590301] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 02:00:04.590626] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 02:00:04.604222] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 02:00:04.604940] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 02:00:04.605367] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 02:00:04.605704] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 02:00:04.606013] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 02:00:04.606327] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 02:00:04.606644] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 02:00:04.606989] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 02:00:04.607207] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 02:00:04.607504] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 02:00:04.607760] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 02:00:04.607983] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 02:00:04.608195] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 02:00:04.608406] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 02:00:04.608619] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 02:00:04.608828] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 02:00:04.609046] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 02:00:04.609269] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 02:00:04.609487] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 02:00:04.609697] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 02:00:04.609961] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 02:00:04.610254] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 02:00:04.610539] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 02:00:04.610776] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 02:00:04.611011] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 02:00:04.611261] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 02:00:04.611536] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 02:00:04.611786] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 02:00:04.612020] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 02:00:04.612256] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 02:00:04.612487] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 02:00:04.612717] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 02:00:04.613399] No new games found to analyze. Workflow terminated.
+[2025-05-08 02:30:04.053707] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 02:30:04.054249] 📥 Checking for new games on Chess.com...
+[2025-05-08 02:30:04.935640] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 02:30:04.936299] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 02:30:05.299029] Found 31 games in latest archive
+[2025-05-08 02:30:05.299469] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 02:30:05.299720] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 02:30:05.299947] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 02:30:05.314388] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 02:30:05.314749] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 02:30:05.314984] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 02:30:05.315211] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 02:30:05.315426] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 02:30:05.315637] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 02:30:05.315856] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 02:30:05.316093] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 02:30:05.316314] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 02:30:05.316524] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 02:30:05.316734] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 02:30:05.316944] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 02:30:05.317161] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 02:30:05.317377] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 02:30:05.317588] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 02:30:05.317809] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 02:30:05.318030] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 02:30:05.318346] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 02:30:05.318567] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 02:30:05.318901] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 02:30:05.319129] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 02:30:05.319358] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 02:30:05.319627] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 02:30:05.319884] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 02:30:05.320118] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 02:30:05.320357] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 02:30:05.320615] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 02:30:05.320861] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 02:30:05.321125] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 02:30:05.321392] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 02:30:05.321639] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 02:30:05.321892] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 02:30:05.322502] No new games found to analyze. Workflow terminated.
+[2025-05-08 03:00:04.045199] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 03:00:04.045687] 📥 Checking for new games on Chess.com...
+[2025-05-08 03:00:04.282440] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 03:00:04.283150] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 03:00:04.459580] Found 31 games in latest archive
+[2025-05-08 03:00:04.460028] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 03:00:04.460276] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 03:00:04.460497] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 03:00:04.474508] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 03:00:04.475064] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 03:00:04.475419] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 03:00:04.475732] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 03:00:04.476121] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 03:00:04.476367] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 03:00:04.476627] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 03:00:04.476840] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 03:00:04.477052] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 03:00:04.477389] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 03:00:04.477615] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 03:00:04.477970] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 03:00:04.478241] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 03:00:04.478531] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 03:00:04.478746] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 03:00:04.478952] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 03:00:04.479157] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 03:00:04.479360] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 03:00:04.479562] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 03:00:04.479764] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 03:00:04.479973] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 03:00:04.480164] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 03:00:04.480433] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 03:00:04.480661] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 03:00:04.480884] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 03:00:04.481116] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 03:00:04.481335] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 03:00:04.481557] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 03:00:04.481780] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 03:00:04.481997] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 03:00:04.482235] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 03:00:04.482478] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 03:00:04.483026] No new games found to analyze. Workflow terminated.
+[2025-05-08 03:30:04.071369] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 03:30:04.071828] 📥 Checking for new games on Chess.com...
+[2025-05-08 03:30:04.306924] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 03:30:04.307534] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 03:30:04.507073] Found 31 games in latest archive
+[2025-05-08 03:30:04.507434] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 03:30:04.507694] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 03:30:04.508001] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 03:30:04.524796] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 03:30:04.525145] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 03:30:04.525371] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 03:30:04.525587] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 03:30:04.525824] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 03:30:04.526037] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 03:30:04.526260] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 03:30:04.526600] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 03:30:04.526826] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 03:30:04.527039] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 03:30:04.527271] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 03:30:04.527485] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 03:30:04.527697] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 03:30:04.527907] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 03:30:04.528118] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 03:30:04.528407] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 03:30:04.528628] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 03:30:04.528846] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 03:30:04.529058] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 03:30:04.529300] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 03:30:04.529521] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 03:30:04.529735] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 03:30:04.530002] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 03:30:04.530247] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 03:30:04.530507] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 03:30:04.530755] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 03:30:04.531004] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 03:30:04.531252] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 03:30:04.531502] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 03:30:04.531738] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 03:30:04.531996] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 03:30:04.532250] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 03:30:04.532898] No new games found to analyze. Workflow terminated.
+[2025-05-08 04:00:03.653138] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 04:00:03.653632] 📥 Checking for new games on Chess.com...
+[2025-05-08 04:00:03.898101] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 04:00:03.898694] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 04:00:04.237530] Found 31 games in latest archive
+[2025-05-08 04:00:04.238370] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 04:00:04.238644] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 04:00:04.238867] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 04:00:04.252370] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 04:00:04.252759] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 04:00:04.253876] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 04:00:04.256156] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 04:00:04.256548] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 04:00:04.256779] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 04:00:04.256999] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 04:00:04.257214] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 04:00:04.257437] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 04:00:04.257650] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 04:00:04.257861] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 04:00:04.258072] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 04:00:04.258291] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 04:00:04.258610] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 04:00:04.258831] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 04:00:04.259043] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 04:00:04.259253] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 04:00:04.259463] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 04:00:04.259680] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 04:00:04.259891] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 04:00:04.260105] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 04:00:04.260340] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 04:00:04.260628] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 04:00:04.260877] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 04:00:04.261115] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 04:00:04.261349] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 04:00:04.261589] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 04:00:04.261823] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 04:00:04.262057] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 04:00:04.262289] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 04:00:04.262529] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 04:00:04.262778] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 04:00:04.263414] No new games found to analyze. Workflow terminated.
+[2025-05-08 04:30:03.994924] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 04:30:03.995424] 📥 Checking for new games on Chess.com...
+[2025-05-08 04:30:04.269671] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 04:30:04.270352] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 04:30:04.460229] Found 31 games in latest archive
+[2025-05-08 04:30:04.460661] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 04:30:04.460904] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 04:30:04.461124] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 04:30:04.475084] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 04:30:04.475442] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 04:30:04.475672] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 04:30:04.475891] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 04:30:04.476107] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 04:30:04.476338] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 04:30:04.476566] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 04:30:04.476781] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 04:30:04.477011] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 04:30:04.477221] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 04:30:04.477510] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 04:30:04.477751] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 04:30:04.478041] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 04:30:04.478319] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 04:30:04.478525] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 04:30:04.478742] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 04:30:04.478982] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 04:30:04.479189] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 04:30:04.479396] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 04:30:04.479672] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 04:30:04.479933] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 04:30:04.480189] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 04:30:04.480420] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 04:30:04.480640] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 04:30:04.480866] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 04:30:04.481086] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 04:30:04.481309] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 04:30:04.481529] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 04:30:04.481745] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 04:30:04.481957] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 04:30:04.482170] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 04:30:04.482383] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 04:30:04.482961] No new games found to analyze. Workflow terminated.
+[2025-05-08 05:00:04.065625] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 05:00:04.066089] 📥 Checking for new games on Chess.com...
+[2025-05-08 05:00:04.269426] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 05:00:04.270074] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 05:00:04.594114] Found 31 games in latest archive
+[2025-05-08 05:00:04.594547] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 05:00:04.594874] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 05:00:04.595110] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 05:00:04.609250] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 05:00:04.609604] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 05:00:04.609829] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 05:00:04.610047] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 05:00:04.610271] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 05:00:04.610487] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 05:00:04.610697] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 05:00:04.610909] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 05:00:04.611136] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 05:00:04.611365] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 05:00:04.611576] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 05:00:04.611796] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 05:00:04.612165] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 05:00:04.612389] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 05:00:04.612602] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 05:00:04.612847] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 05:00:04.613066] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 05:00:04.613295] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 05:00:04.613584] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 05:00:04.613840] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 05:00:04.614088] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 05:00:04.614291] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 05:00:04.614571] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 05:00:04.614807] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 05:00:04.615027] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 05:00:04.615252] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 05:00:04.615475] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 05:00:04.615698] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 05:00:04.616180] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 05:00:04.616479] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 05:00:04.616717] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 05:00:04.616938] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 05:00:04.617594] No new games found to analyze. Workflow terminated.
+[2025-05-08 05:30:03.952541] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 05:30:03.952973] 📥 Checking for new games on Chess.com...
+[2025-05-08 05:30:04.164372] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 05:30:04.164996] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 05:30:04.350542] Found 31 games in latest archive
+[2025-05-08 05:30:04.351012] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 05:30:04.351279] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 05:30:04.351504] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 05:30:04.366869] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 05:30:04.367230] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 05:30:04.367465] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 05:30:04.367702] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 05:30:04.367918] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 05:30:04.368141] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 05:30:04.368401] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 05:30:04.368742] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 05:30:04.368959] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 05:30:04.369194] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 05:30:04.369404] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 05:30:04.369636] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 05:30:04.369846] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 05:30:04.370063] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 05:30:04.370275] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 05:30:04.370484] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 05:30:04.370692] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 05:30:04.370926] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 05:30:04.371148] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 05:30:04.371357] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 05:30:04.371570] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 05:30:04.371786] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 05:30:04.372056] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 05:30:04.372294] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 05:30:04.372542] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 05:30:04.372798] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 05:30:04.373035] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 05:30:04.373278] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 05:30:04.373528] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 05:30:04.373758] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 05:30:04.374000] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 05:30:04.374341] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 05:30:04.374983] No new games found to analyze. Workflow terminated.
+[2025-05-08 06:00:03.993542] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 06:00:03.993972] 📥 Checking for new games on Chess.com...
+[2025-05-08 06:00:04.203760] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 06:00:04.204395] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 06:00:04.500886] Found 31 games in latest archive
+[2025-05-08 06:00:04.501380] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 06:00:04.501634] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 06:00:04.501890] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 06:00:04.514985] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 06:00:04.515383] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 06:00:04.515681] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 06:00:04.515922] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 06:00:04.516132] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 06:00:04.516339] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 06:00:04.516546] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 06:00:04.516752] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 06:00:04.516969] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 06:00:04.517238] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 06:00:04.517452] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 06:00:04.517661] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 06:00:04.517885] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 06:00:04.518091] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 06:00:04.518336] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 06:00:04.518541] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 06:00:04.518745] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 06:00:04.518950] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 06:00:04.519156] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 06:00:04.519360] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 06:00:04.519702] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 06:00:04.519928] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 06:00:04.520191] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 06:00:04.520473] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 06:00:04.520734] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 06:00:04.521046] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 06:00:04.521282] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 06:00:04.521535] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 06:00:04.521784] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 06:00:04.522018] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 06:00:04.522269] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 06:00:04.522524] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 06:00:04.523152] No new games found to analyze. Workflow terminated.
+[2025-05-08 06:30:04.045580] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 06:30:04.045992] 📥 Checking for new games on Chess.com...
+[2025-05-08 06:30:04.250101] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 06:30:04.250697] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 06:30:04.433040] Found 31 games in latest archive
+[2025-05-08 06:30:04.433454] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 06:30:04.433766] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 06:30:04.434035] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 06:30:04.449195] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 06:30:04.449574] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 06:30:04.449854] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 06:30:04.450161] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 06:30:04.450379] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 06:30:04.450646] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 06:30:04.450899] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 06:30:04.451125] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 06:30:04.451374] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 06:30:04.451602] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 06:30:04.451828] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 06:30:04.452038] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 06:30:04.452250] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 06:30:04.452458] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 06:30:04.452663] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 06:30:04.453121] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 06:30:04.453358] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 06:30:04.453594] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 06:30:04.453814] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 06:30:04.454035] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 06:30:04.454261] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 06:30:04.454535] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 06:30:04.454776] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 06:30:04.454995] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 06:30:04.455234] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 06:30:04.455452] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 06:30:04.455665] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 06:30:04.455908] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 06:30:04.456123] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 06:30:04.456341] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 06:30:04.456553] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 06:30:04.456766] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 06:30:04.458205] No new games found to analyze. Workflow terminated.
+[2025-05-08 07:00:04.332709] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 07:00:04.334673] 📥 Checking for new games on Chess.com...
+[2025-05-08 07:00:04.550241] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 07:00:04.550983] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 07:00:04.859338] Found 31 games in latest archive
+[2025-05-08 07:00:04.859805] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 07:00:04.860082] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 07:00:04.860304] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 07:00:04.874586] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 07:00:04.874963] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 07:00:04.875266] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 07:00:04.875555] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 07:00:04.875843] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 07:00:04.876174] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 07:00:04.876397] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 07:00:04.876615] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 07:00:04.876856] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 07:00:04.877071] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 07:00:04.877371] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 07:00:04.877595] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 07:00:04.877807] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 07:00:04.878018] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 07:00:04.878231] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 07:00:04.878448] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 07:00:04.878657] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 07:00:04.878868] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 07:00:04.879103] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 07:00:04.879321] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 07:00:04.879534] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 07:00:04.879747] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 07:00:04.880031] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 07:00:04.880278] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 07:00:04.880517] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 07:00:04.880764] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 07:00:04.881009] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 07:00:04.881245] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 07:00:04.881493] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 07:00:04.881730] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 07:00:04.881975] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 07:00:04.882212] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 07:00:04.882823] No new games found to analyze. Workflow terminated.
+[2025-05-08 07:30:04.537715] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 07:30:04.538706] 📥 Checking for new games on Chess.com...
+[2025-05-08 07:30:04.807122] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 07:30:04.808085] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 07:30:05.001577] Found 31 games in latest archive
+[2025-05-08 07:30:05.002024] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 07:30:05.002277] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 07:30:05.002545] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 07:30:05.020555] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 07:30:05.020904] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 07:30:05.021123] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 07:30:05.021334] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 07:30:05.021541] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 07:30:05.021748] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 07:30:05.021956] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 07:30:05.022162] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 07:30:05.022367] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 07:30:05.022584] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 07:30:05.022863] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 07:30:05.023087] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 07:30:05.023305] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 07:30:05.023512] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 07:30:05.023723] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 07:30:05.023928] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 07:30:05.024133] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 07:30:05.024337] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 07:30:05.024541] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 07:30:05.024751] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 07:30:05.024999] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 07:30:05.025209] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 07:30:05.025465] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 07:30:05.025692] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 07:30:05.025915] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 07:30:05.026130] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 07:30:05.026343] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 07:30:05.026562] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 07:30:05.026795] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 07:30:05.027066] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 07:30:05.027346] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 07:30:05.027624] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 07:30:05.028600] No new games found to analyze. Workflow terminated.
+[2025-05-08 08:00:04.474350] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 08:00:04.475475] 📥 Checking for new games on Chess.com...
+[2025-05-08 08:00:04.795598] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 08:00:04.796430] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 08:00:05.160515] Found 31 games in latest archive
+[2025-05-08 08:00:05.160949] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 08:00:05.161210] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 08:00:05.161435] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 08:00:05.177584] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 08:00:05.177947] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 08:00:05.178174] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 08:00:05.178392] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 08:00:05.178636] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 08:00:05.178851] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 08:00:05.179064] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 08:00:05.179276] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 08:00:05.179517] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 08:00:05.179782] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 08:00:05.180001] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 08:00:05.180214] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 08:00:05.180425] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 08:00:05.180661] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 08:00:05.180874] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 08:00:05.181085] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 08:00:05.181305] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 08:00:05.181516] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 08:00:05.181731] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 08:00:05.181942] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 08:00:05.182150] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 08:00:05.182358] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 08:00:05.182621] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 08:00:05.182855] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 08:00:05.183099] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 08:00:05.183368] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 08:00:05.183615] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 08:00:05.184046] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 08:00:05.184318] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 08:00:05.184586] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 08:00:05.184910] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 08:00:05.185181] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 08:00:05.185791] No new games found to analyze. Workflow terminated.
+[2025-05-08 08:30:04.382237] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 08:30:04.383900] 📥 Checking for new games on Chess.com...
+[2025-05-08 08:30:04.673663] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 08:30:04.674688] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 08:30:04.858744] Found 31 games in latest archive
+[2025-05-08 08:30:04.859245] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 08:30:04.859525] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 08:30:04.859767] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 08:30:04.875278] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 08:30:04.875624] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 08:30:04.875852] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 08:30:04.876077] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 08:30:04.876294] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 08:30:04.876499] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 08:30:04.876732] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 08:30:04.876934] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 08:30:04.877135] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 08:30:04.877336] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 08:30:04.877535] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 08:30:04.877734] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 08:30:04.877936] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 08:30:04.878134] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 08:30:04.878331] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 08:30:04.878562] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 08:30:04.878763] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 08:30:04.878962] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 08:30:04.879159] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 08:30:04.879380] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 08:30:04.879591] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 08:30:04.879789] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 08:30:04.880056] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 08:30:04.880279] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 08:30:04.880496] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 08:30:04.880709] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 08:30:04.880921] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 08:30:04.881132] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 08:30:04.881343] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 08:30:04.881556] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 08:30:04.881766] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 08:30:04.881978] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 08:30:04.882519] No new games found to analyze. Workflow terminated.
+[2025-05-08 09:00:04.590939] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 09:00:04.592581] 📥 Checking for new games on Chess.com...
+[2025-05-08 09:00:04.901653] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 09:00:04.902382] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 09:00:05.127740] Found 31 games in latest archive
+[2025-05-08 09:00:05.128218] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 09:00:05.128533] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 09:00:05.128805] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 09:00:05.143761] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 09:00:05.144157] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 09:00:05.144426] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 09:00:05.144647] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 09:00:05.144861] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 09:00:05.145072] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 09:00:05.145282] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 09:00:05.145509] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 09:00:05.145717] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 09:00:05.145924] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 09:00:05.146130] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 09:00:05.146340] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 09:00:05.146548] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 09:00:05.146756] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 09:00:05.146964] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 09:00:05.147169] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 09:00:05.147375] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 09:00:05.147590] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 09:00:05.147826] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 09:00:05.148040] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 09:00:05.148271] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 09:00:05.148484] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 09:00:05.148769] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 09:00:05.149004] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 09:00:05.149238] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 09:00:05.149504] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 09:00:05.149733] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 09:00:05.149988] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 09:00:05.150282] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 09:00:05.150542] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 09:00:05.150783] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 09:00:05.151026] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 09:00:05.151951] No new games found to analyze. Workflow terminated.
+[2025-05-08 09:30:04.527702] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 09:30:04.529072] 📥 Checking for new games on Chess.com...
+[2025-05-08 09:30:04.750457] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 09:30:04.751178] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 09:30:05.073437] Found 31 games in latest archive
+[2025-05-08 09:30:05.073920] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 09:30:05.074214] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 09:30:05.074464] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 09:30:05.090266] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 09:30:05.090633] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 09:30:05.090891] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 09:30:05.091111] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 09:30:05.091318] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 09:30:05.091532] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 09:30:05.091738] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 09:30:05.091942] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 09:30:05.092152] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 09:30:05.092354] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 09:30:05.092555] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 09:30:05.092757] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 09:30:05.092958] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 09:30:05.093159] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 09:30:05.093358] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 09:30:05.093557] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 09:30:05.093759] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 09:30:05.093959] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 09:30:05.094183] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 09:30:05.094385] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 09:30:05.094615] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 09:30:05.094841] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 09:30:05.095116] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 09:30:05.095342] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 09:30:05.095566] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 09:30:05.095787] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 09:30:05.096004] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 09:30:05.096218] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 09:30:05.096433] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 09:30:05.096854] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 09:30:05.097166] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 09:30:05.097534] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 09:30:05.098255] No new games found to analyze. Workflow terminated.
+[2025-05-08 10:00:06.416936] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 10:00:06.418668] 📥 Checking for new games on Chess.com...
+[2025-05-08 10:00:06.620512] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 10:00:06.621231] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 10:00:06.792520] Found 31 games in latest archive
+[2025-05-08 10:00:06.792965] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 10:00:06.793285] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 10:00:06.793566] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 10:00:06.808822] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 10:00:06.809207] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 10:00:06.809422] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 10:00:06.809631] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 10:00:06.809834] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 10:00:06.810034] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 10:00:06.810234] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 10:00:06.810431] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 10:00:06.810626] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 10:00:06.810821] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 10:00:06.811017] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 10:00:06.811210] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 10:00:06.811404] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 10:00:06.811598] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 10:00:06.811795] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 10:00:06.811991] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 10:00:06.812184] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 10:00:06.812377] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 10:00:06.812571] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 10:00:06.812767] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 10:00:06.812961] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 10:00:06.813179] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 10:00:06.813487] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 10:00:06.813777] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 10:00:06.814029] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 10:00:06.814235] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 10:00:06.814438] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 10:00:06.814639] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 10:00:06.814839] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 10:00:06.815039] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 10:00:06.815240] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 10:00:06.815437] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 10:00:06.815989] No new games found to analyze. Workflow terminated.
+[2025-05-08 10:30:04.154786] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 10:30:04.155260] 📥 Checking for new games on Chess.com...
+[2025-05-08 10:30:04.377518] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 10:30:04.378147] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 10:30:04.568890] Found 31 games in latest archive
+[2025-05-08 10:30:04.569348] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 10:30:04.569612] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 10:30:04.569839] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 10:30:04.582945] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 10:30:04.583326] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 10:30:04.583590] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 10:30:04.583820] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 10:30:04.584036] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 10:30:04.584422] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 10:30:04.584753] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 10:30:04.585018] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 10:30:04.585300] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 10:30:04.585583] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 10:30:04.585826] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 10:30:04.586139] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 10:30:04.586394] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 10:30:04.586626] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 10:30:04.586839] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 10:30:04.587049] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 10:30:04.587256] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 10:30:04.587463] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 10:30:04.587695] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 10:30:04.587904] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 10:30:04.588111] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 10:30:04.588318] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 10:30:04.588597] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 10:30:04.588831] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 10:30:04.589060] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 10:30:04.589318] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 10:30:04.589551] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 10:30:04.589779] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 10:30:04.590009] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 10:30:04.590236] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 10:30:04.590464] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 10:30:04.590693] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 10:30:04.591306] No new games found to analyze. Workflow terminated.
+[2025-05-08 11:00:04.011822] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 11:00:04.012552] 📥 Checking for new games on Chess.com...
+[2025-05-08 11:00:04.240720] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 11:00:04.241509] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 11:00:04.587196] Found 31 games in latest archive
+[2025-05-08 11:00:04.587637] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 11:00:04.588087] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 11:00:04.588436] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 11:00:04.602008] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 11:00:04.602420] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 11:00:04.602696] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 11:00:04.602938] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 11:00:04.603168] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 11:00:04.603409] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 11:00:04.603626] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 11:00:04.603833] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 11:00:04.604061] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 11:00:04.604269] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 11:00:04.604517] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 11:00:04.604723] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 11:00:04.604927] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 11:00:04.605131] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 11:00:04.605334] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 11:00:04.605536] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 11:00:04.605741] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 11:00:04.605943] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 11:00:04.606148] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 11:00:04.606350] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 11:00:04.606553] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 11:00:04.606756] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 11:00:04.607026] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 11:00:04.607256] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 11:00:04.607484] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 11:00:04.607717] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 11:00:04.607948] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 11:00:04.608174] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 11:00:04.608429] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 11:00:04.608675] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 11:00:04.608901] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 11:00:04.609126] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 11:00:04.609724] No new games found to analyze. Workflow terminated.
+[2025-05-08 11:30:04.042949] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 11:30:04.043428] 📥 Checking for new games on Chess.com...
+[2025-05-08 11:30:04.296931] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 11:30:04.298081] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 11:30:04.492542] Found 31 games in latest archive
+[2025-05-08 11:30:04.528786] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 11:30:04.529188] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 11:30:04.529472] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 11:30:04.555001] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 11:30:04.555388] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 11:30:04.555645] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 11:30:04.555958] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 11:30:04.556195] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 11:30:04.556424] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 11:30:04.556643] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 11:30:04.556887] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 11:30:04.557111] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 11:30:04.557341] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 11:30:04.557550] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 11:30:04.557758] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 11:30:04.557961] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 11:30:04.558157] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 11:30:04.558354] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 11:30:04.558549] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 11:30:04.558800] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 11:30:04.559057] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 11:30:04.559273] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 11:30:04.559473] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 11:30:04.559669] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 11:30:04.559865] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 11:30:04.560076] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 11:30:04.560342] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 11:30:04.560564] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 11:30:04.560791] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 11:30:04.560999] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 11:30:04.561203] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 11:30:04.561421] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 11:30:04.561620] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 11:30:04.561818] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 11:30:04.562070] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 11:30:04.562634] No new games found to analyze. Workflow terminated.
+[2025-05-08 12:00:04.414278] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 12:00:04.415760] 📥 Checking for new games on Chess.com...
+[2025-05-08 12:00:04.667393] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 12:00:04.668218] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 12:00:04.985875] Found 31 games in latest archive
+[2025-05-08 12:00:04.986423] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 12:00:04.986686] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 12:00:04.986919] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 12:00:05.001311] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 12:00:05.001734] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 12:00:05.001970] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 12:00:05.002189] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 12:00:05.002401] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 12:00:05.002868] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 12:00:05.003190] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 12:00:05.003475] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 12:00:05.003865] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 12:00:05.004170] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 12:00:05.004470] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 12:00:05.004770] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 12:00:05.005241] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 12:00:05.005484] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 12:00:05.005715] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 12:00:05.005929] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 12:00:05.006140] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 12:00:05.006352] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 12:00:05.006568] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 12:00:05.006776] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 12:00:05.006984] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 12:00:05.007192] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 12:00:05.007460] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 12:00:05.007712] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 12:00:05.007959] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 12:00:05.008216] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 12:00:05.008473] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 12:00:05.008718] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 12:00:05.008964] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 12:00:05.009198] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 12:00:05.009434] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 12:00:05.009682] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 12:00:05.010337] No new games found to analyze. Workflow terminated.
+[2025-05-08 20:14:31.102667] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 20:14:31.103912] 📥 Checking for new games on Chess.com...
+[2025-05-08 20:14:31.372271] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 20:14:31.373545] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 20:14:31.778859] Found 31 games in latest archive
+[2025-05-08 20:14:31.779360] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 20:14:31.780459] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 20:14:31.780803] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 20:14:31.795135] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 20:14:31.795529] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 20:14:31.795867] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 20:14:31.796129] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 20:14:31.796362] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 20:14:31.796593] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 20:14:31.796815] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 20:14:31.797074] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 20:14:31.797325] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 20:14:31.797605] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 20:14:31.797849] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 20:14:31.798153] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 20:14:31.798464] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 20:14:31.798714] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 20:14:31.798944] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 20:14:31.799187] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 20:14:31.799404] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 20:14:31.799621] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 20:14:31.799870] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 20:14:31.800106] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 20:14:31.800326] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 20:14:31.800549] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 20:14:31.800779] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 20:14:31.801004] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 20:14:31.801237] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 20:14:31.801480] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 20:14:31.801697] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 20:14:31.801962] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 20:14:31.802194] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 20:14:31.802428] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 20:14:31.802671] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 20:14:31.802889] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 20:14:31.803524] No new games found to analyze. Workflow terminated.
+[2025-05-08 20:30:07.703522] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 20:30:07.705439] 📥 Checking for new games on Chess.com...
+[2025-05-08 20:30:07.971973] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 20:30:07.973487] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 20:30:08.244314] Found 31 games in latest archive
+[2025-05-08 20:30:08.245339] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 20:30:08.249119] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 20:30:08.250196] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 20:30:08.286663] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 20:30:08.287392] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 20:30:08.287660] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 20:30:08.287883] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 20:30:08.288172] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 20:30:08.288401] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 20:30:08.288669] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 20:30:08.288898] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 20:30:08.289110] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 20:30:08.289326] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 20:30:08.289527] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 20:30:08.289751] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 20:30:08.289966] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 20:30:08.290168] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 20:30:08.290395] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 20:30:08.290606] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 20:30:08.290839] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 20:30:08.291061] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 20:30:08.291272] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 20:30:08.291488] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 20:30:08.291715] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 20:30:08.292121] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 20:30:08.292600] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 20:30:08.292935] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 20:30:08.293263] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 20:30:08.293535] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 20:30:08.293800] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 20:30:08.294089] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 20:30:08.294344] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 20:30:08.294608] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 20:30:08.294848] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 20:30:08.295090] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 20:30:08.296390] No new games found to analyze. Workflow terminated.
+[2025-05-08 21:00:07.234489] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 21:00:07.239849] 📥 Checking for new games on Chess.com...
+[2025-05-08 21:00:07.574486] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 21:00:07.575805] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 21:00:07.953547] Found 32 games in latest archive
+[2025-05-08 21:00:07.954390] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 21:00:07.954785] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 21:00:07.955073] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 21:00:07.996769] Loaded 31 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 21:00:07.997650] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 21:00:07.998043] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 21:00:07.998431] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 21:00:07.998832] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 21:00:07.999149] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 21:00:07.999428] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 21:00:07.999706] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 21:00:07.999935] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 21:00:08.000137] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 21:00:08.000458] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 21:00:08.000853] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 21:00:08.001190] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 21:00:08.001498] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 21:00:08.001822] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 21:00:08.002079] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 21:00:08.002307] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 21:00:08.002551] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 21:00:08.002784] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 21:00:08.003056] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 21:00:08.003284] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 21:00:08.003502] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 21:00:08.003848] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 21:00:08.004087] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 21:00:08.004302] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 21:00:08.004565] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 21:00:08.004799] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 21:00:08.005076] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 21:00:08.005300] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 21:00:08.005610] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 21:00:08.005910] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 21:00:08.006235] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 21:00:08.008626] ✅ Saved new game: C:\Users\seanr\MAIgnus_CAIrlsen\data\seanr87_138255646626.pgn
+[2025-05-08 21:00:08.046835] 🧠 Generating modular game analysis...
+[2025-05-08 21:00:35.144148] 📧 Sending analysis email...
+[2025-05-08 21:00:38.416540] ✅ Full workflow completed successfully!
+[2025-05-08 21:30:08.570187] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 21:30:08.572564] 📥 Checking for new games on Chess.com...
+[2025-05-08 21:30:08.881477] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 21:30:08.882584] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 21:30:09.139172] Found 32 games in latest archive
+[2025-05-08 21:30:09.140784] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 21:30:09.141125] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 21:30:09.141365] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 21:30:09.172008] Loaded 32 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 21:30:09.172646] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 21:30:09.172969] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 21:30:09.173215] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 21:30:09.173446] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 21:30:09.173658] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 21:30:09.173874] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 21:30:09.174104] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 21:30:09.174321] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 21:30:09.174525] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 21:30:09.174730] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 21:30:09.174959] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 21:30:09.175186] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 21:30:09.175411] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 21:30:09.175760] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 21:30:09.176060] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 21:30:09.176497] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 21:30:09.176775] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 21:30:09.177017] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 21:30:09.177253] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 21:30:09.183342] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 21:30:09.184141] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 21:30:09.184649] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 21:30:09.185130] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 21:30:09.185954] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 21:30:09.186282] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 21:30:09.186920] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 21:30:09.187354] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 21:30:09.187689] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 21:30:09.187947] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 21:30:09.188227] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 21:30:09.188546] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 21:30:09.188798] Already analyzed: https://www.chess.com/game/live/138255646626
+[2025-05-08 21:30:09.189730] No new games found to analyze. Workflow terminated.
+[2025-05-08 22:00:07.475187] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 22:00:07.478046] 📥 Checking for new games on Chess.com...
+[2025-05-08 22:00:07.782113] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 22:00:07.783759] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 22:00:08.064874] Found 32 games in latest archive
+[2025-05-08 22:00:08.065781] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 22:00:08.066232] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 22:00:08.066676] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 22:00:08.096559] Loaded 32 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 22:00:08.097713] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 22:00:08.098180] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 22:00:08.098564] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 22:00:08.098912] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 22:00:08.099306] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 22:00:08.099635] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 22:00:08.099948] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 22:00:08.100248] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 22:00:08.100528] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 22:00:08.100796] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 22:00:08.101247] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 22:00:08.101811] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 22:00:08.102068] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 22:00:08.102291] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 22:00:08.102622] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 22:00:08.103016] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 22:00:08.103328] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 22:00:08.103676] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 22:00:08.103982] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 22:00:08.104291] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 22:00:08.104597] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 22:00:08.104985] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 22:00:08.105592] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 22:00:08.105936] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 22:00:08.106217] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 22:00:08.106501] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 22:00:08.106779] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 22:00:08.107040] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 22:00:08.107312] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 22:00:08.107673] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 22:00:08.108008] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 22:00:08.108320] Already analyzed: https://www.chess.com/game/live/138255646626
+[2025-05-08 22:00:08.109186] No new games found to analyze. Workflow terminated.
+[2025-05-08 22:30:07.749481] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 22:30:07.752437] 📥 Checking for new games on Chess.com...
+[2025-05-08 22:30:08.023864] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 22:30:08.025602] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-08 22:30:08.413516] Found 32 games in latest archive
+[2025-05-08 22:30:08.414244] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-08 22:30:08.414675] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-08 22:30:08.415004] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-08 22:30:08.445145] Loaded 32 previously seen games from C:\Users\seanr\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-08 22:30:08.445901] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-08 22:30:08.446381] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-08 22:30:08.446809] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-08 22:30:08.447182] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-08 22:30:08.447536] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-08 22:30:08.447846] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-08 22:30:08.448196] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-08 22:30:08.448530] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-08 22:30:08.448920] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-08 22:30:08.449300] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-08 22:30:08.449640] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-08 22:30:08.449958] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-08 22:30:08.450243] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-08 22:30:08.450569] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-08 22:30:08.450865] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-08 22:30:08.451239] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-08 22:30:08.451552] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-08 22:30:08.451849] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-08 22:30:08.452138] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-08 22:30:08.452463] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-08 22:30:08.452756] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-08 22:30:08.453085] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-08 22:30:08.453382] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-08 22:30:08.453671] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-08 22:30:08.453954] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-08 22:30:08.454246] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-08 22:30:08.454543] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-08 22:30:08.454879] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-08 22:30:08.455194] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-08 22:30:08.455475] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-08 22:30:08.455769] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-08 22:30:08.456048] Already analyzed: https://www.chess.com/game/live/138255646626
+[2025-05-08 22:30:08.457173] No new games found to analyze. Workflow terminated.
+[2025-05-08 23:00:05.223378] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-08 23:00:05.223942] 📥 Checking for new games on Chess.com...

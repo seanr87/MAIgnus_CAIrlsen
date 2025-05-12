@@ -1,70 +1,91 @@
 
 ## Game Narrative Summary
-The game between seanr87 (White) and zzoggagosu (Black) was a quick encounter that ended with seanr87's victory after Black abandoned the game. The match opened with the Scandinavian Defense, Mieses-Kotrc Variation, a popular opening that sets the game up for tactical battles early on. Both players demonstrated a good understanding of the opening principles, developing their pieces and maintaining control of the center.
+In this game, seanr87, playing as Black, executed an excellent strategy against jimstacyray, the White player. The game started with a Reti Opening, a hypermodern chess opening that focuses on control of the center squares by pieces rather than pawns. White's strategy seemed to falter as the game progressed, with an average Centipawn Loss (CPL) of 5, indicating that their moves were, on average, equivalent to losing 0.05 of a pawn more than the optimal move suggested by a chess engine. This was significantly higher than Black's average CPL of 2, suggesting that seanr87 was making more optimal moves than their opponent.
 
-In the first few moves, seanr87 made effective use of his knights and bishop to control key squares and maintain a strong presence in the center of the board. On Black's side, zzoggagosu also moved his pieces harmoniously, placing his knights and bishops on ideal squares. However, a critical shift in the game occurred when seanr87 cleverly deployed his pawn to a3, attacking Black's bishop on b4. Black responded by reinforcing his knight position with 7...Nf6. Ignoring the threat to his bishop, zzoggagosu fell into a positional disadvantage which led to seanr87's pawn capturing the unguarded bishop on the next move. Shortly after this, Black decided to abandon the game, resulting in seanr87's victory.
+The game was largely uneventful in terms of blunders and mistakes, with both players avoiding any significant errors. However, White displayed a higher number of inaccuracies (4) compared to Black's single inaccuracy. These inaccuracies from White allowed seanr87 to gain an advantage as the game went on. 
 
-Despite the short duration of the game, both players demonstrated solid opening play and strategic planning. However, Black's oversight of the threat to his bishop turned the tide in favor of White, showing the importance of thorough position evaluation during every move in the game.
+As the game neared the middle and end stages, seanr87 began to assert his dominance. After the 15th move (Qd3), Black's Queen was able to infiltrate White's position by capturing a pawn on h2. This aggressive move led to a disruption in White's pawn structure and left their King exposed, increasing Black's advantage. Despite White's efforts to defend by doubling rooks on the g-file, Black was able to maintain control and further destabilize White's position with a decisive Queen infiltration at move 19 (Qxf2). Eventually, Black's superior board control and tactical decision-making led to jimstacyray's resignation, awarding the victory to seanr87.
 
 ## Critical Moments
-No critical moments identified in this game.
+
+### Critical Moment 1: White's Move 39 (Rdg1)
+The move Rdg1 is problematic because it allows Black's Queen to capture on e3 with check, gaining material and tempo. A safer move would have been Rf1, aiming to evict the opponent's Queen from a critical position on the board.
+
+*FEN: 3rr1k1/pp3ppp/5n2/3p3b/1P6/P2QPPR1/2P1Bq2/2KR4 w - - 0 20*
+*CP Loss: 29*
+
+
+### Critical Moment 2: White's Move 19 (dxe5)
+The move dxe5 was problematic because it allowed Black to equalize and even gain an advantage by responding with dxe5, turning the position into an open game which gives Black's pieces more mobility and attack opportunities. Instead, a better alternative would be to play h3, forcing the black bishop to decide between retreating or exchanging, thereby maintaining the tension and complexity in the center of the board.
+
+*FEN: r2q1rk1/pp3ppp/2np1n2/3pp3/3P1Bb1/P2BPN2/1PP2PPP/R2QK2R w KQ - 0 10*
+*CP Loss: 24*
+
+
+### Critical Moment 3: Black's Move 36 (Rad8)
+The move Rad8 is problematic as it does not address the immediate threat posed by White's Rg3, which together with the queen on d3, is targeting the g7 pawn. A better move would have been g6, solidifying the kingside defenses and neutralizing the threat.
+
+*FEN: r3r1k1/pp3ppp/5n2/3p3b/1P6/P2QPPR1/2P1BP1q/R3K3 b Q - 1 18*
+*CP Loss: 23*
+
 
 ## Highlights and Lowlights
-For seanr87 (playing as White):
-- Key highlight: The move 8.axb4 was an excellent decision, gaining material advantage by capturing the unprotected Bishop on b4.
-- Key lowlight: There was no significant mistake from seanr87 as per the provided Stockfish analysis.
+For seanr87 (playing as Black):
+- Key highlight: Black's 17...Qxh2 was a great move, capturing a pawn and putting the white king's defenses under pressure.
+- Key lowlight: Black had a minor inaccuracy in the early game, but there were no significant mistakes or blunders.
 
-For the opponent (zzoggagosu):
-- Key highlight: The move 5...Bb4 was a good strategy, putting pressure on White's knight, although it was not followed up effectively.
-- Key lowlight: The move 7...Nf6 was a mistake, leaving the Bishop on b4 unprotected which was subsequently captured by seanr87.
+For the opponent:
+- Key highlight: White managed to avoid any blunders or major mistakes throughout the game.
+- Key lowlight: White's 21. Kd2 was a strategic mistake, leading to the loss of a pawn without gaining any advantage.
 
 ## Coaching Point
-Consider improving your pawn structure; while the move 8. axb4 won you material, it also somewhat weakened your pawn structure which could be exploited in future games.
+Try to reduce inaccuracies in your game by reviewing and understanding the consequences of each move before you make it.
 
 ## Game Metadata
-- Date: 2025.05.09
-- Time Control: 60
+- Date: 2025.05.08
+- Time Control: 1/86400
 - Opening: Unknown Opening
-- Result: 1-0
-- Moves: 15
-- Your Name & Rating: seanr87 (615)
-- Opponent: zzoggagosu (614)
-- Color: White
+- Result: 0-1
+- Moves: 44
+- Your Name & Rating: seanr87 (1287)
+- Opponent: jimstacyray (1114)
+- Color: Black
 
 ## Stockfish Evaluation Summary
-Your stats (white):
-- Average CPL: 0
-- Blunders: 0
-- Mistakes: 0
-- Inaccuracies: 0
-
-Opponent stats (black):
+Your stats (black):
 - Average CPL: 2
 - Blunders: 0
 - Mistakes: 0
-- Inaccuracies: 0
+- Inaccuracies: 1
+
+Opponent stats (white):
+- Average CPL: 5
+- Blunders: 0
+- Mistakes: 0
+- Inaccuracies: 4
 
 ## PGN
-[Event "Live Chess"]
+[Event "76th Chess.com Quick Knockouts (1201-1400) - Round 1"]
 [Site "Chess.com"]
-[Date "2025.05.09"]
+[Date "2025.05.08"]
 [Round "-"]
-[White "seanr87"]
-[Black "zzoggagosu"]
-[Result "1-0"]
-[CurrentPosition "r1bqk2r/ppp2ppp/2n1pn2/8/1PB5/2N2N2/1PPP1PPP/R1BQ1RK1 b kq - 0 8"]
+[White "jimstacyray"]
+[Black "seanr87"]
+[Result "0-1"]
+[Tournament "https://www.chess.com/tournament/76th-chess-com-quick-knockouts-1201-1400"]
+[CurrentPosition "3rr1k1/pp3p1p/5np1/3p4/1P6/P2PPPR1/3KBq2/6R1 w - - 0 23"]
 [Timezone "UTC"]
-[ECO "B01"]
-[ECOUrl "https://www.chess.com/openings/Scandinavian-Defense-Mieses-Kotrc-Variation-3.Nc3-Qd8-4.Bc4"]
-[UTCDate "2025.05.09"]
-[UTCTime "00:44:03"]
-[WhiteElo "615"]
-[BlackElo "614"]
-[TimeControl "60"]
-[Termination "seanr87 won - game abandoned"]
-[StartTime "00:44:03"]
-[EndDate "2025.05.09"]
-[EndTime "00:44:39"]
-[Link "https://www.chess.com/game/live/138255646626"]
+[ECO "A04"]
+[ECOUrl "https://www.chess.com/openings/Reti-Opening-1...Nf6-2.Nc3-Nc6"]
+[UTCDate "2025.05.08"]
+[UTCTime "18:35:36"]
+[WhiteElo "1114"]
+[BlackElo "1287"]
+[TimeControl "1/86400"]
+[Termination "seanr87 won by resignation"]
+[StartTime "18:35:36"]
+[EndDate "2025.05.11"]
+[EndTime "13:29:09"]
+[Link "https://www.chess.com/game/daily/811740216"]
 
-1. e4 {[%clk 0:00:59.9]} 1... d5 {[%clk 0:00:59.7]} 2. exd5 {[%clk 0:00:57.7]} 2... Qxd5 {[%clk 0:00:59.2]} 3. Nc3 {[%clk 0:00:56.9]} 3... Qd8 {[%clk 0:00:59.1]} 4. Bc4 {[%clk 0:00:55.3]} 4... e6 {[%clk 0:00:58.8]} 5. Nf3 {[%clk 0:00:53.8]} 5... Bb4 {[%clk 0:00:58.5]} 6. O-O {[%clk 0:00:52]} 6... Nc6 {[%clk 0:00:57.9]} 7. a3 {[%clk 0:00:49]} 7... Nf6 {[%clk 0:00:57.8]} 8. axb4 {[%clk 0:00:47.4]} 1-0
+1. Nf3 {[%clk 23:25:20]} 1... Nf6 {[%clk 22:08:14]} 2. Nc3 {[%clk 23:35:14]} 2... Nc6 {[%clk 22:10:14]} 3. d4 {[%clk 23:54:22]} 3... d5 {[%clk 23:02:04]} 4. Bf4 {[%clk 23:29:40]} 4... Bg4 {[%clk 22:59:57]} 5. a3 {[%clk 14:54:57]} 5... e6 {[%clk 22:39:01]} 6. Nb5 {[%clk 22:36:41]} 6... Bd6 {[%clk 22:06:15]} 7. Nxd6+ {[%clk 21:34:33]} 7... cxd6 {[%clk 24:00:00]} 8. e3 {[%clk 23:56:17]} 8... O-O {[%clk 22:38:31]} 9. Bd3 {[%clk 23:42:07]} 9... e5 {[%clk 23:55:55]} 10. dxe5 {[%clk 23:59:32]} 10... dxe5 {[%clk 23:59:52]} 11. Bxe5 {[%clk 23:58:13]} 11... Nxe5 {[%clk 24:00:00]} 12. Be2 {[%clk 23:56:39]} 12... Nxf3+ {[%clk 23:54:28]} 13. gxf3 {[%clk 23:51:06]} 13... Bh5 {[%clk 23:51:58]} 14. b3 {[%clk 22:36:24]} 14... Re8 {[%clk 19:58:47]} 15. Qd3 {[%clk 17:29:46]} 15... Qa5+ {[%clk 23:28:42]} 16. b4 {[%clk 23:37:19]} 16... Qc7 {[%clk 23:55:18]} 17. Rg1 {[%clk 21:21:02]} 17... Qxh2 {[%clk 23:57:48]} 18. Rg3 {[%clk 23:56:11]} 18... Rad8 {[%clk 23:55:16]} 19. O-O-O {[%clk 23:01:52]} 19... Qxf2 {[%clk 23:23:13]} 20. Rdg1 {[%clk 21:15:02]} 20... Bg6 {[%clk 23:58:59]} 21. Kd2 {[%clk 18:00:12]} 21... Bxd3 {[%clk 18:58:05]} 22. cxd3 {[%clk 16:59:11]} 22... g6 {[%clk 21:07:22]} 0-1

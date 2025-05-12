@@ -73,3 +73,37 @@
 [2025-05-08 21:00:35.121612] Coaching point generation complete.
 [2025-05-08 21:00:35.141655] ✅ Complete modular analysis saved to game_analysis.txt
 [2025-05-08 21:00:35.143235] ✅ Critical moments data saved to critical_moments.json
+[2025-05-10 23:00:04.519221] Starting comprehensive analysis...
+[2025-05-10 23:00:04.527547] Starting Stockfish analysis...
+[2025-05-10 23:00:11.622821] Stockfish analysis complete. Found 3 critical moments.
+[2025-05-10 23:00:11.624661] Requesting game narrative summary from GPT...
+[2025-05-10 23:00:24.009472] Game summary generation complete.
+[2025-05-10 23:00:24.010512] Requesting highlights and lowlights from GPT...
+[2025-05-10 23:00:29.566087] Highlights and lowlights generation complete.
+[2025-05-10 23:00:29.566809] Requesting coaching point from GPT...
+[2025-05-10 23:00:31.581111] Coaching point generation complete.
+[2025-05-10 23:00:31.581747] Analyzing critical moment: Move 78, black's Re8 (CP loss: 138)
+[2025-05-10 23:00:33.510356] Critical moment analysis complete for move 78.
+[2025-05-10 23:00:33.511022] Analyzing critical moment: Move 70, black's Kf6 (CP loss: 136)
+[2025-05-10 23:00:35.882197] Critical moment analysis complete for move 70.
+[2025-05-10 23:00:35.882739] Analyzing critical moment: Move 64, black's Kh6 (CP loss: 124)
+[2025-05-10 23:00:38.148279] Critical moment analysis complete for move 64.
+[2025-05-10 23:00:38.151320] ✅ Complete modular analysis saved to game_analysis.txt
+[2025-05-10 23:00:38.151711] ✅ Critical moments data saved to critical_moments.json
+[2025-05-11 18:08:35.385107] Starting comprehensive analysis...
+[2025-05-11 18:08:35.386067] Starting Stockfish analysis...
+[2025-05-11 18:08:38.629077] Stockfish analysis complete. Found 3 critical moments.
+[2025-05-11 18:08:38.630332] Requesting game narrative summary from GPT...
+[2025-05-11 18:08:48.923197] Game summary generation complete.
+[2025-05-11 18:08:48.923831] Requesting highlights and lowlights from GPT...
+[2025-05-11 18:08:53.744451] Highlights and lowlights generation complete.
+[2025-05-11 18:08:53.744944] Requesting coaching point from GPT...
+[2025-05-11 18:08:54.916831] Coaching point generation complete.
+[2025-05-11 18:08:54.917482] Analyzing critical moment: Move 39, white's Rdg1 (CP loss: 29)
+[2025-05-11 18:08:57.038795] Critical moment analysis complete for move 39.
+[2025-05-11 18:08:57.039383] Analyzing critical moment: Move 19, white's dxe5 (CP loss: 24)
+[2025-05-11 18:09:00.947720] Critical moment analysis complete for move 19.
+[2025-05-11 18:09:00.948645] Analyzing critical moment: Move 36, black's Rad8 (CP loss: 23)
+[2025-05-11 18:09:03.469279] Critical moment analysis complete for move 36.
+[2025-05-11 18:09:03.472703] ✅ Complete modular analysis saved to game_analysis.txt
+[2025-05-11 18:09:03.473896] ✅ Critical moments data saved to critical_moments.json

@@ -1,3 +1,31 @@
 {
-  "critical_moments": []
+  "critical_moments": [
+    {
+      "move_num": 39,
+      "player": "white",
+      "move": "Rdg1",
+      "cp_loss": 29,
+      "fen": "3rr1k1/pp3ppp/5n2/3p3b/1P6/P2QPPR1/2P1Bq2/2KR4 w - - 0 20",
+      "analysis": "The move Rdg1 is problematic because it allows Black's Queen to capture on e3 with check, gaining material and tempo. A safer move would have been Rf1, aiming to evict the opponent's Queen from a critical position on the board.",
+      "is_player_move": false
+    },
+    {
+      "move_num": 19,
+      "player": "white",
+      "move": "dxe5",
+      "cp_loss": 24,
+      "fen": "r2q1rk1/pp3ppp/2np1n2/3pp3/3P1Bb1/P2BPN2/1PP2PPP/R2QK2R w KQ - 0 10",
+      "analysis": "The move dxe5 was problematic because it allowed Black to equalize and even gain an advantage by responding with dxe5, turning the position into an open game which gives Black's pieces more mobility and attack opportunities. Instead, a better alternative would be to play h3, forcing the black bishop to decide between retreating or exchanging, thereby maintaining the tension and complexity in the center of the board.",
+      "is_player_move": false
+    },
+    {
+      "move_num": 36,
+      "player": "black",
+      "move": "Rad8",
+      "cp_loss": 23,
+      "fen": "r3r1k1/pp3ppp/5n2/3p3b/1P6/P2QPPR1/2P1BP1q/R3K3 b Q - 1 18",
+      "analysis": "The move Rad8 is problematic as it does not address the immediate threat posed by White's Rg3, which together with the queen on d3, is targeting the g7 pawn. A better move would have been g6, solidifying the kingside defenses and neutralizing the threat.",
+      "is_player_move": true
+    }
+  ]
 }

@@ -22,7 +22,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 from openai import OpenAI
 
-from config import (
+from src.config import (
     OPENAI_API_KEY, 
     GPT_MODEL,
     SENDER_EMAIL, 
@@ -32,7 +32,7 @@ from config import (
     EMAIL_LOG,
     CHESS_USERNAME
 )
-from utils import log
+from src.utils import log
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)

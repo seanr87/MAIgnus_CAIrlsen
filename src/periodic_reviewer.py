@@ -18,7 +18,7 @@ from typing import Dict, List, Optional
 from openai import OpenAI
 
 from src.config import OPENAI_API_KEY, GPT_MODEL, REPORTS_DIR, CHESS_USERNAME
-from utils import log
+from src.utils import log
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

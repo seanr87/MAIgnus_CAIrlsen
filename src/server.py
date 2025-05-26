@@ -10,8 +10,12 @@ from pydantic import BaseModel
 from typing import List, Dict
 import logging
 from dotenv import load_dotenv
-from src.periodic_reviewer import PeriodicReviewer
-from src.analysis import ChessAnalyzer
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__)))
+from periodic_reviewer import PeriodicReviewer
+from analysis import ChessAnalyzer
+
 
 
 # Load environment variables from .env file

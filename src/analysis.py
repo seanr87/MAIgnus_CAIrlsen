@@ -60,7 +60,7 @@ class ChessAnalyzer:
     A comprehensive chess game analyzer that examines various aspects of player performance.
     """
     
-    def __init__(self, db_path: str = 'MAIgnus.db', chunk_size: int = 1000):
+    def __init__(self, db_path: str = 'database/MAIgnus.db', chunk_size: int = 1000):
         """
         Initialize the chess analyzer with database connection.
 
@@ -120,13 +120,15 @@ class ChessAnalyzer:
         raise FileNotFoundError(f"Database {db_name} not found in any expected location")
     
     @log_execution_time
-    def load_data(self, date_filter: Optional[str] = None, limit: Optional[int] = None) -> None:
+    def load_data(self, date_filter: Optional[str] = None, limit: Optional[int] = None, event_name: Optional[str] = None, last_n: Optional[int] = None) -> None:
         """
         Load game data from the database with optimized chunked reading and filtering.
         
         Args:
-            date_filter (str, optional): Date filter ('6months', '1year', or 'YYYY-MM-DD')
+            date_filter (str, optional): Date filter ('6months', '1year', or 'YYYY-MM-DD') - ignored if event_name is provided
             limit (int, optional): Maximum number of games to load
+            event_name (str, optional): Filter by specific event name (takes priority over date_filter)
+            last_n (int, optional): Load only the N most recent games
         """
         try:
             start_time = time.time()
@@ -140,35 +142,57 @@ class ChessAnalyzer:
                 opponent_name,
                 time_control,
                 opening_name,
+                event_name,
                 result,
                 player_rating,
                 opponent_rating
             FROM game_analysis
             """
             
-            # Add date filtering
-            where_clause = ""
-            if date_filter:
+            # Build WHERE clause with filters
+            where_conditions = []
+            query_params = []
+            
+            # Priority: event_name filtering (ignores date_filter if present)
+            if event_name:
+                where_conditions.append("event_name = ?")
+                query_params.append(event_name)
+                logger.info(f"Filtering by event_name: {event_name}")
+            # Add date filtering only if no event_name is specified
+            elif date_filter:
                 if date_filter == '6months':
-                    where_clause = f"WHERE date >= '{(datetime.now() - timedelta(days=180)).strftime('%Y-%m-%d')}'"
+                    where_conditions.append("date >= ?")
+                    query_params.append((datetime.now() - timedelta(days=180)).strftime('%Y-%m-%d'))
                 elif date_filter == '1year':
-                    where_clause = f"WHERE date >= '{(datetime.now() - timedelta(days=365)).strftime('%Y-%m-%d')}'"
+                    where_conditions.append("date >= ?")
+                    query_params.append((datetime.now() - timedelta(days=365)).strftime('%Y-%m-%d'))
                 elif len(date_filter) == 10:  # Assume YYYY-MM-DD format
-                    where_clause = f"WHERE date >= '{date_filter}'"
+                    where_conditions.append("date >= ?")
+                    query_params.append(date_filter)
+            
+            # Build WHERE clause
+            where_clause = ""
+            if where_conditions:
+                where_clause = "WHERE " + " AND ".join(where_conditions)
             
             # Add ORDER BY and LIMIT
             order_limit = "ORDER BY date DESC"
-            if limit:
+            
+            # Handle last_n parameter
+            if last_n:
+                order_limit += f" LIMIT {last_n}"
+            elif limit:
                 order_limit += f" LIMIT {limit}"
             
             full_query = f"{base_query} {where_clause} {order_limit}"
             logger.info(f"Executing query: {full_query}")
+            logger.info(f"Query parameters: {query_params}")
             
             # Load data in chunks if dataset is expected to be large
             with self._get_connection() as conn:
                 # First, get the total count
                 count_query = f"SELECT COUNT(*) as total FROM game_analysis {where_clause}"
-                total_rows = conn.execute(count_query).fetchone()[0]
+                total_rows = conn.execute(count_query, query_params).fetchone()[0]
                 logger.info(f"Total rows to load: {total_rows}")
                 
                 if total_rows == 0:
@@ -177,7 +201,8 @@ class ChessAnalyzer:
                     return
                 
                 # Load data efficiently
-                if total_rows > self.chunk_size:
+                actual_limit = last_n or limit
+                if total_rows > self.chunk_size and not actual_limit:
                     # Calculate how many records we actually want to load
                     records_to_load = min(total_rows, limit) if limit else total_rows
                     logger.info(f"Loading {records_to_load} records in chunks of {self.chunk_size}")
@@ -191,7 +216,7 @@ class ChessAnalyzer:
                         records_needed = min(self.chunk_size, records_to_load - records_loaded)
                         chunk_query = f"{base_query} {where_clause} ORDER BY date DESC OFFSET {offset} LIMIT {records_needed}"
                         
-                        chunk_df = conn.execute(chunk_query).df()
+                        chunk_df = conn.execute(chunk_query, query_params).df()
                         chunks.append(chunk_df)
                         
                         records_loaded += len(chunk_df)
@@ -206,7 +231,7 @@ class ChessAnalyzer:
                     gc.collect()
                     logger.debug("Memory garbage collection completed after chunk concatenation")
                 else:
-                    self.games_df = conn.execute(full_query).df()
+                    self.games_df = conn.execute(full_query, query_params).df()
                 
                 # Convert date column to datetime
                 self.games_df['date'] = pd.to_datetime(self.games_df['date'])
@@ -582,6 +607,110 @@ class ChessAnalyzer:
         
         print(f"\n📄 Detailed report saved to {filename}")
 
+def get_recent_events(db_path, limit=5):
+    """Get the most recent non-null event names from the database."""
+    try:
+        with duckdb.connect(db_path) as conn:
+            result = conn.execute("""
+                SELECT DISTINCT event_name, MAX(date) as latest_date
+                FROM game_analysis 
+                WHERE event_name IS NOT NULL 
+                GROUP BY event_name 
+                ORDER BY latest_date DESC 
+                LIMIT ?
+            """, [limit]).fetchall()
+            
+            return [(event, date) for event, date in result]
+    except Exception as e:
+        logger.error(f"Error getting recent events: {e}")
+        return []
+
+def prompt_event_selection(db_path):
+    """Prompt user to select an event name from recent events."""
+    events = get_recent_events(db_path)
+    
+    if not events:
+        print("❌ No events found in database")
+        return None
+    
+    print("\n📅 Recent Events:")
+    print("-" * 50)
+    for i, (event_name, latest_date) in enumerate(events, 1):
+        print(f"{i}. {event_name} (latest: {latest_date})")
+    
+    while True:
+        try:
+            choice = input(f"\nSelect event (1-{len(events)}) or 'q' to quit: ").strip()
+            
+            if choice.lower() == 'q':
+                return None
+            
+            choice_num = int(choice)
+            if 1 <= choice_num <= len(events):
+                selected_event = events[choice_num - 1][0]
+                print(f"✅ Selected: {selected_event}")
+                return selected_event
+            else:
+                print(f"❌ Invalid choice. Please enter 1-{len(events)}")
+                
+        except ValueError:
+            print("❌ Invalid input. Please enter a number or 'q'")
+        except KeyboardInterrupt:
+            print("\n\n❌ Selection cancelled")
+            return None
+
+def get_recent_events(db_path, limit=5):
+    """Get the most recent non-null event names from the database."""
+    try:
+        with duckdb.connect(db_path) as conn:
+            result = conn.execute("""
+                SELECT DISTINCT event_name, MAX(date) as latest_date
+                FROM game_analysis 
+                WHERE event_name IS NOT NULL 
+                GROUP BY event_name 
+                ORDER BY latest_date DESC 
+                LIMIT ?
+            """, [limit]).fetchall()
+            
+            return [(event, date) for event, date in result]
+    except Exception as e:
+        logger.error(f"Error getting recent events: {e}")
+        return []
+
+def prompt_event_selection(db_path):
+    """Prompt user to select an event name from recent events."""
+    events = get_recent_events(db_path)
+    
+    if not events:
+        print("❌ No events found in database")
+        return None
+    
+    print("\n📅 Recent Events:")
+    print("-" * 50)
+    for i, (event_name, latest_date) in enumerate(events, 1):
+        print(f"{i}. {event_name} (latest: {latest_date})")
+    
+    while True:
+        try:
+            choice = input(f"\nSelect event (1-{len(events)}) or 'q' to quit: ").strip()
+            
+            if choice.lower() == 'q':
+                return None
+            
+            choice_num = int(choice)
+            if 1 <= choice_num <= len(events):
+                selected_event = events[choice_num - 1][0]
+                print(f"✅ Selected: {selected_event}")
+                return selected_event
+            else:
+                print(f"❌ Invalid choice. Please enter 1-{len(events)}")
+                
+        except ValueError:
+            print("❌ Invalid input. Please enter a number or 'q'")
+        except KeyboardInterrupt:
+            print("\n\n❌ Selection cancelled")
+            return None
+
 
 def main():
     """Main function to run the chess analysis."""
@@ -591,17 +720,32 @@ def main():
     parser.add_argument('--limit', type=int, help='Limit number of games to analyze')
     parser.add_argument('--chunk-size', type=int, default=1000, help='Chunk size for data loading')
     parser.add_argument('--output', default='chess_analysis_report.txt', help='Output report filename')
+    parser.add_argument('--event-prompt', action='store_true', help='Interactively select an event name to filter analysis')
+    parser.add_argument('--last-n', type=int, help='Analyze the N most recent games')
     
     args = parser.parse_args()
     
+    # Validate mutually exclusive options
+    if args.event_prompt and args.last_n:
+        print("❌ Error: --event-prompt and --last-n cannot be used together")
+        sys.exit(1)
+    
     try:
+        # Handle event selection if requested
+        selected_event = None
+        if args.event_prompt:
+            logger.info("Event selection mode enabled")
+            selected_event = prompt_event_selection(args.db)
+            if selected_event is None:
+                logger.info("No event selected, exiting")
+                return
         # Initialize analyzer
         logger.info("Initializing chess analyzer...")
         analyzer = ChessAnalyzer(db_path=args.db, chunk_size=args.chunk_size)
 
         # Load data
         logger.info("Loading data...")
-        analyzer.load_data(date_filter=args.filter, limit=args.limit)
+        analyzer.load_data(date_filter=args.filter, limit=args.limit, event_name=selected_event)
 
         # Run comprehensive analysis
         logger.info("Running analysis...")

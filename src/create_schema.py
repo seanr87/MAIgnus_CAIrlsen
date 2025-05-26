@@ -2,6 +2,7 @@
 """
 Create the database schema for MAIgnus chess coaching system.
 Fixed to properly handle auto-incrementing primary keys.
+Updated to include event_name column.
 """
 import duckdb
 import os
@@ -42,7 +43,7 @@ def main():
         conn.execute("CREATE SEQUENCE game_analysis_seq START 1;")
         print("✅ Sequence 'game_analysis_seq' created successfully!")
         
-        # Create game_analysis table with proper auto-increment
+        # Create game_analysis table with proper auto-increment and event_name column
         conn.execute("""
             CREATE TABLE game_analysis (
                 id INTEGER PRIMARY KEY DEFAULT NEXTVAL('game_analysis_seq'),
@@ -53,6 +54,7 @@ def main():
                 opponent_name VARCHAR(100) NOT NULL,
                 time_control VARCHAR(20) NOT NULL,
                 opening_name VARCHAR(100) NOT NULL,
+                event_name VARCHAR(200),
                 result VARCHAR(10) NOT NULL,
                 player_rating INTEGER NOT NULL,
                 opponent_rating INTEGER NOT NULL,
@@ -79,7 +81,7 @@ def main():
                 email_sent_timestamp TIMESTAMP
             )
         """)
-        print("✅ Table 'game_analysis' created successfully!")
+        print("✅ Table 'game_analysis' created successfully with event_name column!")
         
         # Create sequence for feedback table
         conn.execute("CREATE SEQUENCE feedback_seq START 1;")

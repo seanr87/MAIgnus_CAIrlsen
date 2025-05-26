@@ -1,0 +1,47 @@
+2025-05-25 19:45:03,555 - INFO - Migration process started
+2025-05-25 19:45:03,572 - INFO - Successfully connected to DuckDB
+2025-05-25 19:45:04,661 - INFO - Successfully connected to PostgreSQL
+2025-05-25 19:45:04,661 - INFO - Extracting data from DuckDB...
+2025-05-25 19:45:04,684 - ERROR - Error extracting data from DuckDB: Catalog Error: Table with name game_analysis does not exist!
+Did you mean "pg_class"?
+
+LINE 1: SELECT * FROM game_analysis ORDER BY id
+                      ^
+2025-05-25 19:45:04,684 - ERROR - Migration failed: Catalog Error: Table with name game_analysis does not exist!
+Did you mean "pg_class"?
+
+LINE 1: SELECT * FROM game_analysis ORDER BY id
+                      ^
+2025-05-25 19:48:32,421 - INFO - Migration process started
+2025-05-25 19:48:32,441 - ERROR - Failed to connect to DuckDB: IO Error: Cannot open file "c:\users\soreill5\maignus_cairlsen\..\database\maignus.db": The system cannot find the path specified.
+
+2025-05-25 19:48:32,441 - ERROR - Migration failed: IO Error: Cannot open file "c:\users\soreill5\maignus_cairlsen\..\database\maignus.db": The system cannot find the path specified.
+
+2025-05-25 19:49:17,799 - INFO - Migration process started
+2025-05-25 19:49:17,823 - INFO - Successfully connected to DuckDB
+2025-05-25 19:49:18,457 - INFO - Successfully connected to PostgreSQL
+2025-05-25 19:49:18,457 - INFO - Extracting data from DuckDB...
+2025-05-25 19:49:18,472 - INFO - Extracted 250 rows from DuckDB
+2025-05-25 19:49:18,476 - INFO - Columns: id, game_id, pgn_text, date, player_color, opponent_name, time_control, opening_name, result, player_rating, opponent_rating, player_avg_cpl, player_blunders, player_mistakes, player_inaccuracies, opponent_avg_cpl, opponent_blunders, opponent_mistakes, opponent_inaccuracies, game_summary, highlights_lowlights, coaching_point, critical_moments, analysis_timestamp, email_sent, email_sent_timestamp, event_name
+2025-05-25 19:49:18,567 - INFO - Found 0 existing records in PostgreSQL
+2025-05-25 19:49:18,567 - INFO - Prepared 250 new rows for insertion
+2025-05-25 19:49:18,567 - INFO - Skipped 0 duplicate records
+2025-05-25 19:49:18,567 - INFO - Starting batch insertion of 250 records...
+2025-05-25 19:49:18,584 - ERROR - Migration failed: the query contains more than one '%s' placeholder
+2025-05-25 19:52:29,837 - INFO - Migration process started
+2025-05-25 19:52:29,857 - INFO - Successfully connected to DuckDB
+2025-05-25 19:52:30,561 - INFO - Successfully connected to PostgreSQL
+2025-05-25 19:52:30,561 - INFO - Extracting data from DuckDB...
+2025-05-25 19:52:30,577 - INFO - Extracted 250 rows from DuckDB
+2025-05-25 19:52:30,577 - INFO - Columns: id, game_id, pgn_text, date, player_color, opponent_name, time_control, opening_name, result, player_rating, opponent_rating, player_avg_cpl, player_blunders, player_mistakes, player_inaccuracies, opponent_avg_cpl, opponent_blunders, opponent_mistakes, opponent_inaccuracies, game_summary, highlights_lowlights, coaching_point, critical_moments, analysis_timestamp, email_sent, email_sent_timestamp, event_name
+2025-05-25 19:52:30,672 - INFO - Found 0 existing records in PostgreSQL
+2025-05-25 19:52:30,672 - INFO - Prepared 250 new rows for insertion
+2025-05-25 19:52:30,672 - INFO - Skipped 0 duplicate records
+2025-05-25 19:52:30,672 - INFO - Starting batch insertion of 250 records...
+2025-05-25 19:52:31,810 - INFO - Batch insertion completed successfully
+2025-05-25 19:52:31,810 - INFO - Total records in PostgreSQL: 250
+2025-05-25 19:52:31,810 - INFO - Verifying migration...
+2025-05-25 19:52:31,923 - INFO - DuckDB records: 250
+2025-05-25 19:52:31,927 - INFO - PostgreSQL records: 250
+2025-05-25 19:52:31,927 - INFO - Sampling records for verification...
+2025-05-25 19:52:32,080 - INFO - Migration completed successfully in 2.24 seconds

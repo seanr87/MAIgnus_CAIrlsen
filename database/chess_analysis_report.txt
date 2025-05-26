@@ -1,7 +1,7 @@
 CHESS PERFORMANCE ANALYSIS - DETAILED REPORT
 ==================================================
-Generated on: 2025-05-11 22:59:01
-Total games analyzed: 250
+Generated on: 2025-05-25 13:48:18
+Total games analyzed: 8
 
 
 ================================================================================
@@ -10,60 +10,43 @@ Total games analyzed: 250
 
 📊 OVERALL PERFORMANCE
 ----------------------------------------
-Total Games: 250
-Wins: 138 (55.2%)
-Losses: 105 (42.0%)
-Draws: 7 (2.8%)
+Total Games: 8
+Wins: 7 (87.5%)
+Losses: 0 (0.0%)
+Draws: 1 (12.5%)
 
 📈 RATING ANALYSIS
 ----------------------------------------
-Current Rating: 1287
-Highest Rating: 1308
-Lowest Rating: 352
-Average Rating: 1059.0
+Current Rating: 1291
+Highest Rating: 1291
+Lowest Rating: 1264
+Average Rating: 1288.0
 Recent Trend: DECLINING
 
 ♟️  OPENING ANALYSIS
 ----------------------------------------
-Total Unique Openings: 61
+Total Unique Openings: 1
 
 Most Played Openings:
-  Sicilian Defense: 57 games (64.9% win rate)
-  Queen's Gambit: 43 games (55.8% win rate)
-  Danish Gambit: 16 games (68.8% win rate)
-  Caro Kann Defense: 12 games (58.3% win rate)
-  King's Gambit: 12 games (41.7% win rate)
+  Danish Gambit: 8 games (87.5% win rate)
 
 Best Win Rate Openings (3+ games):
-  French Defense: 100.0% (4 games)
-  Van Geet Opening: 100.0% (3 games)
-  Nimzowitsch Defense Kennedy Variation: 75.0% (4 games)
-  Danish Gambit Accepted: 75.0% (4 games)
-  Danish Gambit: 68.8% (16 games)
+  Danish Gambit: 87.5% (8 games)
 
 ⏱️  TIME CONTROL ANALYSIS
 ----------------------------------------
-Blitz: 23 games (34.8% win rate)
-Bullet: 55 games (50.9% win rate)
-Rapid: 17 games (52.9% win rate)
-Unknown: 155 games (60.0% win rate)
+Unknown: 8 games (87.5% win rate)
 
 📅 RECENT PERFORMANCE
 ----------------------------------------
 Last 4 weeks win rate:
-  Week of 2025-04-20: 62.5% (8 games)
-  Week of 2025-04-27: 70.0% (20 games)
-  Week of 2025-05-04: 76.2% (21 games)
-  Week of 2025-05-11: 41.0% (39 games)
+  Week of 2025-04-20: 100.0% (1 games)
+  Week of 2025-04-27: 100.0% (1 games)
+  Week of 2025-05-04: 100.0% (5 games)
+  Week of 2025-05-11: 0.0% (1 games)
 
 🎯 OPPONENT ANALYSIS
 ----------------------------------------
-Most Faced Opponents:
-  AgaRo91: 26 games (53.9% win rate)
-  pgnagy: 10 games (10.0% win rate)
-  grif1: 5 games (80.0% win rate)
-  LazoakRaptor: 5 games (40.0% win rate)
-  MBCL420: 3 games (66.7% win rate)
 
 ================================================================================
 ✅ Analysis Complete!

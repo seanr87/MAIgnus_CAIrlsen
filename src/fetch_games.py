@@ -287,7 +287,7 @@ def extract_opening_from_eco_url(eco_url):
         return "Unknown"
     
 def parse_pgn_details(pgn_text):
-    """Extract additional details from PGN text including opening name from ECO and moves."""
+    """Extract additional details from PGN text including opening name from ECO, moves, and event name."""
     try:
         game = chess.pgn.read_game(io.StringIO(pgn_text))
         if game:
@@ -305,8 +305,14 @@ def parse_pgn_details(pgn_text):
             if not opening_name or opening_name == "?" or opening_name.lower() == "unknown":
                 opening_name = infer_opening_from_moves(game)
             
+            # Extract event name from PGN headers
+            event_name = game.headers.get('Event', '').strip()
+            if not event_name or event_name == "?":
+                event_name = None  # Will be stored as NULL in database
+            
             result = {
                 'opening_name': opening_name,
+                'event_name': event_name,  # New field
                 'eco': game.headers.get('ECO', 'Unknown'),
                 'total_moves': len(list(game.mainline_moves())),
                 'termination': game.headers.get('Termination', 'Unknown')
@@ -328,6 +334,7 @@ def parse_pgn_details(pgn_text):
     
     return {
         'opening_name': 'Unknown',
+        'event_name': None,
         'eco': 'Unknown',
         'total_moves': 0,
         'termination': 'Unknown'
@@ -396,6 +403,7 @@ def insert_game_data(games_data):
     """
     Insert game data into the game_analysis table.
     Enhanced with transaction handling and rollback mechanism.
+    Updated to include event_name field.
     
     Args:
         games_data (list): List of game dictionaries to insert
@@ -422,22 +430,23 @@ def insert_game_data(games_data):
                     duplicate_count += 1
                     continue
                 
-                # Prepare the INSERT statement with all fields
+                # Prepare the INSERT statement with all fields including event_name
                 sql = """
                     INSERT INTO game_analysis (
                         game_id, pgn_text, date, player_color, opponent_name,
-                        time_control, opening_name, result, player_rating, opponent_rating
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        time_control, opening_name, event_name, result, player_rating, opponent_rating
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """
                 
                 values = [
                     game['game_id'],
-                    game['pgn_text'],  # Using correct field name
+                    game['pgn_text'],
                     game['date'],
                     game['player_color'],
                     game['opponent_name'],
                     game['time_control'],
                     game.get('opening_name', 'Unknown'),
+                    game.get('event_name', None),  # New field, can be null
                     game['result'],
                     game['player_rating'],
                     game['opponent_rating']

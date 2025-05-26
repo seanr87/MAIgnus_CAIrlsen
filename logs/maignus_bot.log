@@ -3317,3 +3317,196 @@
 [2025-05-11 23:30:05.903178] Already analyzed: https://www.chess.com/game/daily/810940902
 [2025-05-11 23:30:05.903437] Already analyzed: https://www.chess.com/game/daily/811740216
 [2025-05-11 23:30:05.904104] No new games found to analyze. Workflow terminated.
+[2025-05-25 17:00:55.870974] 🚀 Starting MAIgnus_CAIrlsen full workflow with modular analysis...
+[2025-05-25 17:00:55.870974] 📥 Checking for new games on Chess.com...
+[2025-05-25 17:00:56.141609] Found 36 archives. Most recent: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-25 17:00:56.141609] Checking latest archive: https://api.chess.com/pub/player/seanr87/games/2025/05
+[2025-05-25 17:00:56.730672] Found 181 games in latest archive
+[2025-05-25 17:00:56.730672] Game 1: URL=https://www.chess.com/game/daily/802553254, End Time=1746105423
+[2025-05-25 17:00:56.730672] Game 2: URL=https://www.chess.com/game/daily/802553260, End Time=1746107006
+[2025-05-25 17:00:56.730672] Game 3: URL=https://www.chess.com/game/live/138005532346, End Time=1746147884
+[2025-05-25 17:00:56.793290] Loaded 56 previously seen games from C:\Users\soreill5\MAIgnus_CAIrlsen\data\seen_games.json
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/daily/802553254
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/daily/802553260
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138005532346
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138005569820
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138005614526
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138005649410
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/daily/807812256
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138032960578
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138033026408
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138033103256
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138033178340
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/daily/808178408
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138071558048
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138071657546
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138071732180
+[2025-05-25 17:00:56.793290] Already analyzed: https://www.chess.com/game/live/138091323736
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138091897092
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138129516374
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138131026444
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138148856382
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138149022456
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138169662374
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138179036290
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138179087060
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138179146170
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/daily/809343432
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138186159256
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138186796908
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138186940396
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138205269378
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138219169220
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138255646626
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138300885810
+[2025-05-25 17:00:56.808424] Already analyzed: https://www.chess.com/game/live/138300941774
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138300958172
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138301387466
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138301764172
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/daily/803834422
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138308996808
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138309370106
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138309493490
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138310097542
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138310203156
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138313313500
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138313639700
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138314756816
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138316243946
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138316394680
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/138316576956
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/141216074385
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/141216076335
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/141216080657
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/live/141216085213
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/daily/811740184
+[2025-05-25 17:00:56.824181] Already analyzed: https://www.chess.com/game/daily/810940902
+[2025-05-25 17:00:56.839795] Already analyzed: https://www.chess.com/game/daily/811740216
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138397928462.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740206.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740202.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138435367716.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138435608664.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138435895454.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138436034816.pgn
+[2025-05-25 17:00:56.839795] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740180.pgn
+[2025-05-25 17:00:56.855425] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740214.pgn
+[2025-05-25 17:00:56.855425] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740208.pgn
+[2025-05-25 17:00:56.855425] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_808593914.pgn
+[2025-05-25 17:00:56.855425] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_808603294.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_802553256.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138522325866.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_812815644.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740218.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740226.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138579545294.pgn
+[2025-05-25 17:00:56.871052] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138579693234.pgn
+[2025-05-25 17:00:56.886664] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138579930348.pgn
+[2025-05-25 17:00:56.886664] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580105538.pgn
+[2025-05-25 17:00:56.886664] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580257542.pgn
+[2025-05-25 17:00:56.886664] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580280840.pgn
+[2025-05-25 17:00:56.903460] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580690900.pgn
+[2025-05-25 17:00:56.903460] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580776338.pgn
+[2025-05-25 17:00:56.908577] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580872364.pgn
+[2025-05-25 17:00:56.908577] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138580968816.pgn
+[2025-05-25 17:00:56.908577] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138581096832.pgn
+[2025-05-25 17:00:56.908577] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138581530162.pgn
+[2025-05-25 17:00:56.908577] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138581851470.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582045436.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582333670.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582361794.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582512576.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582693608.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138582880786.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138597989838.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138599560530.pgn
+[2025-05-25 17:00:56.918181] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138599901002.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_814711004.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138607598314.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138612628634.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138612894100.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138613227570.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_814927660.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138630186782.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_812501716.pgn
+[2025-05-25 17:00:56.933925] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811740196.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_814237806.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_816098650.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138710321708.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138713187750.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138713522798.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138713834140.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138714962152.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138715795166.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138715940988.pgn
+[2025-05-25 17:00:56.949552] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138716396080.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138716585534.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138716860278.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138719999720.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138722196046.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138722374566.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_816986180.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138722683064.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138744141284.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138745380180.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138745980996.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_138747012456.pgn
+[2025-05-25 17:00:56.965204] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_817517274.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_817517258.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142270241051.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142270838507.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142270844491.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_817125638.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_811305968.pgn
+[2025-05-25 17:00:56.980730] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_817517272.pgn
+[2025-05-25 17:00:56.996443] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_817517248.pgn
+[2025-05-25 17:00:56.996443] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142369814219.pgn
+[2025-05-25 17:00:56.996443] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142370407529.pgn
+[2025-05-25 17:00:56.996443] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142370408987.pgn
+[2025-05-25 17:00:57.008572] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142370413415.pgn
+[2025-05-25 17:00:57.012187] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142371007219.pgn
+[2025-05-25 17:00:57.012187] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142371011387.pgn
+[2025-05-25 17:00:57.012187] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142371012319.pgn
+[2025-05-25 17:00:57.012187] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142371605675.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142371610927.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142372207097.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142372208611.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142372212835.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142408215605.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142408809293.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422007459.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422013099.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422016519.pgn
+[2025-05-25 17:00:57.027924] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422026549.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422612789.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142422624789.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142423223345.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142423822671.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142446606451.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142446613483.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142447209961.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142447807371.pgn
+[2025-05-25 17:00:57.043559] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142447811263.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142448408195.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142448410057.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142449006247.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142449007951.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142449610597.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142449611721.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142449613397.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142450207945.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142452010559.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142452611065.pgn
+[2025-05-25 17:00:57.059132] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142452614053.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142453211105.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142453806715.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142453813481.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142454405711.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142454410525.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142455008597.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142455012913.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142455608893.pgn
+[2025-05-25 17:00:57.074835] ✅ Saved new game: C:\Users\soreill5\MAIgnus_CAIrlsen\data\seanr87_142456206305.pgn
+[2025-05-25 17:00:57.138043] 🧠 Generating modular game analysis...
+[2025-05-25 17:01:13.392283] 📧 Sending analysis email...
+[2025-05-25 17:01:15.838414] ✅ Full workflow completed successfully!

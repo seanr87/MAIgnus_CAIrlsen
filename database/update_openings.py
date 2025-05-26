@@ -7,7 +7,7 @@ import io
 # Add parent directory to path
 sys.path.insert(0, '..')
 
-from fetch_games import extract_opening_from_eco_url, parse_pgn_details
+from src.fetch_games import extract_opening_from_eco_url, parse_pgn_details
 
 def update_existing_openings():
     """Update existing games in database with proper opening names."""

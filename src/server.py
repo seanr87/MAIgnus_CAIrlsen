@@ -12,9 +12,8 @@ import logging
 from dotenv import load_dotenv
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), "src"))
-from periodic_reviewer import PeriodicReviewer
-from analysis import ChessAnalyzer
+from src.periodic_reviewer import PeriodicReviewer
+from src.analysis import ChessAnalyzer
 
 
 

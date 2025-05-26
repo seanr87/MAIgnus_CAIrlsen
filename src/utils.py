@@ -7,7 +7,7 @@ import chess.pgn
 import io
 import sys
 
-from config import DATA_DIR, CHESS_USERNAME
+from src.config import DATA_DIR, CHESS_USERNAME
 
 def log(message, log_file):
     """

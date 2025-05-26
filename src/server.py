@@ -10,6 +10,9 @@ from pydantic import BaseModel
 from typing import List, Dict
 import logging
 from dotenv import load_dotenv
+from src.periodic_reviewer import PeriodicReviewer
+from src.analysis import ChessAnalyzer
+
 
 # Load environment variables from .env file
 load_dotenv()
@@ -47,19 +50,9 @@ def run_periodic_review(event_name: str) -> Dict[str, str]:
     Run periodic review analysis for the given event using the PeriodicReviewer.
     """
     try:
-        # Import modules (may not be available in all environments)
-        try:
-            from periodic_reviewer import PeriodicReviewer
-            from analysis import ChessAnalyzer
-        except ImportError as e:
-            logger.error(f"Required modules not available: {e}")
-            return {
-                "status": "error",
-                "message": f"Analysis modules not available: {str(e)}",
-                "event_name": event_name
-            }
-        
         logger.info(f"Running periodic review for event: {event_name}")
+        ...
+
         
         # Use PostgreSQL connection URL directly for ChessAnalyzer
         db_path = os.getenv("DB_URL")
